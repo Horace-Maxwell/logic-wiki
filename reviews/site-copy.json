@@ -1,6 +1,6 @@
 {
   "id": "site-copy",
-  "candidateHash": "07176dd54170d5a5d4173be083c28d8e3011130f3840060ef9a0f979ff98a60f",
+  "candidateHash": "7cfc1f7c0b23a12b3d48ede7e8064015b862a9512715a717a4c3044c9fc288b3",
   "executor": {
     "type": "agent",
     "name": "Codex"
@@ -22,19 +22,19 @@
       "reason": "中文编辑制度在说明自动扫描阻止“占位文字”的规则，文本完整；该词是讨论对象，不是待完成正文。"
     }
   ],
-  "previousReceiptHash": "161fadd18aa4f6f0b6cc8d83371119411ed46275b9b0cdf4ca1488436dcd899a",
+  "previousReceiptHash": "279923e340642bb714b71778fd9ff95324b153a284771b788a5e100904f512c0",
   "notes": [
-    "沿用此前已完成且未改动的导航、搜索、反馈与阅读路径审校；本次逐项比较已暂存基线与现稿差异，完整阅读新增SectionBody、双语MDX、比较数据、术语化界面标签、Shell及维护说明。不是声称重新逐页阅读719页。",
-    "新增表格、证明、分步题与来源定位标签完成中英Humanizer及语义核查；README更新99来源/202选择题/110分步题，编辑维护说明去掉旧复用题的现行表述；Shell去掉无范围的complete修饰。",
-    "所有170单元已逐篇完成本轮编辑与语义复核，章节标题继承各自单元；API新增分步题与章节索引无独立读者文案。已验证的共用表格、双语案例、练习浏览器流程及静态检查作为呈现依据，最终生产回归单独记入QA。",
-    "明确保留规则讨论中的占位文字扫描例外，绑定当前文件与哈希，不放宽扫描规则。来源补记与已核验范围一致，原专家审稿否认保留。",
-    "最终Preview发现语言切换保留hash但展开后未滚动。修改openHash在展开后下一帧定位，并处理无效编码；无可见文案变动，沿用已完成语言编辑。功能修复另作浏览器回归。",
-    "公开发布复核：仅修改README交付说明，明确用户授权公开GitHub源码而不部署网站。新增中英说明均逐句编辑和语义对照，保留本地运行、依赖排除及原有学术审校边界；网站可见文案和知识正文未改。"
+    "本轮仅重写README；未改站内正文、题目、界面或编辑规则，沿用上一份site-copy记录对未改内容的复核范围。",
+    "逐段核对README中文与英文。保留170单元、40导读、100词条、30案例、99来源、202选择题和110分步题；312是两类练习之和，双语不重复计数。六组对照与catalog/comparisons数据核对，未把分类称为穷尽清单。",
+    "执行中文Humanizer编辑：用具体功能替代宣传判断，保留不能据此判断谬误的边界。英文编辑保留necessity、where appropriate、at least等限定。中英逐段比较数值、条件、否定、来源范围、代理自校与专家审稿的区别，未改变证据强度。",
+    "截图为已保存的实际本地首页，已视觉检查；标题、徽章、表格和折叠面板按用户fancy要求保留。README全部本地文件链接和自定义锚点已检查；GitHub Markdown接口成功渲染，在本地浏览器检查结构，线上图片与最终排版将在推送后再核验。",
+    "参考OSSU、The Book of Secret Knowledge和Project Based Learning的导航/封面/分类结构，文案独立撰写；不宣称项目自身高星，不添加未经授权的全库许可证。",
+    "渲染复核后将徽章排成同一行；Markdown行末双空格改为显式br，避免git空白检查报错，无语义变化。"
   ],
-  "contentHash": "07176dd54170d5a5d4173be083c28d8e3011130f3840060ef9a0f979ff98a60f",
-  "zhHash": "07176dd54170d5a5d4173be083c28d8e3011130f3840060ef9a0f979ff98a60f",
-  "enHash": "07176dd54170d5a5d4173be083c28d8e3011130f3840060ef9a0f979ff98a60f",
-  "translationBasisHash": "07176dd54170d5a5d4173be083c28d8e3011130f3840060ef9a0f979ff98a60f",
+  "contentHash": "7cfc1f7c0b23a12b3d48ede7e8064015b862a9512715a717a4c3044c9fc288b3",
+  "zhHash": "7cfc1f7c0b23a12b3d48ede7e8064015b862a9512715a717a4c3044c9fc288b3",
+  "enHash": "7cfc1f7c0b23a12b3d48ede7e8064015b862a9512715a717a4c3044c9fc288b3",
+  "translationBasisHash": "7cfc1f7c0b23a12b3d48ede7e8064015b862a9512715a717a4c3044c9fc288b3",
   "environment": {
     "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
     "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
@@ -45,5 +45,5 @@
       "zh": "2.9.1-zh.2"
     }
   },
-  "recordedAt": "2026-09-13T02:18:49.150Z"
+  "recordedAt": "2026-09-13T02:25:22.823Z"
 }
