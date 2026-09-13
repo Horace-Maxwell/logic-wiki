@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "安全漏洞 / Security vulnerability"
+    url: "https://github.com/Horace-Maxwell/logic-wiki/security/advisories/new"
+    about: "通过私密渠道报告 / Report through the private channel"
+  - name: "使用帮助 / Usage help"
+    url: "https://github.com/Horace-Maxwell/logic-wiki/blob/main/SUPPORT.md"
+    about: "启动说明与反馈入口 / Setup guidance and support channels"

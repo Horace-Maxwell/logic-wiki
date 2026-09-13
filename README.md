@@ -165,6 +165,8 @@ All 170 units have records of agent editing and semantic self-review for this ed
 
 ## 参与编辑 · Contribute
 
+仓库文件：[贡献指南 / Contributing](CONTRIBUTING.md) · [行为准则 / Conduct](CODE_OF_CONDUCT.md) · [安全 / Security](SECURITY.md) · [帮助 / Support](SUPPORT.md) · [引用 / Citation](CITATION.cff) · [许可 / Licensing](LICENSING.md) · [第三方署名 / Notices](NOTICE.md) · [更新 / Changelog](CHANGELOG.md) · [后续方向 / Roadmap](ROADMAP.md)
+
 发现问题可[提交 Issue](https://github.com/Horace-Maxwell/logic-wiki/issues)，附上词条 ID、语言、具体段落与可核查来源。修改正文前请阅读 [AGENTS.md](AGENTS.md)、[项目编辑技能](skills/wiki-editor/SKILL.md)与[维护说明](docs/EDITORIAL.md)，并同步处理另一语言版本及审校记录。
 
 To report an issue, include the unit ID, language, passage, and a checkable source. Before editing, read the project instructions, editing skill, and maintenance guide linked above. Address the other language version and review receipts as part of the same change.

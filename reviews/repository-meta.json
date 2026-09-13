@@ -1,0 +1,41 @@
+{
+  "id": "repository-meta",
+  "candidateHash": "72ab7a318e9386edbe6572ad7d36a36038973e3814beb477c1b3adf1d3d1b421",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "完整阅读新贡献指南、行为准则、安全政策、支持、引用、更新、路线、许可与第三方通知，以及三个Issue模板和PR模板。核对仓库功能、package脚本、原Humanizer许可证、固定版本与来源登记；未新增知识单元或宣称独立专家审稿。",
+    "执行中文Humanizer编辑，采用具体行为、所需材料和检查方法；英文单独编辑并逐段对照。保留许可未授予、安全响应无时限、roadmap不承诺排期、教学错误不等于漏洞等边界。官方规则原文、命令、专名、链接与数值受保护。",
+    "许可选择尚未获用户回复，保留现有无全库授权状态并明确第三方许可范围；没有为用户授予MIT或CC授权。CITATION使用项目贡献者集合署名，不编造个人真实姓名、DOI、ORCID或发布版本。",
+    "GitHub API确认Issues可用、Discussions未启用；已启用并复查private-vulnerability-reporting，政策与模板使用实际私密入口。未创建Issue、发送报告或虚构邮箱、赏金与服务时限。",
+    "GitHub Markdown接口成功渲染八份正文，实际本地浏览器核对段落、标题、表格与命令呈现。YAML、引用必填字段和本地链接通过检查；Issue选择器最终GitHub呈现将在推送后验证。知识正文、公式和练习未改。",
+    "新增独立元文件哈希校验，复用既有规则与语义审校阶段，不放宽原171份记录；三项回归覆盖双语任一方变更导致失效、坏链接、重复YAML键、缺失模板元数据及引用作者。"
+  ],
+  "contentHash": "72ab7a318e9386edbe6572ad7d36a36038973e3814beb477c1b3adf1d3d1b421",
+  "zhHash": "72ab7a318e9386edbe6572ad7d36a36038973e3814beb477c1b3adf1d3d1b421",
+  "enHash": "72ab7a318e9386edbe6572ad7d36a36038973e3814beb477c1b3adf1d3d1b421",
+  "translationBasisHash": "72ab7a318e9386edbe6572ad7d36a36038973e3814beb477c1b3adf1d3d1b421",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "50a566700678511d5785128a639268ac811e3134047c3033433f4b8bccd0e118",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T14:16:02.146Z"
+}

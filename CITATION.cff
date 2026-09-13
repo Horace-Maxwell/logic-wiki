@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "如使用本项目，请引用此仓库并注明提交号；文章论断还应引用原始来源。 / Cite this repository and the commit used; cite original sources for scholarly claims."
+type: software
+title: "Logic Wiki · 逻辑学知识库"
+authors:
+  - name: "Logic Wiki contributors"
+repository-code: "https://github.com/Horace-Maxwell/logic-wiki"
+url: "https://github.com/Horace-Maxwell/logic-wiki"
+abstract: "中英双语逻辑学知识库，包含论证、形式逻辑、谬误辨析与案例练习。 / A Chinese–English knowledge base covering arguments, formal logic, fallacies, and case exercises."
+keywords:
+  - logic
+  - critical thinking
+  - fallacies
+  - bilingual education
+  - 逻辑学
+  - 批判性思维

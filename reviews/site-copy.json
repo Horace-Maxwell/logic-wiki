@@ -1,6 +1,6 @@
 {
   "id": "site-copy",
-  "candidateHash": "7cfc1f7c0b23a12b3d48ede7e8064015b862a9512715a717a4c3044c9fc288b3",
+  "candidateHash": "bfd9b0501273a5c280a1c364e7b284ece99e56ca073bcd5346d92e0127525b85",
   "executor": {
     "type": "agent",
     "name": "Codex"
@@ -22,19 +22,15 @@
       "reason": "中文编辑制度在说明自动扫描阻止“占位文字”的规则，文本完整；该词是讨论对象，不是待完成正文。"
     }
   ],
-  "previousReceiptHash": "279923e340642bb714b71778fd9ff95324b153a284771b788a5e100904f512c0",
+  "previousReceiptHash": "233863f5bd7ccf76ba56535d3ccb97d713c0ceceddfb4f6d5a28c368b9be53ef",
   "notes": [
-    "本轮仅重写README；未改站内正文、题目、界面或编辑规则，沿用上一份site-copy记录对未改内容的复核范围。",
-    "逐段核对README中文与英文。保留170单元、40导读、100词条、30案例、99来源、202选择题和110分步题；312是两类练习之和，双语不重复计数。六组对照与catalog/comparisons数据核对，未把分类称为穷尽清单。",
-    "执行中文Humanizer编辑：用具体功能替代宣传判断，保留不能据此判断谬误的边界。英文编辑保留necessity、where appropriate、at least等限定。中英逐段比较数值、条件、否定、来源范围、代理自校与专家审稿的区别，未改变证据强度。",
-    "截图为已保存的实际本地首页，已视觉检查；标题、徽章、表格和折叠面板按用户fancy要求保留。README全部本地文件链接和自定义锚点已检查；GitHub Markdown接口成功渲染，在本地浏览器检查结构，线上图片与最终排版将在推送后再核验。",
-    "参考OSSU、The Book of Secret Knowledge和Project Based Learning的导航/封面/分类结构，文案独立撰写；不宣称项目自身高星，不添加未经授权的全库许可证。",
-    "渲染复核后将徽章排成同一行；Markdown行末双空格改为显式br，避免git空白检查报错，无语义变化。"
+    "本次仅在README增加中英仓库文件导航。逐项核对名称与链接目标，保留上一记录对其余未改文案、知识内容与交互的审校范围。",
+    "新增贡献、行为、安全、帮助、引用、许可、署名、更新与后续方向名称已完成中英编辑和语义核对；文件均已存在。网站组件、练习与公式未改；元文件的GitHub渲染已在本地浏览器检查。"
   ],
-  "contentHash": "7cfc1f7c0b23a12b3d48ede7e8064015b862a9512715a717a4c3044c9fc288b3",
-  "zhHash": "7cfc1f7c0b23a12b3d48ede7e8064015b862a9512715a717a4c3044c9fc288b3",
-  "enHash": "7cfc1f7c0b23a12b3d48ede7e8064015b862a9512715a717a4c3044c9fc288b3",
-  "translationBasisHash": "7cfc1f7c0b23a12b3d48ede7e8064015b862a9512715a717a4c3044c9fc288b3",
+  "contentHash": "bfd9b0501273a5c280a1c364e7b284ece99e56ca073bcd5346d92e0127525b85",
+  "zhHash": "bfd9b0501273a5c280a1c364e7b284ece99e56ca073bcd5346d92e0127525b85",
+  "enHash": "bfd9b0501273a5c280a1c364e7b284ece99e56ca073bcd5346d92e0127525b85",
+  "translationBasisHash": "bfd9b0501273a5c280a1c364e7b284ece99e56ca073bcd5346d92e0127525b85",
   "environment": {
     "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
     "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
@@ -45,5 +41,5 @@
       "zh": "2.9.1-zh.2"
     }
   },
-  "recordedAt": "2026-09-13T02:25:22.823Z"
+  "recordedAt": "2026-09-13T14:16:02.012Z"
 }

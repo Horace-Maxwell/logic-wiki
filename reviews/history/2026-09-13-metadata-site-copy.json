@@ -1,0 +1,32 @@
+[
+  {
+    "id": "site-copy",
+    "candidateHash": "bfd9b0501273a5c280a1c364e7b284ece99e56ca073bcd5346d92e0127525b85",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [
+      {
+        "rule": "placeholder",
+        "path": "files.17.1",
+        "type": "quoted-or-discussed",
+        "reason": "中文编辑制度在说明自动扫描阻止“占位文字”的规则，文本完整；该词是讨论对象，不是待完成正文。"
+      }
+    ],
+    "previousReceiptHash": "233863f5bd7ccf76ba56535d3ccb97d713c0ceceddfb4f6d5a28c368b9be53ef",
+    "notes": [
+      "本次仅在README增加中英仓库文件导航。逐项核对名称与链接目标，保留上一记录对其余未改文案、知识内容与交互的审校范围。",
+      "新增贡献、行为、安全、帮助、引用、许可、署名、更新与后续方向名称已完成中英编辑和语义核对；文件均已存在。网站组件、练习与公式未改；元文件的GitHub渲染已在本地浏览器检查。"
+    ]
+  }
+]
