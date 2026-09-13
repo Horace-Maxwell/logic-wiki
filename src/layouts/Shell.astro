@@ -1,0 +1,24 @@
+---
+import {House,BookOpen,Scale,Files,Route,Library,Search} from 'lucide-react';
+import '../styles/global.css';
+import 'katex/dist/katex.min.css';
+import {labels} from '../data/i18n.mjs';
+const {lang='zh',title='',active='home',wide=false}=Astro.props;
+const l=labels[lang as 'zh'|'en'];
+const path=Astro.url.pathname;const other=lang==='zh'?'en':'zh';
+const alternate=path.replace(/^\/(zh|en)(\/|$)/,`/${other}$2`);
+const icons=[House,BookOpen,Scale,Files,Route,Library];
+const nav=[['home',''],['knowledge','knowledge/'],['fallacies','fallacies/'],['cases','cases/'],['learn','learn/'],['sources','sources/']];
+---
+<!doctype html><html lang={lang==='zh'?'zh-CN':'en'}><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="description" content={lang==='zh'?'用清楚的定义、案例和对照学习逻辑。中英双语逻辑学知识库。':'Learn logic through clear definitions, cases, and comparisons. A bilingual library of logic.'}/><title>{title ? `${title} · `:''}Logic Wiki</title><link rel="icon" href="/favicon.svg"/><link rel="alternate" hreflang={other==='zh'?'zh-CN':'en'} href={alternate}/></head><body>
+<a class="skip" href="#main">{lang==='zh'?'跳到正文':'Skip to content'}</a>
+<header class="masthead"><a class="brand" href={`/${lang}/`}><span class="therefore">∴</span><span>Logic Wiki<small>{lang==='zh'?'逻辑学知识库':'A library of reasoning'}</small></span></a><nav aria-label={lang==='zh'?'主导航':'Main navigation'}>{nav.slice(1).map(([key,p])=><a class:list={{selected:active===key}} href={`/${lang}/${p}`}>{l[key as keyof typeof l]}</a>)}</nav><a class="search-trigger" href={`/${lang}/search/`}><Search size={18} aria-hidden="true"/><span>{l.search}</span><kbd>/</kbd></a><a class="language-switch" data-language={other} href={alternate} lang={other}>{other==='zh'?'中文':'EN'}</a><button class="mobile-menu" aria-expanded="false" aria-controls="sidebar">☰<span class="sr-only">{l.menu}</span></button></header>
+<div class:list={['page',{'wide':wide}]}><aside class="sidebar" id="sidebar"><nav>{nav.map(([key,p],i)=><a class:list={{selected:active===key}} href={`/${lang}/${p}`}><span class="nav-symbol" aria-hidden="true">{(()=>{const Icon=icons[i];return <Icon size={19} strokeWidth={1.4}/>})()}</span>{l[key as keyof typeof l]}</a>)}</nav><div class="sidebar-extra"><a href={`/${lang}/compare/`}>{lang==='zh'?'辨别与对照':'Compare concepts'}</a><a href={`/${lang}/glossary/`}>{lang==='zh'?'中英术语表':'Bilingual glossary'}</a></div><slot name="sidebar"/><div class="sidebar-note"><span></span><p>{l.tip}</p><a href={`/${lang}/editorial/`}>{l.review} ↗</a></div></aside><main id="main" tabindex="-1" data-pagefind-ignore={wide?true:undefined}><slot/></main></div>
+<footer><span>∴ Logic Wiki</span><p>{lang==='zh'?'定义有边界，判断有依据。':'Definitions have boundaries. Judgments need reasons.'}</p><a href={`/${lang}/editorial/`}>{lang==='zh'?'来源、许可与编辑方法':'Sources, licensing, and editorial methods'}</a></footer>
+<script>
+ const button=document.querySelector<HTMLButtonElement>('.mobile-menu');button?.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')!=='true';button.setAttribute('aria-expanded',String(open));document.body.classList.toggle('menu-open',open)});
+ document.querySelectorAll<HTMLAnchorElement>('[data-language],[data-preserve-position]').forEach(a=>{a.addEventListener('click',()=>{const u=new URL(a.href);u.search=window.location.search;u.hash=window.location.hash;a.href=u.href;if(a.dataset.language)try{localStorage.setItem('logic-language',a.dataset.language)}catch{}})});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){document.body.classList.remove('menu-open');button?.setAttribute('aria-expanded','false')}if(e.key==='/'&&!['INPUT','TEXTAREA'].includes((e.target as HTMLElement)?.tagName)){e.preventDefault();window.location.href=document.querySelector<HTMLAnchorElement>('.search-trigger')!.href}});
+ function openHash(){let id;try{id=decodeURIComponent(location.hash.slice(1))}catch{return}if(!id)return;const section=document.getElementById(id);if(!section)return;section.closest<HTMLDetailsElement>('details.case-step')?.setAttribute('open','');section.querySelectorAll<HTMLDetailsElement>('details.case-step').forEach(d=>d.open=true);requestAnimationFrame(()=>section.scrollIntoView({block:'start',behavior:'instant'}))}window.addEventListener('hashchange',openHash);openHash();
+ document.querySelectorAll('[data-print]').forEach(x=>x.addEventListener('click',()=>window.print()));
+</script></body></html>

@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {truthRows,implies,propositionalPatterns,counterRows,finiteModels,posterior} from '../src/data/logic.mjs';
+import {fallacies} from '../src/data/catalog.mjs';
+test('Every displayed formal pattern has a machine-checked countermodel',()=>{for(const e of fallacies.filter(e=>e.kind==='formal')){assert.ok(propositionalPatterns[e.id]||finiteModels[e.id],e.id);if(propositionalPatterns[e.id])assert.ok(counterRows(e.id).length>0,e.id);else{const m=finiteModels[e.id];assert.equal(m.premises(m.sets),true,e.id);assert.equal(m.conclusion(m.sets),false,e.id);}}});
+test('Valid controls remain valid across all truth assignments',()=>{for(const r of truthRows()){assert.ok(!(r.conditional&&r.p)||r.q);assert.ok(!(r.conditional&&!r.q)||!r.p);assert.equal(implies(r.p,r.q),implies(!r.q,!r.p));}});
+test('Base-rate example reproduces counts, and confusing conditionals fails',()=>{assert.ok(Math.abs(posterior(.01,.9,.9)-90/1080)<1e-12);assert.notEqual(posterior(.01,.9,.9),.9);assert.equal(posterior(1,.9,.9),1);assert.equal(posterior(0,.9,.9),0);});
+test('Probability examples: union, independent testing, relative and absolute change',()=>{assert.ok(Math.abs(.6+.5-.3-.8)<1e-12);assert.ok(Math.abs((1-.95**20)-.6415140776)<1e-9);assert.equal((.02-.01)/.02,.5);assert.equal((.02-.01)*100,1);assert.ok(Math.abs(.9**10-.3486784401)<1e-12);});

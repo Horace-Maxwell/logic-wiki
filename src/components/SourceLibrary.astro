@@ -1,0 +1,14 @@
+---
+import {sources,accessLabels} from '../data/sources.mjs';
+import {sourceGroups} from '../data/reading.mjs';
+import {allUnits} from '../data/catalog.mjs';
+const {lang}=Astro.props;
+---
+<header class="index-heading"><div class="eyebrow">BIBLIOTHECA · {sources.length}</div><h1>{lang==='zh'?'参考书目与资料':'Sources and further reading'}</h1><p>{lang==='zh'?'从原始材料追溯论断，从教材建立体系，再用通俗读物增进理解。每条记录区分查阅正文、节选、摘要和仅核验书目。':'Trace claims to original materials, build a framework with textbooks, and use accessible readings for intuition. Records distinguish text, excerpts, abstracts, and catalog checks.'}</p></header>
+<div class="library-controls"><label for="source-query">{lang==='zh'?'检索书目':'Search the library'}</label><input id="source-query" type="search" placeholder={lang==='zh'?'书名、作者、主题或机构':'Title, author, subject, or institution'}/><label for="source-group">{lang==='zh'?'资料类型':'Resource type'}</label><select id="source-group"><option value="all">{lang==='zh'?'全部资料':'All resources'}</option>{Object.entries(sourceGroups).map(([k,v])=><option value={k}>{v[lang as 'zh'|'en']}</option>)}</select><p id="source-count" role="status"></p></div>
+<div class="library">{Object.entries(sourceGroups).map(([group,label])=><section class="source-group" data-group={group}><h2>{label[lang as 'zh'|'en']}</h2>{sources.filter(s=>s.group===group).map(s=><section class="source-card" id={s.id} data-search={`${s.title} ${s.author} ${s.note.zh} ${s.note.en}`}><h3><a href={s.url} target="_blank" rel="noreferrer">{s.title} ↗</a></h3><p>{s.author}{s.date&&` · ${s.date}`}</p><div class="meta-line"><span>{accessLabels[s.access as keyof typeof accessLabels]?.[lang as 'zh'|'en']}</span><span>{s.locator}</span></div><p>{s.note[lang as 'zh'|'en']}</p><p class="source-locator">{s.license} · {lang==='zh'?'查阅':'Accessed'} {s.accessed}</p><div class="related-links">{allUnits.filter(e=>e.refs.includes(s.id)).slice(0,5).map(e=><a href={`/${lang}/wiki/${e.id}/`}>{e.title[lang as 'zh'|'en']}</a>)}</div></section>)}</section>)}</div>
+<script is:inline define:vars={{lang}}>
+const sq=document.querySelector('#source-query'),sg=document.querySelector('#source-group');
+function filterSources(){let count=0;const query=sq.value.trim().toLowerCase();document.querySelectorAll('.source-group').forEach(group=>{let visible=0;group.querySelectorAll('.source-card').forEach(card=>{const match=(sg.value==='all'||sg.value===group.dataset.group)&&card.dataset.search.toLowerCase().includes(query);card.hidden=!match;if(match){visible++;count++}});group.hidden=!visible});document.querySelector('#source-count').textContent=lang==='zh'?`${count} 条资料`:`${count} resources`;}
+sq.addEventListener('input',filterSources);sg.addEventListener('change',filterSources);filterSources();
+</script>

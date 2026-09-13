@@ -1,0 +1,40 @@
+{
+  "id": "anecdotal-evidence",
+  "candidateHash": "6529a79cb4b1cf9ded89331dba6ddfd1e6595f682e11fe28cc065aaa3e478dd6",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "一实例可反驳从未但不估频率，打印机确证卡纸与全线晚点强度区分；重新核验forallx第2/3章，将有效性与反例链接改到第2章。",
+    "完整双语单元审读后按固定Humanizer编辑，并另核语义与练习支持范围；来源依实际查阅的已登记章节。",
+    "分母与界限逐项复算，呈现采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审查。",
+    "本单元正文未变；复核forallx文献定位仅补记已查阅的8、37章与新读48章，仍为指定段落而非全书，重新绑定元数据。沿用上述真实语言审校，并非重新阅读所有引用文献。"
+  ],
+  "contentHash": "6529a79cb4b1cf9ded89331dba6ddfd1e6595f682e11fe28cc065aaa3e478dd6",
+  "zhHash": "e89802abce4bf2e28bab557ba5191006bc527f76ab73c6a5b2967662e5b5646c",
+  "enHash": "3fb1bdad17ca7a311a5f05eb5b9e9873030b2b20d5846e78388b889a34a8853d",
+  "translationBasisHash": "e89802abce4bf2e28bab557ba5191006bc527f76ab73c6a5b2967662e5b5646c",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "1c216bdf9684d8a9cc27cf5d8dbd391e8fb285c998f2817ab663780b9611580d",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:21:30.496Z",
+  "previousReceiptHash": "996bdab09a931999c8dd87bb257fe9cc849304593e31377a28f44ef86d69b21b"
+}

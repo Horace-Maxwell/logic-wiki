@@ -1,0 +1,15 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {hash,receipt,current,stages,scan,semanticWarnings,environment} from '../scripts/editorial.mjs';
+const unit={id:'fixture',title:{zh:'并非所有书都贵。',en:'Not all books are expensive.'},refs:['forallx']};const env=environment();
+function reviewed(){return receipt(unit,{candidateHash:hash(unit),executor:{type:'agent',name:'test fixture'},completed:stages,unresolved:[],notes:['Synthetic fixture, not a content review.']},env)}
+test('Chinese, English, sources, and rules each invalidate old receipts',()=>{const r=reviewed();assert.ok(current(unit,r,env));for(const changed of [{...unit,title:{...unit.title,zh:'所有书都不贵。'}},{...unit,title:{...unit.title,en:'No books are expensive.'}},{...unit,refs:['iep']}])assert.equal(current(changed,r,env),false);assert.equal(current(unit,r,{...env,rules:'different'}),false);assert.equal(current(unit,r,{...env,glossary:'different'}),false);assert.equal(current(unit,r,{...env,sources:'different'}),false);assert.equal(current(unit,{...r,translationBasisHash:'outdated'},env),false);});
+test('A scanner does not certify unfinished editorial work',()=>{assert.throws(()=>receipt(unit,{candidateHash:hash(unit),executor:{type:'agent',name:'fixture'},completed:[],unresolved:[],notes:['Not done']},env));assert.throws(()=>receipt(unit,{candidateHash:'stale'},env));});
+test('Clear residue blocks; source quotations and substantive prose survive',()=>{assert.equal(scan('TODO: text')[0].level,'error');assert.equal(scan('I hope this helps.')[0].level,'error');assert.equal(scan('值得注意的是，这有里程碑意义。')[0].level,'review');assert.deepEqual(scan('必要条件不必是充分条件。'),[]);assert.deepEqual(scan('This evidence supports, but does not prove, the hypothesis.'),[]);assert.deepEqual(scan('As an AI model',{protected:true}),[]);});
+test('Review cues catch quantifier, modality, condition, and evidence-strength damage',()=>{assert.ok(semanticWarnings('并非所有人迟到','所有人都不迟到').includes('quantifier'));assert.ok(semanticWarnings('并非所有人迟到','所有都不迟到').includes('quantifier'));assert.ok(semanticWarnings('It may occur','It must occur').includes('modality'));assert.ok(semanticWarnings('证据支持结论','证据证明结论').includes('evidence-strength'));assert.ok(semanticWarnings('If P then Q','Q always holds').includes('condition'));assert.deepEqual(semanticWarnings('Not all books are costly','At least one book is not costly'),[]);});
+test('Receipts require provenance and cannot override computed identities',()=>{
+ const r=reviewed();
+ for(const change of [{id:'other'},{executor:null},{notes:[]},{candidateHash:'old'},{completed:null},{unresolved:['needs checking']}])assert.equal(current(unit,{...r,...change},env),false);
+ assert.throws(()=>receipt(unit,{candidateHash:hash(unit),executor:{type:'agent',name:' '},completed:stages,unresolved:[],notes:[' ']}));
+ const protectedReceipt=receipt(unit,{candidateHash:hash(unit),executor:{type:'agent',name:'test'},completed:stages,unresolved:[],notes:['Synthetic fixture.'],id:'other',contentHash:'forged',environment:{}},env);
+ assert.ok(current(unit,protectedReceipt,env));assert.equal(protectedReceipt.id,unit.id);
+});

@@ -1,0 +1,40 @@
+{
+  "id": "appeal-to-ridicule",
+  "candidateHash": "73be7f96c4aae39e634351516fa4e479cd857ce2f425149b87de4e5e240e8537",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "9与11的反例计算正确，笑话删除后证据仍在；归谬是推出矛盾而非令人尴尬，分类未假装学界一致。",
+    "完整原有及扩展双语内容已读，执行固定Humanizer语言编辑后独立比较主张范围、可能性、否定和答案；来源沿用本轮真实查阅范围。",
+    "共用组件与全站静态验证用于呈现核查，未声称逐页视觉或独立专家审查。",
+    "本单元正文未变；复核forallx文献定位仅补记已查阅的8、37章与新读48章，仍为指定段落而非全书，重新绑定元数据。沿用上述真实语言审校，并非重新阅读所有引用文献。"
+  ],
+  "contentHash": "73be7f96c4aae39e634351516fa4e479cd857ce2f425149b87de4e5e240e8537",
+  "zhHash": "91ca27d3c04bd2bcbae45cad5e74b73ab7be4a3fa560328f29c0ef3a8777b260",
+  "enHash": "811341f84ed9825edba680a1d0f6bbfde74f7fed974f9c9744c4aa8932f53457",
+  "translationBasisHash": "91ca27d3c04bd2bcbae45cad5e74b73ab7be4a3fa560328f29c0ef3a8777b260",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "a627b7dfd0c6495207bdcd55939c5e41fbb17e6efebaca27008c4e5c1207dd65",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:21:30.495Z",
+  "previousReceiptHash": "9852df7d48c78ef960a48b001e0d09b9e115cd7f5390e870d869a1f82d017525"
+}

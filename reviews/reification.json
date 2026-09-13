@@ -1,0 +1,38 @@
+{
+  "id": "reification",
+  "candidateHash": "9fd77d5e9f1fc2c306e9b51532b7ba3f8d69b6db21043c39abd618a7bb477e91",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "简定义原仅独立行动者过窄，扩展为具体对象属性或能动性，与2.4人平均例匹配；委员会经表决简写可核验。",
+    "逐篇完整双语基础及扩展、例题均已读；按固定Humanizer语言编辑后独立对齐词义、范围、条件和推理强度，引用按此前实际查阅范围。",
+    "算数与非谬误对照已核，呈现用共享组件真实预览及全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "9fd77d5e9f1fc2c306e9b51532b7ba3f8d69b6db21043c39abd618a7bb477e91",
+  "zhHash": "c8ac64dcfacf4e5ad9c860e7beab180cd9d0d3678e2dce44d3376e23eed72ba0",
+  "enHash": "65b844b7313ebaf7b257da79c14362d3d250da351358c5c57572851bc37b2e63",
+  "translationBasisHash": "c8ac64dcfacf4e5ad9c860e7beab180cd9d0d3678e2dce44d3376e23eed72ba0",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "c8be4c27eb29443fcd676f690f824391a38d6dc42e7f40ca4fd3b83e67f53ca1",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:18:02.169Z"
+}

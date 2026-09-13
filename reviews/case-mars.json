@@ -1,0 +1,38 @@
+{
+  "id": "case-mars",
+  "candidateHash": "64574d820c0bd3a3c2e17d064b060709b0d388b08e2f3f51560048bf254e7e99",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "报告日期与网页更新日期分别登记；4.45 倍来自报告，2 秒与 2 毫秒的 1000 倍为独立教学数据；不归责个人。",
+    "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+    "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+  ],
+  "contentHash": "64574d820c0bd3a3c2e17d064b060709b0d388b08e2f3f51560048bf254e7e99",
+  "zhHash": "c4a866e60ce74d356af0606f116d94bfb1f3fc4a43554cd659aa118c543c95db",
+  "enHash": "53d4cae45e465bebc7e177138ff9facd4e2de35a69f5bfae56b7f4abcb356428",
+  "translationBasisHash": "c4a866e60ce74d356af0606f116d94bfb1f3fc4a43554cd659aa118c543c95db",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "2b179bb44a99f6453d0b2086749cd6ff5f5e959d04ed56b31a30631ec36a41a7",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:08:05.120Z"
+}

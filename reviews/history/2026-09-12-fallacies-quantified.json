@@ -1,0 +1,140 @@
+[
+  {
+    "id": "exclusive-premises",
+    "candidateHash": "d2c0c90165ea8a6bbf437d18681948c6bb769597be00146d07749d577dec950d",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "两个非空类模型分别重合与分离，证明两种关系都未决定；规则限定标准直言三段论，不误伤否定配肯定。",
+      "已逐篇阅读双语全部原有内容与扩展章节、练习，按固定Humanizer编辑并独立核对语义；引用遵循此前查阅范围。",
+      "手工检验集合、量词、模态反模型及对照；显示依据共享组件预览与全站静态检查，非逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "existential-fallacy",
+    "candidateHash": "0c4cd77e0a94d81b366de2516cf9a153804bfeaf187e32eaf1b5c843a4f2a04a",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "原简定义把全称不蕴涵存在说得过宽，两版改为允许空类的受限全称；明确非空论域中∀xPx确可推出∃xPx，获奖空类与零件见证正确。",
+      "已逐篇阅读双语全部原有内容与扩展章节、练习，按固定Humanizer编辑并独立核对语义；引用遵循此前查阅范围。",
+      "手工检验集合、量词、模态反模型及对照；显示依据共享组件预览与全站静态检查，非逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "quantifier-shift",
+    "candidateHash": "3b338f1824a42fb4b9136a81d4d6d465992de5241d78b2fdb93760647510d008",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "每行有勾与同列全勾对照，两对象见证和强到弱方向核对；会议练习明确无共同见证，阅读器题不声称唯一。",
+      "已逐篇阅读双语全部原有内容与扩展章节、练习，按固定Humanizer编辑并独立核对语义；引用遵循此前查阅范围。",
+      "手工检验集合、量词、模态反模型及对照；显示依据共享组件预览与全站静态检查，非逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "quantifier-negation",
+    "candidateHash": "294e48d77bdf2c8691e01ad55c562a1712ec828383f4021f6038dd9041d347af",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "否定移入时换量词，受限学生类别保留；申请题另含待处理状态，测试全称否定不保证测试发生过。",
+      "已逐篇阅读双语全部原有内容与扩展章节、练习，按固定Humanizer编辑并独立核对语义；引用遵循此前查阅范围。",
+      "手工检验集合、量词、模态反模型及对照；显示依据共享组件预览与全站静态检查，非逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "illicit-conversion",
+    "candidateHash": "3b15a3ef42b35d630d2bbfbd79093ed7be84d497aa3d5778279094218ed90049",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "A/E/I/O简单换位分开，O反例允许B为空或真子类；加密邮件和志愿摄影师题分别是无效包含倒转与有效共有见证。",
+      "已逐篇阅读双语全部原有内容与扩展章节、练习，按固定Humanizer编辑并独立核对语义；引用遵循此前查阅范围。",
+      "手工检验集合、量词、模态反模型及对照；显示依据共享组件预览与全站静态检查，非逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "modal-scope",
+    "candidateHash": "3943315abdc47ccdf339db2afc3527174c6c2b4faa8d35f28a9f9e86b27d8dc9",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "补明由必然条件及实际P保证实际Q需要自反可达性；双世界反模型满足S5，英文练习把A可用改为每配置都选A，避免可能性冒充事实。",
+      "已逐篇阅读双语全部原有内容与扩展章节、练习，按固定Humanizer编辑并独立核对语义；引用遵循此前查阅范围。",
+      "手工检验集合、量词、模态反模型及对照；显示依据共享组件预览与全站静态检查，非逐页视觉或专家审核。"
+    ]
+  }
+]

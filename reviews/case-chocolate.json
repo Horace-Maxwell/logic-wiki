@@ -1,0 +1,39 @@
+{
+  "id": "case-chocolate",
+  "candidateHash": "cdd6e590dad6b2e5ca5ba1d8e98c6e9b75db693e4282e0f4274d1de1d2a4d906",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "notes": [
+    "查阅原论文结果、讨论和局限，保留作者的假说生成限定及个人摄入未知，未把其写成无条件因果断言。没有采用方法 22 国与结果 23 国的不一致数字。",
+    "中文删除“两座桥”的抽象修辞，明确两类推断依据；英文保留 group-to-individual 与 association-to-intervention 两个独立缺口。",
+    "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+    "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+  ],
+  "exceptions": [],
+  "contentHash": "cdd6e590dad6b2e5ca5ba1d8e98c6e9b75db693e4282e0f4274d1de1d2a4d906",
+  "zhHash": "77898fd197ddc78a799b3e4f26c8bc0a455071477a9cba54ed91b8ce3bf62a24",
+  "enHash": "bd81b038f0dcbd02ffe1b8041bea57dbe0ba21f894161f219bdb9424f2ccfed5",
+  "translationBasisHash": "77898fd197ddc78a799b3e4f26c8bc0a455071477a9cba54ed91b8ce3bf62a24",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "c4a8af34bc121a257637195f01138c12efeafa92b13ea50b5717acf1ead4ec56",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:06:07.967Z"
+}

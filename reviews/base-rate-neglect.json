@@ -1,0 +1,38 @@
+{
+  "id": "base-rate-neglect",
+  "candidateHash": "957f9d0c06a636f86f65615bbdcf64e5757691fd4b5f807c8163c8d955f521e4",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "90/(90+990)=8.33%，扫描40/(40+95)=29.63%重算；未知先验给多假设范围不判为零。",
+    "逐篇读完双语基础和扩展正文、练习、公式，执行固定Humanizer编辑后单独核对条件、量词、概率事件和结论强度；引用依据已查阅范围。",
+    "数值重新计算并结合既有枚举测试；显示采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "957f9d0c06a636f86f65615bbdcf64e5757691fd4b5f807c8163c8d955f521e4",
+  "zhHash": "f881b51de0d25419039f0700a3a1dfaf35be8b65a06e2dfe2a64170d640f7900",
+  "enHash": "6dc5c85e0d2442bae28c248c02b3bc126a5d20cf63acfea72bcf738506a0ea5f",
+  "translationBasisHash": "f881b51de0d25419039f0700a3a1dfaf35be8b65a06e2dfe2a64170d640f7900",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "a23f7cc903cb71e2ec9d025e466e9fd45b474d89d05090a092e241ecbfcf3776",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:19:28.957Z"
+}

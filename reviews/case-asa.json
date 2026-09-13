@@ -1,0 +1,39 @@
+{
+  "id": "case-asa",
+  "candidateHash": "41e50bc68e715207252f2fd7f97531b237e25160ecfaa0f62e7342eb79ec86a2",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "notes": [
+    "查阅期刊版本 pp. 131–132 的定义及原则，区别于另列的协会发布稿；保留模型前提与完整报告要求。",
+    "复核五次全正面的单侧尾部 1/32，双方文字均明确它不是公平假说的后验概率；双侧方向另需约定。",
+    "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+    "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+  ],
+  "exceptions": [],
+  "contentHash": "41e50bc68e715207252f2fd7f97531b237e25160ecfaa0f62e7342eb79ec86a2",
+  "zhHash": "bef7e45c3532edbc15fd5e0f8b121a7721e18c607a34010ffad737c70291b6e1",
+  "enHash": "f977ccedcd69e45a1a5746dcee3e7cb944992dfedd58bf4c2c6890de6a7e2632",
+  "translationBasisHash": "bef7e45c3532edbc15fd5e0f8b121a7721e18c607a34010ffad737c70291b6e1",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "e93bf5383530d44e42da28daee7b855ca757d8fb50e322ae75a7a136a3815534",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:06:07.968Z"
+}

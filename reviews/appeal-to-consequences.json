@@ -1,0 +1,38 @@
+{
+  "id": "appeal-to-consequences",
+  "candidateHash": "0ff9845f811cc608541ce3e8fbc07da914745885b4e059e118b484d220241887",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "重做三个月成本不反证数据错误；删原件与留副本的行动比较可相关，归谬的矛盾不同于不喜欢。",
+    "完整双语单元含基础案例、扩展、练习均已审读，按固定Humanizer完成语言编辑并另作语义对照，来源依此前已查阅范围。",
+    "习题逐项核对适用条件、结论强度和正反边界；呈现依共享组件实际预览与全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "0ff9845f811cc608541ce3e8fbc07da914745885b4e059e118b484d220241887",
+  "zhHash": "10a2a5dc678d1614e839f08d924196981a52e14e37bee13dcd4b6cc07d921e27",
+  "enHash": "f5d3341f0b4beef397b6a906df67501a222ebc602b4e78524636b504e6b74968",
+  "translationBasisHash": "10a2a5dc678d1614e839f08d924196981a52e14e37bee13dcd4b6cc07d921e27",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:16:31.299Z"
+}

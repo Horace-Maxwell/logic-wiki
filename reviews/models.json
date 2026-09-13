@@ -1,0 +1,40 @@
+{
+  "id": "models",
+  "candidateHash": "c6fe735cfab13fd882abbfa3038fd14201d4e01fc60b97eee6640aeb205c2c84",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "非空论域与空谓词分开，所有给出的有限模型逐对象验算；(0,1) 关系没有全称目标见证，未找到小模型不称证明有效。",
+    "逐篇阅读基础及新增的中文、英文、公式、表格和练习，完成语言编辑后核对量词、否定、关系方向和推理强度；保留术语与实质对照。",
+    "来源按既有实际教材/百科查阅范围定位；反模型逐对象检查，并结合全站公式渲染、内部链接和共享组件预览，未声明逐页视觉或专家审核。",
+    "本单元正文未变；复核forallx文献定位仅补记已查阅的8、37章与新读48章，仍为指定段落而非全书，重新绑定元数据。沿用上述真实语言审校，并非重新阅读所有引用文献。"
+  ],
+  "contentHash": "c6fe735cfab13fd882abbfa3038fd14201d4e01fc60b97eee6640aeb205c2c84",
+  "zhHash": "a740ccab601a25251ed39b6e435725159f9a24057f831849a9be61f6a90c0bc7",
+  "enHash": "1b16c8cf6a577f623b86077e21aaca95a93069ba7b844921e58e0545ce44a1c8",
+  "translationBasisHash": "a740ccab601a25251ed39b6e435725159f9a24057f831849a9be61f6a90c0bc7",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "85af6fe2aa2131ef9b066890f57f03ddedf9c7bc0c9bd47137133f41342be246",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:21:30.501Z",
+  "previousReceiptHash": "97dca2f990316a242b334ff319edda849ae0a7cf08ae30ae93894f0c4d8beb32"
+}

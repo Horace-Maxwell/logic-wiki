@@ -1,0 +1,38 @@
+{
+  "id": "appeal-to-probability",
+  "candidateHash": "c1fb73edee76bc1f5b355f6ac78b7c9aedb53f8e8bb4bf1b83df54d7fc9b58d4",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "四独立p=.25至少一次.68359375，全失败31.640625%；10次p=.1全失败34.87%；概率1与逻辑必然在连续模型下区分。",
+    "逐篇读完双语基础和扩展正文、练习、公式，执行固定Humanizer编辑后单独核对条件、量词、概率事件和结论强度；引用依据已查阅范围。",
+    "数值重新计算并结合既有枚举测试；显示采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "c1fb73edee76bc1f5b355f6ac78b7c9aedb53f8e8bb4bf1b83df54d7fc9b58d4",
+  "zhHash": "6312ebfc6012a81ec85aef328c741a6657876e731dc9261fd74ec9fe64287578",
+  "enHash": "c15b3c7372a3db8e7dfc53508bb4569142e76e6828b130c2af242b08b84b0621",
+  "translationBasisHash": "6312ebfc6012a81ec85aef328c741a6657876e731dc9261fd74ec9fe64287578",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "a23f7cc903cb71e2ec9d025e466e9fd45b474d89d05090a092e241ecbfcf3776",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:19:28.960Z"
+}

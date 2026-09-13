@@ -1,0 +1,38 @@
+{
+  "id": "case-dannon",
+  "candidateHash": "1386003c35136ad4f4292f93c662c56862aee719d8dbb78a3c0ffd31c29dd5a5",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "原引明确处于拟议和解条件，保留少于三份时研究支持的例外；教学例不从受控湿度推广到任意湿度。",
+    "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+    "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+  ],
+  "contentHash": "1386003c35136ad4f4292f93c662c56862aee719d8dbb78a3c0ffd31c29dd5a5",
+  "zhHash": "4b4c43a3478719b746c942effb983854e0001e00d94f78655e4d1d87085c78bf",
+  "enHash": "badf191a0b4127f437afae1c61bbe248f9baad51096abcc04ba7890659ee4df6",
+  "translationBasisHash": "4b4c43a3478719b746c942effb983854e0001e00d94f78655e4d1d87085c78bf",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "cf41b79903503ef1dab5eba9f16b1b7cd6e9e0c47018b7663c7cd3c9371172a9",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:08:05.119Z"
+}

@@ -1,0 +1,324 @@
+[
+  {
+    "id": "ad-hominem",
+    "candidateHash": "c069a39b9d52a944405a2147e730a8909d092d6e9e5beb879e0e0cec3da0b0fb",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "个人评价按数学证明、证言和职责适任分开；新门禁题的判断是暂缓依赖而非箱子没移走，工资表题可独立核查。",
+      "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+      "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "straw-man",
+    "candidateHash": "478898032ea9eb12626629108eb76cc02b03a6e3cbe7c0984a0e488257db7ebc",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "量词、时空与政策范围逐项对应；步行试点被扩大，入口排队题则明确推导后果而非归属动机。",
+      "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+      "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "appeal-to-authority",
+    "candidateHash": "5aa2cd6297034b61eaa9240bdcb784bd93c9b77b21760e15ccb8afa01b975538",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "档案练习中文从年代改成真伪，与英文及专家判断对象一致；领域未知保留信息不足答案，校准题证据可核验；第三题专家背景缺失保留。",
+      "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+      "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "slippery-slope",
+    "candidateHash": "d9c304637659640fc13cc0ccba8891f33cbb300d96f77f5782ea59da58600117",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "三步条件概率乘法0.512复算，不要求无条件独立，也未当成终点总概率；先例与堆垛不同于因果链。",
+      "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+      "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "affirming-consequent",
+    "candidateHash": "62b24963d07f3577995f2374c9b16287844cad83c217e1aaaa7cdc98bcabb153",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "P假Q真反赋值与加密只读替代原因正确；双条件指示器对照有额外逆向规则，溯因强度未升级为演绎。",
+      "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+      "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "denying-antecedent",
+    "candidateHash": "36a9d4229344403e453e4080ee03b969997a0c497bd2aad389c43294264a6301",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "必要充分方向与否定后件对照正确；步行路径反例与密钥必要条件题分别成立。",
+      "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+      "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "appeal-to-ignorance",
+    "candidateHash": "88ecc872ce84151666444e08b3371b538c231b90643f83fb10cd9ff58dd8382a",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "无证明与否定证明区分；封闭抽屉检查提供检测能力，漏洞无测试不能保证不存在；行动与信念分开。",
+      "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+      "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "hasty-generalization",
+    "candidateHash": "52b7b262d5f0359946aa74b054c5c735e790a72d0f51d8ed04650fa60723c5bf",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "样本量与选择渠道、全称反例与多数估计分开；六人有限报告和十评论全市断言有明确不同范围。",
+      "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+      "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "affirming-disjunct",
+    "candidateHash": "b23f9141bd3f4ba7dfbf6a4f5c90d16203280084a72391cc45739062d5b9eeac",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "两项皆真反赋值复核；多设备登录与恰好一箱的排他条件分开，相容析取三段论保持有效。",
+      "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+      "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "denying-conjunct",
+    "candidateHash": "4a57b78ee67c3f66132b5785669f4fa5c432006d4f38cbfa7af87721b6d13120",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "中文定义改为P与Q不同时成立，消除否定范围歧义；原对照补明只有红绿两灯，两版同改；都假反模型及德摩根形式正确。",
+      "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+      "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "undistributed-middle",
+    "candidateHash": "56f63087e076351b860854b47e39dcc2677be0427dea8f425746ed400ac34a89",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "四种直言命题周延表与现代空类解释对照；备份/视频共同超类非包含，红标签链有效；中项周延不是充分保证。",
+      "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+      "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "illicit-major",
+    "candidateHash": "6588a7ec472745450195950f17577fed016e675e4ec7aed57379f5ebb0e6beef",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "M={a},P={a,b},S={b}反模型逐项成立且非空；获批/访客对照排除子类，未错误扩大。",
+      "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+      "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "illicit-minor",
+    "candidateHash": "19efdde0ded5bb2389586fc65ad78141965730a39e13e6cfd42c83380cdb9279",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "中文定义补明小项周延的形式条件；M=P={a},S={a,b}反模型和M非空时可得特称的限制保留。",
+      "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+      "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "four-terms",
+    "candidateHash": "e7ecec7bae6e82cee784db2676bcdede8d6477dda0825adfa593d30924ed629a",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "同形异义分项与四个概念的有效多步链区分；双语bank和安全两义按意义对应，不强造中文双关。",
+      "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+      "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+    ]
+  }
+]

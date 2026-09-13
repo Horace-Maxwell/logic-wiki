@@ -1,0 +1,38 @@
+{
+  "id": "chinese-logic",
+  "candidateHash": "1823ba7172e6282505acb8eaf43cb9eaba92cbff717a745a5ac1f07668a110e7",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "名、同、法的语境与解释争议保留；白马表达式差异、外延差异、子类包含三层分开，钥匙与教师练习是原创重构。",
+    "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+    "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+  ],
+  "contentHash": "1823ba7172e6282505acb8eaf43cb9eaba92cbff717a745a5ac1f07668a110e7",
+  "zhHash": "828d6c513153dcafe446433243547dda2299f71cc7ba0a1c60e14a11e2fa7e30",
+  "enHash": "55f5ddcaf69dd1e93285d8651fefc409e6b5b52e4120e6919585f69652641e6d",
+  "translationBasisHash": "828d6c513153dcafe446433243547dda2299f71cc7ba0a1c60e14a11e2fa7e30",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "cefbe33cbc312598441759ba619cd777b7fd92842ca67ce40ffd5267b051e209",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:13:57.656Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "unjustified-independence",
+  "candidateHash": "682134c0c3c216d817a845035374307cd1b766430f64b64d331251e8a86beae3",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "双服务中文原只有是必要条件，改当且仅当与英文相符；共同事件交集.02，三事件两两独立而联合1/4≠1/8枚举核验，条件乘法.4×.75=.3。",
+    "逐篇读完双语基础和扩展正文、练习、公式，执行固定Humanizer编辑后单独核对条件、量词、概率事件和结论强度；引用依据已查阅范围。",
+    "数值重新计算并结合既有枚举测试；显示采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "682134c0c3c216d817a845035374307cd1b766430f64b64d331251e8a86beae3",
+  "zhHash": "92d209a8b0ef59e96ad23bb1d0f8e2489a15b3218c1281a0e61f6516e9856027",
+  "enHash": "4113eaabb53dfe4c83a025a4f8a4e2361f7093690a79a5d18f9c74e7a98b6023",
+  "translationBasisHash": "92d209a8b0ef59e96ad23bb1d0f8e2489a15b3218c1281a0e61f6516e9856027",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "a23f7cc903cb71e2ec9d025e466e9fd45b474d89d05090a092e241ecbfcf3776",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:19:28.960Z"
+}

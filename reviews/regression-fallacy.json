@@ -1,0 +1,38 @@
+{
+  "id": "regression-fallacy",
+  "candidateHash": "265fc8fc59d77d46f07c87f5a0592c27ba6f592a2d86c6aabd194a9fb9d6950a",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "50±10独立等概率模型，筛首60后次均50且可能60，复算；中文组平均“可能较普通”改为期望不再极端，与英文相称。",
+    "已逐篇阅读所有中英基础、扩展和练习，固定Humanizer语言编辑后另核语义、因果方向和证据强度。引用依本轮已实际查阅范围；BMJ受限访问仍明确为索引节选。",
+    "计算结合手算和已有枚举测试，呈现结合共用组件预览与全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "265fc8fc59d77d46f07c87f5a0592c27ba6f592a2d86c6aabd194a9fb9d6950a",
+  "zhHash": "aceab3ec3edbbf44b484c133d50eef5181d3c3a7fe985c4e4d95f6ad197ed770",
+  "enHash": "54132fbbe154cb214837827b5a6c1a3f69124a3cb6f56d2d7a1fe2b6e4e199dd",
+  "translationBasisHash": "aceab3ec3edbbf44b484c133d50eef5181d3c3a7fe985c4e4d95f6ad197ed770",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "47ba277ad1835876d4f7e97b1507aaa5ed82a5f94cc280a51e5baf8709354171",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:18:58.953Z"
+}

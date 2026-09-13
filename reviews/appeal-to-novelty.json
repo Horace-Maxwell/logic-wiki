@@ -1,0 +1,38 @@
+{
+  "id": "appeal-to-novelty",
+  "candidateHash": "ab4ab373213af49eb48b942323757859ea0ece344bb918d76974ed792b03f81c",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "压缩率指标可能有方向歧义，题目改为输出最小文件；第二题由重复正文的已复现bug改为项目交换格式支持，双语均限定实测用途。",
+    "完整双语单元含基础案例、扩展、练习均已审读，按固定Humanizer完成语言编辑并另作语义对照，来源依此前已查阅范围。",
+    "习题逐项核对适用条件、结论强度和正反边界；呈现依共享组件实际预览与全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "ab4ab373213af49eb48b942323757859ea0ece344bb918d76974ed792b03f81c",
+  "zhHash": "a60bab746c33794db09a77a8b5e18cbe1279e863df57b0f7315d82327de278ac",
+  "enHash": "a1ae12fe3a10adda38440a9464638e8519729ac5517524afa84a5e0f2b305bad",
+  "translationBasisHash": "a60bab746c33794db09a77a8b5e18cbe1279e863df57b0f7315d82327de278ac",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:16:31.298Z"
+}

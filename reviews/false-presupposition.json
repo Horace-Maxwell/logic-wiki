@@ -1,0 +1,38 @@
+{
+  "id": "false-presupposition",
+  "candidateHash": "81e807c9f8f377ff01199b6a1eb9462772893eee44217604a18006a4c6e942c7",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "原定义与案例仅未核实，与新增窄义冲突；定义改为实际为假，两原创案例明确完整记录无前科和业绩持平，两语言同步。未知仍不判假。",
+    "全单元中英基础与扩展正文、例证、独立题已读；固定Humanizer编辑后分别检查语义范围、否定与结论强度。来源依据此前实际查阅和公开范围。",
+    "算数及逻辑对照逐项核对；呈现结合共享组件浏览器与全站静态检查，未声称逐页视觉或专家评审。"
+  ],
+  "contentHash": "81e807c9f8f377ff01199b6a1eb9462772893eee44217604a18006a4c6e942c7",
+  "zhHash": "262f78a584f265afca22bb3679c08b804b18aa69dbc6d486c691f471ace13ffd",
+  "enHash": "9bf3a7fac8ad56347ac2dc4495bfaac99e77ec01170dfa854867426ca8be6337",
+  "translationBasisHash": "262f78a584f265afca22bb3679c08b804b18aa69dbc6d486c691f471ace13ffd",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "ae5c7826fdfd2d1a908c8dd4ddc40470af7f3420d94a6ff7ab16862a45f2ff0c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:17:28.864Z"
+}

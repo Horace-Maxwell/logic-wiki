@@ -1,0 +1,13 @@
+---
+import katex from 'katex';
+import {sources} from '../data/sources.mjs';
+const {section:s,lang}=Astro.props;
+const math=(value:string)=>katex.renderToString(value,{throwOnError:true,displayMode:false});
+---
+{s.body?.[lang]?.split('\n\n').map((p:string)=><p>{p}</p>)}
+{s.formula&&<div class="formula" set:html={katex.renderToString(s.formula,{throwOnError:true,displayMode:true})}/>}
+{s.steps&&<ol class="reasoning-steps">{s.steps.map((step:any)=><li>{step[lang]}</li>)}</ol>}
+{s.table&&<div class="study-table" tabindex="0" role="region" aria-label={s.table.caption[lang]}><table><caption>{s.table.caption[lang]}</caption><thead><tr>{s.table.headers.map((h:any)=><th scope="col">{h[lang]}</th>)}</tr></thead><tbody>{s.table.rows.map((r:any[])=><tr>{r.map(c=><td>{c[lang]}</td>)}</tr>)}</tbody></table></div>}
+{s.proof&&<div class="study-table" tabindex="0" role="region" aria-label={lang==='zh'?'逐行证明':'Line-by-line proof'}><table class="proof-table"><caption>{s.proof.caption[lang]}</caption><thead><tr><th scope="col">{lang==='zh'?'行':'Line'}</th><th scope="col">{lang==='zh'?'命题与假设范围':'Formula and scope'}</th><th scope="col">{lang==='zh'?'依据':'Justification'}</th></tr></thead><tbody>{s.proof.lines.map((line:any,i:number)=><tr><td>{i+1}</td><td><span class="proof-formula" style={`--depth:${line.depth||0}`}><span class="scope-marker" aria-hidden="true">{'│ '.repeat(line.depth||0)}</span><span set:html={math(line.formula)}/></span></td><td>{line.rule[lang]}</td></tr>)}</tbody></table></div>}
+{s.practice&&<div class="transfer-practice">{s.practice.map((q:any,i:number)=><div class="practice-card" id={`${q.id}-${lang}`}><h3>{lang==='zh'?'独立练习':'Independent exercise'} {i+1}</h3><p>{q.prompt[lang]}</p><details><summary>{lang==='zh'?'查看答案与推理过程':'Show answer and reasoning'}</summary><p>{q.answer[lang]}</p>{q.steps&&<ol>{q.steps.map((step:any)=><li>{step[lang]}</li>)}</ol>}</details></div>)}</div>}
+{s.readings&&<p class="section-reading">{lang==='zh'?'本节依据：':'Section sources: '}{s.readings.map((r:any,i:number)=><>{i>0?' · ':''}<a href={r.url||sources.find(x=>x.id===r.sourceId)?.url} target="_blank" rel="noreferrer">{r.locator[lang]} ↗</a></>)}</p>}

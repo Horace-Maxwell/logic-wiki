@@ -1,0 +1,186 @@
+[
+  {
+    "id": "equivocation",
+    "candidateHash": "d0bc59b2d30a598884be45c64fa6691f42a32aac6cb89721b60686f90f9c7e94",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "free的未占用与免费两义保留原词，中文不用强造双关；开放报名与开源各自说明无跨义推断。",
+      "逐篇完整双语基础及扩展、例题均已读；按固定Humanizer语言编辑后独立对齐词义、范围、条件和推理强度，引用按此前实际查阅范围。",
+      "算数与非谬误对照已核，呈现用共享组件真实预览及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "amphiboly",
+    "candidateHash": "6fb347355c4c4777ab566b787b47ff1d3e6776a98512bcec4eb40fafeb787aa5",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "明确句法两解析未指定原意不能选定；望远镜即使携带也不保证所有权，练习保留信息不足；原老师例经改写指定二人。",
+      "逐篇完整双语基础及扩展、例题均已读；按固定Humanizer语言编辑后独立对齐词义、范围、条件和推理强度，引用按此前实际查阅范围。",
+      "算数与非谬误对照已核，呈现用共享组件真实预览及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "accent",
+    "candidateHash": "85133fce7aee3b4179c19f56f78cb0ac65b780e00130e2e35b758bfdd25c2c22",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "离线条件删去不支持在线提速，简短保留条件并非错误；重音今天不证明其他日子迟到，强调形式本身不判错。",
+      "逐篇完整双语基础及扩展、例题均已读；按固定Humanizer语言编辑后独立对齐词义、范围、条件和推理强度，引用按此前实际查阅范围。",
+      "算数与非谬误对照已核，呈现用共享组件真实预览及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "composition",
+    "candidateHash": "61aed672fd09ea5cc0fc97390d4be28ee49fce767f97310aee1cbac1d20fc300",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "电池10×100=1000克另有包装，四收费合计14英文补元单位；集体与逐人可行性区别及相加条件保留。",
+      "逐篇完整双语基础及扩展、例题均已读；按固定Humanizer语言编辑后独立对齐词义、范围、条件和推理强度，引用按此前实际查阅范围。",
+      "算数与非谬误对照已核，呈现用共享组件真实预览及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "division",
+    "candidateHash": "eadc20a66cd6a52695e5132c1a39132f567b2155d09760cbf787174b4a53c350",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "总100页与平均40页原易读成同一组，改明另一个团队；非负可加总9千克约束每部分≤9，无条件从平均推小林12分钟错误。",
+      "逐篇完整双语基础及扩展、例题均已读；按固定Humanizer语言编辑后独立对齐词义、范围、条件和推理强度，引用按此前实际查阅范围。",
+      "算数与非谬误对照已核，呈现用共享组件真实预览及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "reification",
+    "candidateHash": "9fd77d5e9f1fc2c306e9b51532b7ba3f8d69b6db21043c39abd618a7bb477e91",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "简定义原仅独立行动者过窄，扩展为具体对象属性或能动性，与2.4人平均例匹配；委员会经表决简写可核验。",
+      "逐篇完整双语基础及扩展、例题均已读；按固定Humanizer语言编辑后独立对齐词义、范围、条件和推理强度，引用按此前实际查阅范围。",
+      "算数与非谬误对照已核，呈现用共享组件真实预览及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "etymological-fallacy",
+    "candidateHash": "15e29248ee2d51d3ea067d1e40582dae9544a9761f6d21995249a37c8180f252",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "虚构nava词史明确不当真实语言史；现义扩展与同期手稿释义分开，术语规范依据公开约定不是词源禁令。",
+      "逐篇完整双语基础及扩展、例题均已读；按固定Humanizer语言编辑后独立对齐词义、范围、条件和推理强度，引用按此前实际查阅范围。",
+      "算数与非谬误对照已核，呈现用共享组件真实预览及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "persuasive-definition",
+    "candidateHash": "3cd559f64af91fe8d4005d36d3b08866063f7ca782387bc9b89555f9c6b6348b",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "价值词不天然错误，投票结果写入理性标签无独立依据；准时操作定义限定测量未推作品质量。",
+      "逐篇完整双语基础及扩展、例题均已读；按固定Humanizer语言编辑后独立对齐词义、范围、条件和推理强度，引用按此前实际查阅范围。",
+      "算数与非谬误对照已核，呈现用共享组件真实预览及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  }
+]

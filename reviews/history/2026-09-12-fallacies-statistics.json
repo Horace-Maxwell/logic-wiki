@@ -1,0 +1,186 @@
+[
+  {
+    "id": "relative-risk",
+    "candidateHash": "b1076f8e5e3f66e6074b027eddfc1bf78c4b5f5c0ac82911c6a7b753e6ca9e0c",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "4%至3%为1百分点/25%/比.75；10至15及返回分母不同；0.8至0.4为.4百分点，3至6为3百分点，零分母未定义。",
+      "逐篇完整中英内容、表格、练习均已审读；按固定Humanizer编辑后另核语义等值，来源依实际查阅范围，FDR原论文只引用已读摘要。",
+      "所有出现的数值例重算，结合现有表格与概率回归测试；呈现依据共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "denominator-neglect",
+    "candidateHash": "b9c9a65efc38a4c9f7c5dd0a8d4c5aea28799bfe04b31d18484d694b43012c64",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "20/10000=.2%，5/1000=.5%，计数方向与率方向相反；工单工作量可用总量，未把单位统一当消除任务构成差异。",
+      "逐篇完整中英内容、表格、练习均已审读；按固定Humanizer编辑后另核语义等值，来源依实际查阅范围，FDR原论文只引用已读摘要。",
+      "所有出现的数值例重算，结合现有表格与概率回归测试；呈现依据共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "misleading-average",
+    "candidateHash": "f4275ab323374ceb6318746c049d4bfd3655aa211186d53afd627dded52b9101",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "九个1加91均10中位1；班级10×90+30×50后除40=60而等权班均70；2/2/2/14均5中位2，区别目标。",
+      "逐篇完整中英内容、表格、练习均已审读；按固定Humanizer编辑后另核语义等值，来源依实际查阅范围，FDR原论文只引用已读摘要。",
+      "所有出现的数值例重算，结合现有表格与概率回归测试；呈现依据共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "ecological-fallacy",
+    "candidateHash": "3ef676bed3cf3b1cedc14c967f997ea0d65a45184c4b3c637cb98a9c1da9baaf",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "100人50受训60通过的两表边际正确，受训通过率20%与100%；自行车题原拥有者变骑车者，现中英统一拥有者，集中检验层级。",
+      "逐篇完整中英内容、表格、练习均已审读；按固定Humanizer编辑后另核语义等值，来源依实际查阅范围，FDR原论文只引用已读摘要。",
+      "所有出现的数值例重算，结合现有表格与概率回归测试；呈现依据共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "atomistic-fallacy",
+    "candidateHash": "1f7dd8c35cea0eef87c4cdf0ad435b32bf21a7796481e17d62db29030ae81da9",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "组内X/Y同升，组均(1.5,8.5)/(3.5,4.5)反向核对；优惠券并发改变条件，完整工时加总有明确规则。",
+      "逐篇完整中英内容、表格、练习均已审读；按固定Humanizer编辑后另核语义等值，来源依实际查阅范围，FDR原论文只引用已读摘要。",
+      "所有出现的数值例重算，结合现有表格与概率回归测试；呈现依据共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "p-value-misinterpretation",
+    "candidateHash": "12393186717842ecaef4130ada2243075e4c16b4b0012251136250618ec9d31d",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "p=.08不为后验，尾部统计量非精确数据概率；宽区间未显著不等效，独立等效目标须预设界值。",
+      "逐篇完整中英内容、表格、练习均已审读；按固定Humanizer编辑后另核语义等值，来源依实际查阅范围，FDR原论文只引用已读摘要。",
+      "所有出现的数值例重算，结合现有表格与概率回归测试；呈现依据共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "confidence-interval-error",
+    "candidateHash": "07e87ce2f9044498b3072b3ac68c0034d9fa90a4677e4611fe8249a3919da71f",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "固定参数/随机区间/未来观测/后验对象区分；[9,11]均值区间不覆盖95%个体，100次不保证恰95覆盖。",
+      "逐篇完整中英内容、表格、练习均已审读；按固定Humanizer编辑后另核语义等值，来源依实际查阅范围，FDR原论文只引用已读摘要。",
+      "所有出现的数值例重算，结合现有表格与概率回归测试；呈现依据共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "multiple-testing",
+    "candidateHash": "bc1daa66770496896d57b5ce9686add8ae3e08da4b222c68e58552d87ef318aa",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "FDR为比例期望且零拒绝时为0，FWER为至少一误报；Bonferroni无需独立但单检验有效，十次1−.95^10=40.13%，20次约64.15%。",
+      "逐篇完整中英内容、表格、练习均已审读；按固定Humanizer编辑后另核语义等值，来源依实际查阅范围，FDR原论文只引用已读摘要。",
+      "所有出现的数值例重算，结合现有表格与概率回归测试；呈现依据共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  }
+]

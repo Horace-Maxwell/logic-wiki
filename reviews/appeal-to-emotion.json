@@ -1,0 +1,38 @@
+{
+  "id": "appeal-to-emotion",
+  "candidateHash": "cb08f7a6b9e2c3891cf790a7fe515aa2a9d7b596c3ded5635343ba7dd8e14340",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "视频情绪未核事件归属；可用性体验是直接研究对象且配行为记录，家族变体不当作多份独立反驳。",
+    "完整双语单元含基础案例、扩展、练习均已审读，按固定Humanizer完成语言编辑并另作语义对照，来源依此前已查阅范围。",
+    "习题逐项核对适用条件、结论强度和正反边界；呈现依共享组件实际预览与全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "cb08f7a6b9e2c3891cf790a7fe515aa2a9d7b596c3ded5635343ba7dd8e14340",
+  "zhHash": "22f443ade8b6ee3853ee7e35bcdbaaca0fe28e1698590f94f2f05703d09d097c",
+  "enHash": "3dd8ccf66dc1a639a871f36d2353a9fa676a1456d6851242b0d15985549579f8",
+  "translationBasisHash": "22f443ade8b6ee3853ee7e35bcdbaaca0fe28e1698590f94f2f05703d09d097c",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:16:31.299Z"
+}

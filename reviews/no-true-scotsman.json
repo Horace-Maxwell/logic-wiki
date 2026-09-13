@@ -1,0 +1,38 @@
+{
+  "id": "no-true-scotsman",
+  "candidateHash": "f1c451d133176a646411f28181c369ff9250ea04c4f7992be312b9edd19b82e3",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "原读者案例一开始就说真正，未显示改定义；改为先所有读者再遇反例排除，结构也改正。素数4有1/2/4三正因数，预先定义排除合理。",
+    "全单元中英基础与扩展正文、例证、独立题已读；固定Humanizer编辑后分别检查语义范围、否定与结论强度。来源依据此前实际查阅和公开范围。",
+    "算数及逻辑对照逐项核对；呈现结合共享组件浏览器与全站静态检查，未声称逐页视觉或专家评审。"
+  ],
+  "contentHash": "f1c451d133176a646411f28181c369ff9250ea04c4f7992be312b9edd19b82e3",
+  "zhHash": "6760b90a08f511c417022bad6b713147e05d3369a0276594d967ad3e7619f7a0",
+  "enHash": "89b5c544efbcc6588e4e57626d0cd4bf0a313a9a761494360f2049c8c6cb2bb4",
+  "translationBasisHash": "6760b90a08f511c417022bad6b713147e05d3369a0276594d967ad3e7619f7a0",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:17:28.862Z"
+}

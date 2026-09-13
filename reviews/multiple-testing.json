@@ -1,0 +1,38 @@
+{
+  "id": "multiple-testing",
+  "candidateHash": "bc1daa66770496896d57b5ce9686add8ae3e08da4b222c68e58552d87ef318aa",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "FDR为比例期望且零拒绝时为0，FWER为至少一误报；Bonferroni无需独立但单检验有效，十次1−.95^10=40.13%，20次约64.15%。",
+    "逐篇完整中英内容、表格、练习均已审读；按固定Humanizer编辑后另核语义等值，来源依实际查阅范围，FDR原论文只引用已读摘要。",
+    "所有出现的数值例重算，结合现有表格与概率回归测试；呈现依据共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "bc1daa66770496896d57b5ce9686add8ae3e08da4b222c68e58552d87ef318aa",
+  "zhHash": "54608415b21cc793ad0289b1df15e9f5426f7e6e7a8256b93b3e4676ab1b9a03",
+  "enHash": "254f501266250164321eb3c8e844a1658ab5c409339f71740308630f7a9a393d",
+  "translationBasisHash": "54608415b21cc793ad0289b1df15e9f5426f7e6e7a8256b93b3e4676ab1b9a03",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "071c1ed1c5774970e6ccf544a6d37ebd53f2833df7218e5b36c5dbbab29f9d6c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:19:56.689Z"
+}

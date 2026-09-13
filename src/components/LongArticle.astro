@@ -1,0 +1,20 @@
+---
+import Backlinks from './Backlinks.astro';
+import SectionBody from './SectionBody.astro';
+import katex from 'katex';
+import LogicLab from './LogicLab';
+import Comparisons from './Comparisons.astro';
+import {findUnit} from '../data/catalog.mjs';
+import Citations from './Citations.astro';
+import {labels} from '../data/i18n.mjs';
+const {entry:e,lang,bilingual=false}=Astro.props;const l=labels[lang as 'zh'|'en'];
+---
+<div class="article-grid"><article class="article" data-pagefind-body data-pagefind-filter={`type:${e.kind==='case'?(lang==='zh'?'真实案例':'Case studies'):(lang==='zh'?'逻辑导读':'Guides')}`}><header class="article-header"><div class="breadcrumb"><a href={`/${lang}/${e.kind==='case'?'cases':'knowledge'}/`}>{e.kind==='case'?l.cases:l.knowledge}</a></div><h1 data-pagefind-meta="title">{e.title[lang]}</h1><p class="english-title">{e.title[lang==='zh'?'en':'zh']}</p><p class="lead">{e.lead[lang]}</p><div class="toolbar" data-pagefind-ignore><a data-preserve-position href={`/${lang}/${bilingual?'wiki':'bilingual'}/${e.id}/`}>{bilingual?l.single:l.compare}</a><button data-print>{l.print}</button></div></header>
+{e.date&&<p class="small">{e.dateRole?.[lang]||(lang==='zh'?'来源日期':'Source date')} · {e.date}</p>}
+{e.quote&&<section id="original"><h2>{lang==='zh'?'原始材料':'Original material'}</h2><p class="small">{lang==='zh'?'原文短摘（含标题片段）；本站译文':'Short source excerpt (including title fragments); our translation'}</p>{(lang==='zh'||bilingual)&&<blockquote>{e.quoteTranslation.zh}</blockquote>}<details open={lang==='en'}><summary>{lang==='zh'?'查看英文原文':'Read the English original'}</summary><blockquote class="original-quote" lang="en">{e.quote}</blockquote></details><p class="small"><a href={e.primaryUrl} target="_blank" rel="noreferrer">{l.source} ↗</a></p></section>}
+{e.formula&&<div class="math" set:html={katex.renderToString(e.formula,{displayMode:true,throwOnError:true})}/>}
+{e.id==='truth-tables'&&<LogicLab id="affirming-consequent" lang={lang} client:visible/>}
+{e.sections.map((s:any)=><section id={s.id} class:list={{'bilingual-section':bilingual}}>{e.kind==='case'?<><h2>{s.title[lang]}</h2><details class="case-step" open={s.id==='background'}><summary>{lang==='zh'?'展开本步内容':'Open this step'}</summary>{bilingual?<div class="bilingual-grid">{(['zh','en'] as const).map(code=><div lang={code==='zh'?'zh-CN':'en'}><h3>{s.title[code]}</h3><SectionBody section={s} lang={code}/></div>)}</div>:<SectionBody section={s} lang={lang}/>}</details></>:bilingual?<div class="bilingual-grid">{(['zh','en'] as const).map(code=><div lang={code==='zh'?'zh-CN':'en'}><h2>{s.title[code]}</h2><SectionBody section={s} lang={code}/></div>)}</div>:<><h2>{s.title[lang]}</h2>{<SectionBody section={s} lang={lang}/>}</>}</section>)}
+<Comparisons lang={lang} entryId={e.id} bilingual={bilingual}/>
+{e.related?.length>0&&<section id="related"><h2>{l.related}</h2><div class="related-links">{e.related.map((id:string)=><a href={`/${lang}/wiki/${id}/`}>{findUnit(id)?.title[lang as 'zh'|'en']}</a>)}</div></section>}
+<Backlinks id={e.id} lang={lang}/><section id="refs"><h2>{l.refs}</h2><Citations entry={e} lang={lang}/></section><div class="editorial-note"><a href={`/${lang}/editorial/`}>{l.review}</a></div></article><aside class="toc"><h2>{l.contents}</h2>{e.sections.map((s:any)=><a href={`#${s.id}`}>{s.title[lang]}</a>)}<a href="#refs">{l.refs}</a></aside></div>

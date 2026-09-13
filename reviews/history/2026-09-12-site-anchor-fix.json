@@ -1,0 +1,50 @@
+[
+  {
+    "id": "site-copy",
+    "candidateHash": "f5b576b2ef6fe9d501a5bd34ba56d664e1e1a2806ebf7c7c9c776502da12894c",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [
+      {
+        "rule": "placeholder",
+        "path": "files.17.1",
+        "type": "quoted-or-discussed",
+        "reason": "中文编辑制度在说明自动扫描阻止“占位文字”的规则，文本完整；该词是讨论对象，不是待完成正文。"
+      }
+    ],
+    "previousReceiptHash": "4c1627c5f94194017d8183715580b75f1404c2af18cc977035f65c76cc7a5a82",
+    "notes": [
+      "沿用此前已完成且未改动的导航、搜索、反馈与阅读路径审校；本次逐项比较已暂存基线与现稿差异，完整阅读新增SectionBody、双语MDX、比较数据、术语化界面标签、Shell及维护说明。不是声称重新逐页阅读719页。",
+      "新增表格、证明、分步题与来源定位标签完成中英Humanizer及语义核查；README更新99来源/202选择题/110分步题，编辑维护说明去掉旧复用题的现行表述；Shell去掉无范围的complete修饰。",
+      "所有170单元已逐篇完成本轮编辑与语义复核，章节标题继承各自单元；API新增分步题与章节索引无独立读者文案。已验证的共用表格、双语案例、练习浏览器流程及静态检查作为呈现依据，最终生产回归单独记入QA。",
+      "明确保留规则讨论中的占位文字扫描例外，绑定当前文件与哈希，不放宽扫描规则。来源补记与已核验范围一致，原专家审稿否认保留。",
+      "最终Preview发现语言切换保留hash但展开后未滚动。修改openHash在展开后下一帧定位，并处理无效编码；无可见文案变动，沿用已完成语言编辑。功能修复另作浏览器回归。"
+    ],
+    "contentHash": "7ad7b54ce3938438c4a643e6fe11b9a22ec5560cf3cd37ab9198edc2cf81906e",
+    "zhHash": "7ad7b54ce3938438c4a643e6fe11b9a22ec5560cf3cd37ab9198edc2cf81906e",
+    "enHash": "7ad7b54ce3938438c4a643e6fe11b9a22ec5560cf3cd37ab9198edc2cf81906e",
+    "translationBasisHash": "7ad7b54ce3938438c4a643e6fe11b9a22ec5560cf3cd37ab9198edc2cf81906e",
+    "environment": {
+      "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+      "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+      "glossaryVersion": "1.0.0",
+      "sources": "50a566700678511d5785128a639268ac811e3134047c3033433f4b8bccd0e118",
+      "versions": {
+        "en": "3.0.0",
+        "zh": "2.9.1-zh.2"
+      }
+    },
+    "recordedAt": "2026-09-13T00:21:46.233Z"
+  }
+]

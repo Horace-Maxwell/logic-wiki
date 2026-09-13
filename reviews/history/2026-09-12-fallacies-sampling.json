@@ -1,0 +1,163 @@
+[
+  {
+    "id": "biased-sample",
+    "candidateHash": "78aa2c68da42cebb46beeb574fe497afdbe307f625f92420b01ad44b115c9529",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "白班框内随机不补夜班覆盖，中文补随机与英文对齐；600数目不单独确证偏差，允许信息不足。",
+      "完整双语单元审读后按固定Humanizer编辑，并另核语义与练习支持范围；来源依实际查阅的已登记章节。",
+      "分母与界限逐项复算，呈现采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审查。"
+    ]
+  },
+  {
+    "id": "nonresponse-bias",
+    "candidateHash": "4ab40a5ce5432725475b003df54f844c1a9d732a268178c741209ca486cdf9ef",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "30/40回复赞成不等于190/200，被邀请者范围30至190复算；第二题替换重复的追访对照为80/100已赞成的下界，未答任意值不降至80%以下。",
+      "完整双语单元审读后按固定Humanizer编辑，并另核语义与练习支持范围；来源依实际查阅的已登记章节。",
+      "分母与界限逐项复算，呈现采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审查。"
+    ]
+  },
+  {
+    "id": "voluntary-response",
+    "candidateHash": "279514652a54dc6a8fd5a7efb1d974025562efa9e1314a51677278f4da4826e0",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "网上媒介与开放自选/自愿同意区分，粉丝传播90%不全城；随机个人链接不因在线就变自选。",
+      "完整双语单元审读后按固定Humanizer编辑，并另核语义与练习支持范围；来源依实际查阅的已登记章节。",
+      "分母与界限逐项复算，呈现采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审查。"
+    ]
+  },
+  {
+    "id": "survivorship-bias",
+    "candidateHash": "5ad640b5b63edee0de58ff8f090d934b5810be980fe4bb40f34333c2619f7737",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "原100人只确认25完成，未把余75设为失败或完成；访谈限留存者允许，存活机制不限生死。",
+      "完整双语单元审读后按固定Humanizer编辑，并另核语义与练习支持范围；来源依实际查阅的已登记章节。",
+      "分母与界限逐项复算，呈现采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审查。"
+    ]
+  },
+  {
+    "id": "anecdotal-evidence",
+    "candidateHash": "6529a79cb4b1cf9ded89331dba6ddfd1e6595f682e11fe28cc065aaa3e478dd6",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "一实例可反驳从未但不估频率，打印机确证卡纸与全线晚点强度区分；重新核验forallx第2/3章，将有效性与反例链接改到第2章。",
+      "完整双语单元审读后按固定Humanizer编辑，并另核语义与练习支持范围；来源依实际查阅的已登记章节。",
+      "分母与界限逐项复算，呈现采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审查。"
+    ]
+  },
+  {
+    "id": "weak-analogy",
+    "candidateHash": "7cb78b07e03bfdc424c249f0896e340774fc95375d383a2361a71b9305b6bc3c",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "相似数量不代目标相关机制；封面/页数不保证难度，排队规则结构的有限假说保留容量差异待测。",
+      "完整双语单元审读后按固定Humanizer编辑，并另核语义与练习支持范围；来源依实际查阅的已登记章节。",
+      "分母与界限逐项复算，呈现采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审查。"
+    ]
+  },
+  {
+    "id": "accident",
+    "candidateHash": "25355df1cf969df2693296019bf0abbdcc39a23ad501007131fa65586cb32d2d",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "规则通常与全称区分；带电部件明确除外条件不能截去，故障延期事先明示同等应用；逻辑诊断不授予制度豁免。",
+      "完整双语单元审读后按固定Humanizer编辑，并另核语义与练习支持范围；来源依实际查阅的已登记章节。",
+      "分母与界限逐项复算，呈现采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审查。"
+    ]
+  }
+]

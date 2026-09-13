@@ -1,0 +1,38 @@
+{
+  "id": "moving-goalposts",
+  "candidateHash": "89ada988cfa264f2277c990af89e0e532f5f637e38d826b664645247486d2ab9",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "写作奖不影响复算计数；新增时钟校准要求有新的相关缺陷，不因标准变就判错；有限主张不要求无限保证。",
+    "完整双语基础、扩展、习题及额外多解反馈均已读，执行固定Humanizer编辑后再比较语义、主体、时间和推理对象；引用依据此前实际查阅，Shackel后续说明与简化教学应用区分。",
+    "实际计算及反例逻辑核验；呈现采用共享组件浏览器和全站静态检查，不声称逐页视觉或专家审稿。"
+  ],
+  "contentHash": "89ada988cfa264f2277c990af89e0e532f5f637e38d826b664645247486d2ab9",
+  "zhHash": "dc87823d426548cb288d5b525b2f7113df15a6769356560187ade2ec482005ac",
+  "enHash": "d11593465473482d9e80eb79eb37f9784de7d2c9af790f9073b8165f5d282f86",
+  "translationBasisHash": "dc87823d426548cb288d5b525b2f7113df15a6769356560187ade2ec482005ac",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "ae5c7826fdfd2d1a908c8dd4ddc40470af7f3420d94a6ff7ab16862a45f2ff0c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:20:28.996Z"
+}

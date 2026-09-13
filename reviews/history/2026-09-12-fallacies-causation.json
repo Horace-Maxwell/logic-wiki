@@ -1,0 +1,186 @@
+[
+  {
+    "id": "post-hoc",
+    "candidateHash": "88f0c2738a5a8feda2761b234519afa87cef095c47a49b2347b75de7008d8064",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "标志更换与同期首页推荐未分离，不能断全部标志功劳也不反推无效；随机切换测试保留残留影响条件。",
+      "已逐篇阅读所有中英基础、扩展和练习，固定Humanizer语言编辑后另核语义、因果方向和证据强度。引用依本轮已实际查阅范围；BMJ受限访问仍明确为索引节选。",
+      "计算结合手算和已有枚举测试，呈现结合共用组件预览与全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "correlation-causation",
+    "candidateHash": "c2a23b54e72c47fe1c54b75c33776d0e1ff666f5c8c8f91e7c1d0acc3dd8f946",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "工单记录干预不自动降低实际故障，观察/干预及叉/碰撞结构正确；负载告警仅预测不误当因果。",
+      "已逐篇阅读所有中英基础、扩展和练习，固定Humanizer语言编辑后另核语义、因果方向和证据强度。引用依本轮已实际查阅范围；BMJ受限访问仍明确为索引节选。",
+      "计算结合手算和已有枚举测试，呈现结合共用组件预览与全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "reverse-causation",
+    "candidateHash": "2b35108648de9178aefc2875f58575044adb4625c7c6d140b5aef3a5cc5edf12",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "漏水在派维修队之前，不能由队员数量解释此前漏水；反馈与共同原因保留为候选，不擅自确定反向。",
+      "已逐篇阅读所有中英基础、扩展和练习，固定Humanizer语言编辑后另核语义、因果方向和证据强度。引用依本轮已实际查阅范围；BMJ受限访问仍明确为索引节选。",
+      "计算结合手算和已有枚举测试，呈现结合共用组件预览与全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "common-cause",
+    "candidateHash": "40955212393dc70a58c70d2c846bcce2b12999aa3810be9c8cdc0cb3d302d20b",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "活动人数同时影响总量，不能再跳每人行为；控制C题因果位置未知保留信息不足，不把控制越多当越好。",
+      "已逐篇阅读所有中英基础、扩展和练习，固定Humanizer语言编辑后另核语义、因果方向和证据强度。引用依本轮已实际查阅范围；BMJ受限访问仍明确为索引节选。",
+      "计算结合手算和已有枚举测试，呈现结合共用组件预览与全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "single-cause",
+    "candidateHash": "a0493beffe7e9434695874de4684240e7bebb16083b761839153488bbf3a39f5",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "灯亮合取条件与机器电源/许可真值反例正确；边际因素研究非唯一原因，因果贡献不强求独立加总100%。",
+      "已逐篇阅读所有中英基础、扩展和练习，固定Humanizer语言编辑后另核语义、因果方向和证据强度。引用依本轮已实际查阅范围；BMJ受限访问仍明确为索引节选。",
+      "计算结合手算和已有枚举测试，呈现结合共用组件预览与全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "regression-fallacy",
+    "candidateHash": "265fc8fc59d77d46f07c87f5a0592c27ba6f592a2d86c6aabd194a9fb9d6950a",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "50±10独立等概率模型，筛首60后次均50且可能60，复算；中文组平均“可能较普通”改为期望不再极端，与英文相称。",
+      "已逐篇阅读所有中英基础、扩展和练习，固定Humanizer语言编辑后另核语义、因果方向和证据强度。引用依本轮已实际查阅范围；BMJ受限访问仍明确为索引节选。",
+      "计算结合手算和已有枚举测试，呈现结合共用组件预览与全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "confusing-cause-reason",
+    "candidateHash": "5748fa48a0bce2cf97a051cda02595745b5ecdbf4c37ed861795d2e6424bbbb6",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "信念成因、支持理由、行为正当性三问题分开；演练记忆影响目击权重不证明事件没发生。",
+      "已逐篇阅读所有中英基础、扩展和练习，固定Humanizer语言编辑后另核语义、因果方向和证据强度。引用依本轮已实际查阅范围；BMJ受限访问仍明确为索引节选。",
+      "计算结合手算和已有枚举测试，呈现结合共用组件预览与全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "causal-direction-from-mechanism",
+    "candidateHash": "cc49b72cf3e60802391e6a0f42134ab432aa8db5c4e884b860fcbefbfe23de40",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "字节减半不保证总等待减半，压缩/解压/排队未测；缓存机制用于预测并检验最终时间，保持可能和实测区别。",
+      "已逐篇阅读所有中英基础、扩展和练习，固定Humanizer语言编辑后另核语义、因果方向和证据强度。引用依本轮已实际查阅范围；BMJ受限访问仍明确为索引节选。",
+      "计算结合手算和已有枚举测试，呈现结合共用组件预览与全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  }
+]

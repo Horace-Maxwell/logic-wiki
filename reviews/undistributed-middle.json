@@ -1,0 +1,40 @@
+{
+  "id": "undistributed-middle",
+  "candidateHash": "56f63087e076351b860854b47e39dcc2677be0427dea8f425746ed400ac34a89",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "四种直言命题周延表与现代空类解释对照；备份/视频共同超类非包含，红标签链有效；中项周延不是充分保证。",
+    "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+    "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。",
+    "本单元正文未变；复核forallx文献定位仅补记已查阅的8、37章与新读48章，仍为指定段落而非全书，重新绑定元数据。沿用上述真实语言审校，并非重新阅读所有引用文献。"
+  ],
+  "contentHash": "56f63087e076351b860854b47e39dcc2677be0427dea8f425746ed400ac34a89",
+  "zhHash": "1872034ac3f52b1c6730fac4ff9ecbdacf287829a4a24ff510b59e5c6d6e9881",
+  "enHash": "b2cba14875b9a79dadc26e46d5e9264412f2f77dcebfcfba5e63315388e8547b",
+  "translationBasisHash": "1872034ac3f52b1c6730fac4ff9ecbdacf287829a4a24ff510b59e5c6d6e9881",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "118c528a4e5b491abdca2c26387372c0de4f369e529c82c07010962508fa3d24",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:21:30.493Z",
+  "previousReceiptHash": "0be2a57e1f232b6544e99916f3e43a42d241b84ad78d15e987c62291ebcddc09"
+}

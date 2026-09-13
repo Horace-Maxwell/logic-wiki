@@ -1,0 +1,38 @@
+{
+  "id": "appeal-to-tradition",
+  "candidateHash": "20841a0d2a5bb72db2945c72c37252cbc2b6013d05e03bd7ed05f82201421054",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "明确文化连续性可以是目标；密码格式与当前规则不兼容，档案保留因字段丢失而非年资，反传统也不以年代判坏。",
+    "完整双语单元含基础案例、扩展、练习均已审读，按固定Humanizer完成语言编辑并另作语义对照，来源依此前已查阅范围。",
+    "习题逐项核对适用条件、结论强度和正反边界；呈现依共享组件实际预览与全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "20841a0d2a5bb72db2945c72c37252cbc2b6013d05e03bd7ed05f82201421054",
+  "zhHash": "ade9bf9100a157eaf5f62d772813b1c6d8ace9255635a2ec4a907d2bbfbd0ecf",
+  "enHash": "62b7f7c31b01d72c2a91faf8cd68f36526c14bf3a54ce3377c6a38adf24a3797",
+  "translationBasisHash": "ade9bf9100a157eaf5f62d772813b1c6d8ace9255635a2ec4a907d2bbfbd0ecf",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:16:31.297Z"
+}

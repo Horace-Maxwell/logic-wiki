@@ -1,0 +1,8 @@
+---
+import {sources,accessLabels} from '../data/sources.mjs';
+const {entry:e,lang}=Astro.props;
+const chapters:Record<string,number[]>={
+'what-is-logic':[1,2],'arguments':[1],'validity':[2],'soundness':[3,22],'inference-types':[2],'counterexamples':[2,12],'consistency':[3,12],'conditionals':[5],'connectives':[5,9],'truth-tables':[9,11,12],'logical-equivalence':[12],'natural-deduction':[17],'proof-strategies':[18],'quantifiers':[24,36],'quantifier-scope':[25,38],'identity':[26],'models':[31,32],'relations':[35],'metalogic':[22],
+'affirming-consequent':[5,12],'denying-antecedent':[5,12],'affirming-disjunct':[5,9],'denying-conjunct':[9,12],'existential-fallacy':[24,32],'quantifier-shift':[25],'quantifier-negation':[38],'illicit-conversion':[24,32]};
+---
+<ol class="references">{e.refs.map((id:string)=>{const s=sources.find(s=>s.id===id);return s&&<li><a href={s.url} target="_blank" rel="noreferrer">{s.title} ↗</a><div class="source-locator">{s.author} · {accessLabels[s.access as keyof typeof accessLabels]?.[lang as 'zh'|'en']}</div>{id==='forallx'&&chapters[e.id]?<div class="related-links">{chapters[e.id].map(n=><a href={`https://forallx.openlogicproject.org/html/Ch${n}.html`} target="_blank" rel="noreferrer">{lang==='zh'?`第 ${n} 章`:`Chapter ${n}`}</a>)}</div>:<div class="source-locator">{s.locator}</div>}<a class="small" href={`/${lang}/sources/#${s.id}`}>{lang==='zh'?'版本、许可与查阅范围':'Version, terms, and access scope'}</a></li>})}</ol>

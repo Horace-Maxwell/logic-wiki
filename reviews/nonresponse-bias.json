@@ -1,0 +1,38 @@
+{
+  "id": "nonresponse-bias",
+  "candidateHash": "4ab40a5ce5432725475b003df54f844c1a9d732a268178c741209ca486cdf9ef",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "30/40回复赞成不等于190/200，被邀请者范围30至190复算；第二题替换重复的追访对照为80/100已赞成的下界，未答任意值不降至80%以下。",
+    "完整双语单元审读后按固定Humanizer编辑，并另核语义与练习支持范围；来源依实际查阅的已登记章节。",
+    "分母与界限逐项复算，呈现采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审查。"
+  ],
+  "contentHash": "4ab40a5ce5432725475b003df54f844c1a9d732a268178c741209ca486cdf9ef",
+  "zhHash": "2ce85a1351eaad05fadc93216899caa00e46fb7f12067d6f82cac2376886601c",
+  "enHash": "0e6a85fbbc464fc97ee270a44f83a7b9f7b76966cbcc90bf625a7eee41dafd2d",
+  "translationBasisHash": "2ce85a1351eaad05fadc93216899caa00e46fb7f12067d6f82cac2376886601c",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "8dfd4e32981689fcbe16030d7053289037134023bb4e1b7be0d15322aec56031",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:18:33.419Z"
+}

@@ -1,0 +1,7 @@
+---
+import {comparisons} from '../data/comparisons.mjs';
+import {findUnit} from '../data/catalog.mjs';
+const {lang,entryId,bilingual=false}=Astro.props;const items=entryId?comparisons.filter(c=>c.ids.includes(entryId)):comparisons;
+const languages:('zh'|'en')[]=bilingual?['zh','en']:[lang];
+---
+{items.length>0&&<section id="distinguish" class:list={{'bilingual-section':bilingual}}><div class:list={{'bilingual-grid':bilingual}}>{languages.map(code=><div lang={code==='zh'?'zh-CN':'en'}><h2>{code==='zh'?'把相似的说法分开看':'Distinguishing similar arguments'}</h2>{items.map(c=><section class="contrast-study"><h3>{c.title[code]}</h3><p class="contrast-question">{c.question[code]}</p><div class="comparison-pair"><div><h4>{code==='zh'?'推理跳跃':'Unsupported step'}</h4><p>{c.bad[code]}</p></div><div><h4>{code==='zh'?'有依据的用法':'Supported use'}</h4><p>{c.good[code]}</p></div></div><div class="related-links">{c.ids.map(id=><a href={`/${code}/wiki/${id}/`}>{findUnit(id)?.title[code]}</a>)}</div></section>)}</div>)}</div></section>}

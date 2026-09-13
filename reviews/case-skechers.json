@@ -1,0 +1,38 @@
+{
+  "id": "case-skechers",
+  "candidateHash": "3f6af35045df7530adaf5183b2cdd5e9d54ee2e7df225c805548673b353e14b1",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "缺对照、资料问题与商业关系分开；两语均不以资助直接推出造假，独立研究题保留后续核查条件。",
+    "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+    "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+  ],
+  "contentHash": "3f6af35045df7530adaf5183b2cdd5e9d54ee2e7df225c805548673b353e14b1",
+  "zhHash": "4b2da8e7e8f80524481231a6c13ec49a35602d720ccd0e3113cdf8620aba180c",
+  "enHash": "810d603fff2e9f78a9cdd5b50396f83a60ab32aae4b014a693ea4bb33b72e576",
+  "translationBasisHash": "4b2da8e7e8f80524481231a6c13ec49a35602d720ccd0e3113cdf8620aba180c",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "1c53ab901c95ebd8729b09c60b5bada8bf383f32d393b3e2bb134d13aecee3f5",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:08:05.119Z"
+}

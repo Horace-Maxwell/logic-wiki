@@ -1,0 +1,38 @@
+{
+  "id": "single-cause",
+  "candidateHash": "a0493beffe7e9434695874de4684240e7bebb16083b761839153488bbf3a39f5",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "灯亮合取条件与机器电源/许可真值反例正确；边际因素研究非唯一原因，因果贡献不强求独立加总100%。",
+    "已逐篇阅读所有中英基础、扩展和练习，固定Humanizer语言编辑后另核语义、因果方向和证据强度。引用依本轮已实际查阅范围；BMJ受限访问仍明确为索引节选。",
+    "计算结合手算和已有枚举测试，呈现结合共用组件预览与全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "a0493beffe7e9434695874de4684240e7bebb16083b761839153488bbf3a39f5",
+  "zhHash": "3d806f802906d9e0d0356f787e9af431a741b74dba82c2fe996e8b2aae90ff6f",
+  "enHash": "49d2d5edb8eb8c5593f702c3a886e626374032df1afddc67a70f9abe02885ab1",
+  "translationBasisHash": "3d806f802906d9e0d0356f787e9af431a741b74dba82c2fe996e8b2aae90ff6f",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "fe888227c2e239fb448a5c4f30b25bd8b6eda4bff133b674e5c963830435d7c3",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:18:58.953Z"
+}

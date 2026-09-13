@@ -1,0 +1,17 @@
+---
+import {labels} from '../data/i18n.mjs';
+import Quiz from './Quiz';
+import SectionBody from './SectionBody.astro';
+import LogicLab from './LogicLab';
+import katex from 'katex';
+import {propositionalPatterns,finiteModels} from '../data/logic.mjs';
+const {entry:e,lang,section}=Astro.props;const l=labels[lang as 'zh'|'en'];
+---
+{section==='definition'&&<><h2>{l.definition}</h2><p>{e.definition[lang]}</p></>}
+{section==='pattern'&&<><h2>{l.pattern}</h2><div class="pattern">{e.pattern[lang]}</div><p class="small">{e.category==='statistics'?(lang==='zh'?'这里列出需要检查的概率关系、统计定义或推理步骤。结合案例判断它如何被误用。':'This states the probability relation, statistical definition, or inference to examine. The examples show how it can be misused.'):(lang==='zh'?'这里呈现的是论证所声称的支持关系；是否成立需要另作判断。':'This represents the support claimed by the argument; whether that support succeeds is a separate question.')}</p>{propositionalPatterns[e.id as keyof typeof propositionalPatterns]&&<><div class="math" set:html={katex.renderToString(propositionalPatterns[e.id as keyof typeof propositionalPatterns].formula,{displayMode:true,throwOnError:true})}/><LogicLab id={e.id} lang={lang} client:visible/></>}{finiteModels[e.id as keyof typeof finiteModels]&&<details><summary>{lang==='zh'?'检查一个有限反模型':'Inspect a finite countermodel'}</summary><p>{lang==='zh'?'下面的解释使上述模式的前提真、结论假。对象以 0、1 编号；空数组表示空类。四项模式须先把不同词义分别标记，两个否定前提的模型对应第一个案例。':'This interpretation makes the stated pattern’s premises true and conclusion false. Objects are numbered 0 and 1; an empty array denotes an empty class. Disambiguate the four-term pattern first; the exclusive-premises model targets the first example.'}</p><pre>{JSON.stringify(finiteModels[e.id as keyof typeof finiteModels].sets,null,2)}</pre></details>}</>}
+{section==='examples'&&<><h2>{l.examples}</h2><div class="case-grid">{e.examples.map((x:any,i:number)=><div class="case-panel"><div class="small-label">{l.original} {i+1}</div><p>{x.text[lang]}</p><details><summary>{l.analysis}</summary><p>{x.analysis[lang]}</p></details></div>)}</div></>}
+{section==='counter'&&<><h2>{l.counter}</h2><div class="case-panel clear"><div class="small-label">{lang==='zh'?'对照案例':'Contrast case'}</div><p>{e.counter.text[lang]}</p><p>{e.counter.analysis[lang]}</p></div></>}
+{section==='repair'&&<><h2>{l.repair}</h2><p>{e.repair[lang]}</p></>}
+{section==='practice'&&<><h2>{l.practice}</h2><Quiz client:visible id={e.id} lang={lang} items={e.exercises}/></>}
+
+{e.sections?.filter((s:any)=>s.id===section).map((s:any)=><><h2>{s.title[lang]}</h2><SectionBody section={s} lang={lang}/></>)}

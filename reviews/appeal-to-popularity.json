@@ -1,0 +1,38 @@
+{
+  "id": "appeal-to-popularity",
+  "candidateHash": "93af4472f055240f48233d0e4c03caa270ece950043e073a5ff2a580ddbdc783",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "传播5000次不是5000次独立验算；菜单多数票是事先约定程序，不证明营养最优，共识的知识来源与独立性保留。",
+    "完整双语单元含基础案例、扩展、练习均已审读，按固定Humanizer完成语言编辑并另作语义对照，来源依此前已查阅范围。",
+    "习题逐项核对适用条件、结论强度和正反边界；呈现依共享组件实际预览与全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "93af4472f055240f48233d0e4c03caa270ece950043e073a5ff2a580ddbdc783",
+  "zhHash": "7f26ca2e202734a59a2bb4bc6cd52cb51d9adde8aff3c5c898a3d7e69bea4f02",
+  "enHash": "2f352b57e6718f3151c7264f08a544cba9228674c5c94c915910e6fae51ebd6a",
+  "translationBasisHash": "7f26ca2e202734a59a2bb4bc6cd52cb51d9adde8aff3c5c898a3d7e69bea4f02",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:16:31.297Z"
+}

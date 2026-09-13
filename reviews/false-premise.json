@@ -1,0 +1,40 @@
+{
+  "id": "false-premise",
+  "candidateHash": "14b4f2f0328dfc58164e844a388b6be93c675ca811631fe6c6bf9f457e127513",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "支持不足与已假分开，10/2正确而库存8只能4；条件测算10件未冒充现实，条目性质标作前提问题。",
+    "全单元中英基础与扩展正文、例证、独立题已读；固定Humanizer编辑后分别检查语义范围、否定与结论强度。来源依据此前实际查阅和公开范围。",
+    "算数及逻辑对照逐项核对；呈现结合共享组件浏览器与全站静态检查，未声称逐页视觉或专家评审。",
+    "本单元正文未变；复核forallx文献定位仅补记已查阅的8、37章与新读48章，仍为指定段落而非全书，重新绑定元数据。沿用上述真实语言审校，并非重新阅读所有引用文献。"
+  ],
+  "contentHash": "14b4f2f0328dfc58164e844a388b6be93c675ca811631fe6c6bf9f457e127513",
+  "zhHash": "dd7bbc67c48a8fbbc028e0f4d770ac4922421d117227b67451bc165e89c57bc1",
+  "enHash": "087a86f617c01029b1459876e39bee36452c382b04cf0f370c0d85e90d224831",
+  "translationBasisHash": "dd7bbc67c48a8fbbc028e0f4d770ac4922421d117227b67451bc165e89c57bc1",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "9adaceb05ef70ef5617f0b75a1e9bd616f25650bab54c309625fd6e55fcc6f07",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:21:30.496Z",
+  "previousReceiptHash": "f0e4fd3377240f5055bbdbf68af817705c230a920db2f9b774164633b6479cc1"
+}

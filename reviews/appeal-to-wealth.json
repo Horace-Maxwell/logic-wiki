@@ -1,0 +1,38 @@
+{
+  "id": "appeal-to-wealth",
+  "candidateHash": "d6cfa0b94104a1582edf7e319bab03071c0dc55c9e9fc60681dc8580623d4430",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "预算300元与报价250元算数正确，英文补上yuan单位；财务对预算直接相关，对精度不能只看三倍价格。",
+    "完整双语单元含基础案例、扩展、练习均已审读，按固定Humanizer完成语言编辑并另作语义对照，来源依此前已查阅范围。",
+    "习题逐项核对适用条件、结论强度和正反边界；呈现依共享组件实际预览与全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "d6cfa0b94104a1582edf7e319bab03071c0dc55c9e9fc60681dc8580623d4430",
+  "zhHash": "62b4d6c272d8db7ae08c11d0ce36ec38f3302c55797ca2e4c356e592b58d715f",
+  "enHash": "da1bb1bfd6b48cca3785199a6763eb6d44b5ba61ba1e93aa3e9ed33e74a2fbf1",
+  "translationBasisHash": "62b4d6c272d8db7ae08c11d0ce36ec38f3302c55797ca2e4c356e592b58d715f",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:16:31.296Z"
+}

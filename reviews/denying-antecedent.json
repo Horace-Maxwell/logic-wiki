@@ -1,0 +1,40 @@
+{
+  "id": "denying-antecedent",
+  "candidateHash": "36a9d4229344403e453e4080ee03b969997a0c497bd2aad389c43294264a6301",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "必要充分方向与否定后件对照正确；步行路径反例与密钥必要条件题分别成立。",
+    "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+    "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。",
+    "本单元正文未变；复核forallx文献定位仅补记已查阅的8、37章与新读48章，仍为指定段落而非全书，重新绑定元数据。沿用上述真实语言审校，并非重新阅读所有引用文献。"
+  ],
+  "contentHash": "36a9d4229344403e453e4080ee03b969997a0c497bd2aad389c43294264a6301",
+  "zhHash": "f9d216ee4636bd6219c8f1e58f3bbe151dbabbdccf1d5a7a0ed53d42f57f57bb",
+  "enHash": "79a4b56297bb646081bb06a77f15a39b94cfad85029ada39aa1bddf073d4a751",
+  "translationBasisHash": "f9d216ee4636bd6219c8f1e58f3bbe151dbabbdccf1d5a7a0ed53d42f57f57bb",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "70ba94cf9046e41fa54c9fc20afa5361072e790ba3ff36d17ea2d6ece2b10494",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:21:30.492Z",
+  "previousReceiptHash": "b2f7464e99e77c647cc6579cdc852fe184dfe970cd5a7aadd40632b213002248"
+}

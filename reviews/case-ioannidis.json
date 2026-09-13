@@ -1,0 +1,39 @@
+{
+  "id": "case-ioannidis",
+  "candidateHash": "985d42cbbbae1c62f9049563e857987d164a663d4dec229df89898d004f1269a",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "notes": [
+    "核对基础模型 R、检验力、第一类错误率，阅读 Goodman–Greenland 评论与 2022 括号勘误；计算明确使用无偏差 Table 1。",
+    "双语保留模型参数与实测领域的区别；期望真阳性和假阳性重算为 64% 与 13.91%，未称实现数量必定如此。",
+    "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+    "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+  ],
+  "exceptions": [],
+  "contentHash": "985d42cbbbae1c62f9049563e857987d164a663d4dec229df89898d004f1269a",
+  "zhHash": "0f008eef2c2847ab2f89bdc557223ec3f834bb333283b39c129912f2ebdb731d",
+  "enHash": "1db260eb66bc8c4d8747e40cc318bc89f60020b01c278167503f7b934cae4e01",
+  "translationBasisHash": "0f008eef2c2847ab2f89bdc557223ec3f834bb333283b39c129912f2ebdb731d",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "4bb442fcd7a8a59c7063929fa19a28eb255755b52e09afe319847f2feae5f46d",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:06:07.969Z"
+}

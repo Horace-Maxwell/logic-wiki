@@ -1,0 +1,38 @@
+{
+  "id": "persuasive-definition",
+  "candidateHash": "3cd559f64af91fe8d4005d36d3b08866063f7ca782387bc9b89555f9c6b6348b",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "价值词不天然错误，投票结果写入理性标签无独立依据；准时操作定义限定测量未推作品质量。",
+    "逐篇完整双语基础及扩展、例题均已读；按固定Humanizer语言编辑后独立对齐词义、范围、条件和推理强度，引用按此前实际查阅范围。",
+    "算数与非谬误对照已核，呈现用共享组件真实预览及全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "3cd559f64af91fe8d4005d36d3b08866063f7ca782387bc9b89555f9c6b6348b",
+  "zhHash": "0bad87e89f36916de493bbe9db4c5e65b28fd75c6b2ac352640a7b59537466f2",
+  "enHash": "84712b0cfe27d8e288a509b1d66b0b02d385bae49b672179b5e7d5798a744a02",
+  "translationBasisHash": "0bad87e89f36916de493bbe9db4c5e65b28fd75c6b2ac352640a7b59537466f2",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "8315ccdf785e266ce146220473db6127f80fd7d48cb2525940fb0229ffcec047",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:18:02.169Z"
+}

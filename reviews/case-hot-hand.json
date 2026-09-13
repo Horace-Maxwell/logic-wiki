@@ -1,0 +1,39 @@
+{
+  "id": "case-hot-hand",
+  "candidateHash": "11cfcc3df600de478be7d97bfb42ee7ffdc8b7f5bc26f3864c6bb4ff3b75fbf6",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "notes": [
+    "核对期刊摘要及 2018/2019 日期区别，未把偏差校正扩大为任何运动员下一球预测。",
+    "中文和英文均拆开连续分号句；枚举六个合格序列核验 5/12 与合并 4/8，排除的 TTH、TTT 定义相同。",
+    "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+    "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+  ],
+  "exceptions": [],
+  "contentHash": "11cfcc3df600de478be7d97bfb42ee7ffdc8b7f5bc26f3864c6bb4ff3b75fbf6",
+  "zhHash": "c13d693a0dd344955062821ae34d26a609661fb93c4761db7558ddd18076d07c",
+  "enHash": "ad517862caf8452751a0538c5c781b3c78ef1a28436cd0883748f49f026d1e7e",
+  "translationBasisHash": "c13d693a0dd344955062821ae34d26a609661fb93c4761db7558ddd18076d07c",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "ec84b7d9ae0481d46dabe59fc959ad303d6b88c8496a8bce4d7ba8c4e909dbd2",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:06:07.970Z"
+}

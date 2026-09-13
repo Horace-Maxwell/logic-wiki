@@ -1,0 +1,38 @@
+{
+  "id": "self-sealing",
+  "candidateHash": "cb549a5f6c7c99de539312d3bc08586d1b9c44fe06f9e0dead3de5e93fe96cbe",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "任何结果都确认和可独立检查的辅助假设分开；校准故障日志及公开重测路径可接受，无法检验不直接证明假。",
+    "全单元中英基础与扩展正文、例证、独立题已读；固定Humanizer编辑后分别检查语义范围、否定与结论强度。来源依据此前实际查阅和公开范围。",
+    "算数及逻辑对照逐项核对；呈现结合共享组件浏览器与全站静态检查，未声称逐页视觉或专家评审。"
+  ],
+  "contentHash": "cb549a5f6c7c99de539312d3bc08586d1b9c44fe06f9e0dead3de5e93fe96cbe",
+  "zhHash": "c9c07e9cd9e7c36d8b82afc86c8d0bf8d43041dd85bc0c9677f3bdf6083561d7",
+  "enHash": "894045cc4ee0b675810b6ab03d99609e29acfaa852d61be24954617cf9e759a6",
+  "translationBasisHash": "c9c07e9cd9e7c36d8b82afc86c8d0bf8d43041dd85bc0c9677f3bdf6083561d7",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "b3a9b0e968cbc647ac902479dc3e2afbee869bbde4e53890223ba9e5a9cf1dce",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:17:28.865Z"
+}

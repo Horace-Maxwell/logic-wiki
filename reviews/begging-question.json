@@ -1,0 +1,38 @@
+{
+  "id": "begging-question",
+  "candidateHash": "61f12bbc1254a99eded6adea31b333a025e419728c6c332261ab1417d540bdda",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "支持圈与字面重复、合法递归分开；P所以P有效不等于认识推进，两报告互保无独立依据，已建立定理题不乞题。",
+    "全单元中英基础与扩展正文、例证、独立题已读；固定Humanizer编辑后分别检查语义范围、否定与结论强度。来源依据此前实际查阅和公开范围。",
+    "算数及逻辑对照逐项核对；呈现结合共享组件浏览器与全站静态检查，未声称逐页视觉或专家评审。"
+  ],
+  "contentHash": "61f12bbc1254a99eded6adea31b333a025e419728c6c332261ab1417d540bdda",
+  "zhHash": "87b5dcb769b7f4309b42f3c4d595797c1d87d69a3103fa4205cf6b5c7f3b9471",
+  "enHash": "d107b280b20efd3f5d6d161cfefbb274e2f8b7e7cb88a7eb240229a20b16ed2e",
+  "translationBasisHash": "87b5dcb769b7f4309b42f3c4d595797c1d87d69a3103fa4205cf6b5c7f3b9471",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:17:28.859Z"
+}

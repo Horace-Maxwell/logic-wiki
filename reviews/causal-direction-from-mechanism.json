@@ -1,0 +1,38 @@
+{
+  "id": "causal-direction-from-mechanism",
+  "candidateHash": "cc49b72cf3e60802391e6a0f42134ab432aa8db5c4e884b860fcbefbfe23de40",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "字节减半不保证总等待减半，压缩/解压/排队未测；缓存机制用于预测并检验最终时间，保持可能和实测区别。",
+    "已逐篇阅读所有中英基础、扩展和练习，固定Humanizer语言编辑后另核语义、因果方向和证据强度。引用依本轮已实际查阅范围；BMJ受限访问仍明确为索引节选。",
+    "计算结合手算和已有枚举测试，呈现结合共用组件预览与全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "cc49b72cf3e60802391e6a0f42134ab432aa8db5c4e884b860fcbefbfe23de40",
+  "zhHash": "978408535fbc47c06592aacbbb6f5374cf96bba238861b3bfa17da3ae535e3b9",
+  "enHash": "47d63997595a4b870bf39881a54ccf68916a1a8c6bf78655e9b8e93caeb7df72",
+  "translationBasisHash": "978408535fbc47c06592aacbbb6f5374cf96bba238861b3bfa17da3ae535e3b9",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "feab908390f895b4897a75af1243edbb398c772ede6b17baafbf1d9373a98be0",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:18:58.954Z"
+}

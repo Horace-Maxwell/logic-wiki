@@ -1,0 +1,38 @@
+{
+  "id": "denominator-neglect",
+  "candidateHash": "b9c9a65efc38a4c9f7c5dd0a8d4c5aea28799bfe04b31d18484d694b43012c64",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "20/10000=.2%，5/1000=.5%，计数方向与率方向相反；工单工作量可用总量，未把单位统一当消除任务构成差异。",
+    "逐篇完整中英内容、表格、练习均已审读；按固定Humanizer编辑后另核语义等值，来源依实际查阅范围，FDR原论文只引用已读摘要。",
+    "所有出现的数值例重算，结合现有表格与概率回归测试；呈现依据共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "b9c9a65efc38a4c9f7c5dd0a8d4c5aea28799bfe04b31d18484d694b43012c64",
+  "zhHash": "660da059817156c9c6be15817c7ba1c7dc39db2682fc90e7a2f6bda97d4b7cc0",
+  "enHash": "1481f73b61a61f33108f8ecbe5d27493800bdd69a6d06606541ab349af1dc2a3",
+  "translationBasisHash": "660da059817156c9c6be15817c7ba1c7dc39db2682fc90e7a2f6bda97d4b7cc0",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "8dfd4e32981689fcbe16030d7053289037134023bb4e1b7be0d15322aec56031",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:19:56.687Z"
+}

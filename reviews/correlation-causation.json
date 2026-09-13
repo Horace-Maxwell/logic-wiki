@@ -1,0 +1,38 @@
+{
+  "id": "correlation-causation",
+  "candidateHash": "c2a23b54e72c47fe1c54b75c33776d0e1ff666f5c8c8f91e7c1d0acc3dd8f946",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "工单记录干预不自动降低实际故障，观察/干预及叉/碰撞结构正确；负载告警仅预测不误当因果。",
+    "已逐篇阅读所有中英基础、扩展和练习，固定Humanizer语言编辑后另核语义、因果方向和证据强度。引用依本轮已实际查阅范围；BMJ受限访问仍明确为索引节选。",
+    "计算结合手算和已有枚举测试，呈现结合共用组件预览与全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "c2a23b54e72c47fe1c54b75c33776d0e1ff666f5c8c8f91e7c1d0acc3dd8f946",
+  "zhHash": "1f7cb1e305f613f6af3ee105cc7aabed9bc93e071ba96ac544c1bf44b8f87538",
+  "enHash": "d86750b26cfea7acb8fc1bb79acfba3dd981b026aecbda6ca8f8cd2d40849ec5",
+  "translationBasisHash": "1f7cb1e305f613f6af3ee105cc7aabed9bc93e071ba96ac544c1bf44b8f87538",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "d2fa95c0a1af4dde5994fa89059695762d11743251e80b7551dd9fea81285c03",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:18:58.952Z"
+}

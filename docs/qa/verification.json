@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-12",
+  "content": {
+    "guides": 40,
+    "entries": 100,
+    "cases": 30,
+    "sources": 99,
+    "languageExports": 340,
+    "htmlPages": 719,
+    "reviewReceipts": 171,
+    "exercises": 202,
+    "workedResponseExercises": 110,
+    "bilingualIndexUnits": 170,
+    "learningPaths": 3
+  },
+  "versions": {
+    "unitsHash": "b34f23cff67ce8f3ace7b5c8bc976f2860870b0589517c362cbeab213d8f8ab1",
+    "sourcesHash": "50a566700678511d5785128a639268ac811e3134047c3033433f4b8bccd0e118",
+    "siteCopyHash": "07176dd54170d5a5d4173be083c28d8e3011130f3840060ef9a0f979ff98a60f",
+    "humanizer": [
+      {
+        "language": "en",
+        "repository": "https://github.com/blader/humanizer",
+        "commit": "9862685f575c65a8247f90369951df1b3416e3d6",
+        "files": {
+          "SKILL.md": "e8269e236bed06ed0fe4824c274112e54950b0cb46b0bafe5e1576ef7c9f93d5",
+          "LICENSE": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96"
+        }
+      },
+      {
+        "language": "zh",
+        "repository": "https://github.com/holygeek00/humanizer-zh-cn",
+        "commit": "401e372eeb1a91045d15ec21c2d13b9d0f7842ea",
+        "files": {
+          "SKILL.md": "494848f7a211af06f7b59061011478fd3c49cb5fe40ceda94a47c7bacf8481f4",
+          "LICENSE": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96"
+        }
+      }
+    ]
+  },
+  "checks": {
+    "unitTests": "24 passed",
+    "astro": "87 files; 0 errors, 0 warnings, 0 hints",
+    "content": "passed",
+    "build": "passed",
+    "internalLinksAndAnchors": "719 HTML passed",
+    "modifiedCopyRejected": true,
+    "provenanceFieldsProtected": true
+  },
+  "preview": {
+    "url": "http://127.0.0.1:4322/zh/",
+    "surfaces": [
+      {
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "width": 820,
+        "height": 1180
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "flows": [
+      "Desktop bilingual Bayes; tablet stacking; no page overflow",
+      "Mobile long English title, menu open and Escape close",
+      "Chinese search 无回答: 24 units including target",
+      "English pooling counts: Berkeley and hot-hand; guide filter zero, case filter two",
+      "New nonresponse lower-bound quiz feedback; EN preserves #practice and saved answer after hydration; bilingual feedback in both languages",
+      "Hot-hand chapter opens; worked answer 5/12 versus pooled 4/8",
+      "Language-switch scroll fixed and verified: ZH/EN open target at about 192px, 390px viewport",
+      "Source library 99; GitHub filter 7; popular filter 5",
+      "Keyboard skip link focuses main"
+    ],
+    "consoleErrors": 0,
+    "scope": "Representative shared templates and real flows plus full static validation; not every page visually inspected."
+  },
+  "reviewer": {
+    "type": "agent",
+    "name": "Codex",
+    "independentExpertReview": false
+  },
+  "remote": {
+    "repository": "https://github.com/Horace-Maxwell/logic-wiki",
+    "websiteDeployed": false,
+    "publicationMode": "source-only",
+    "publicRepositoryAuthorized": true
+  },
+  "publicationRecheck": {
+    "date": "2026-09-13",
+    "content": "171 current receipts",
+    "tests": "24 passed",
+    "types": "87 files; no errors, warnings or hints",
+    "build": "719 pages and all internal links/anchors passed",
+    "credentialScan": "No credential or personal-path matches in files selected for publication",
+    "mode": "public source repository only; user explicitly declined web deployment"
+  }
+}

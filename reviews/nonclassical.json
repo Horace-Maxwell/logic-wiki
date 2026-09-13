@@ -1,0 +1,38 @@
+{
+  "id": "nonclassical",
+  "candidateHash": "412283b3aa748af6e9481c9485edf6d57d19da2dbca930ca389a2e79b0a77af6",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "直觉主义仍允许爆炸、特定可判定排中实例可证；相容矛盾性与真矛盾论分开，数据库事实不由查询规则证明。",
+    "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+    "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+  ],
+  "contentHash": "412283b3aa748af6e9481c9485edf6d57d19da2dbca930ca389a2e79b0a77af6",
+  "zhHash": "2cb57a47e375fc19e7e55c3c90204119311b1c9a78238fb2d7fe51e027ef65d4",
+  "enHash": "e4ea04a78397c482d57fa8a160aa3e16a5b3606951579256f7cf300b86171bf2",
+  "translationBasisHash": "2cb57a47e375fc19e7e55c3c90204119311b1c9a78238fb2d7fe51e027ef65d4",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "ecc1872b64be0a9458fe86c0a66f20de3aadd58329a22c3a54736c010da9f30c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:13:57.656Z"
+}

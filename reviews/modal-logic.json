@@ -1,0 +1,40 @@
+{
+  "id": "modal-logic",
+  "candidateHash": "a3e7b764511c7299e7ba92662c913f8555557a608882842a6f64ef6a6bb74ddf",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "两世界边和赋值手算，K反模型、自反T、S4与S5条件及空真全部成立；实际真不加强为必然真。",
+    "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+    "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。",
+    "本单元正文未变；复核forallx文献定位仅补记已查阅的8、37章与新读48章，仍为指定段落而非全书，重新绑定元数据。沿用上述真实语言审校，并非重新阅读所有引用文献。"
+  ],
+  "contentHash": "a3e7b764511c7299e7ba92662c913f8555557a608882842a6f64ef6a6bb74ddf",
+  "zhHash": "232b8cb08ccab5f6f750f3e1b949ac91e6711f29ed5715039aa2c9c1f74b4daf",
+  "enHash": "7092a9158effce710d3e1b252f230c33b35cde7b51cd3ad2f3122844e39572e4",
+  "translationBasisHash": "232b8cb08ccab5f6f750f3e1b949ac91e6711f29ed5715039aa2c9c1f74b4daf",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "9c31d350cd1f26d2ad03db6a489ce9c162f1dbb02c932a1cbf9bdd545e8fb439",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:21:30.502Z",
+  "previousReceiptHash": "2a9f0db131797d64a94175a8d3e06d92d0481c798d83d715eda95b5d7e00cc09"
+}

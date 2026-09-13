@@ -1,0 +1,38 @@
+{
+  "id": "etymological-fallacy",
+  "candidateHash": "15e29248ee2d51d3ea067d1e40582dae9544a9761f6d21995249a37c8180f252",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "虚构nava词史明确不当真实语言史；现义扩展与同期手稿释义分开，术语规范依据公开约定不是词源禁令。",
+    "逐篇完整双语基础及扩展、例题均已读；按固定Humanizer语言编辑后独立对齐词义、范围、条件和推理强度，引用按此前实际查阅范围。",
+    "算数与非谬误对照已核，呈现用共享组件真实预览及全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "15e29248ee2d51d3ea067d1e40582dae9544a9761f6d21995249a37c8180f252",
+  "zhHash": "e3a0aa80541a11af2029f537c4b8e2c1e9eb4ce86314cd15f7ec1164c67083c0",
+  "enHash": "2cf5c818aa440fdbb04704def2464757639959eb8650d9dbe9d9253cdeebfe1b",
+  "translationBasisHash": "e3a0aa80541a11af2029f537c4b8e2c1e9eb4ce86314cd15f7ec1164c67083c0",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "c8be4c27eb29443fcd676f690f824391a38d6dc42e7f40ca4fd3b83e67f53ca1",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:18:02.169Z"
+}

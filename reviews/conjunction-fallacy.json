@@ -1,0 +1,38 @@
+{
+  "id": "conjunction-fallacy",
+  "candidateHash": "98a10cf331ec59df322b8b3c4a9f040c6fb61a2605e5aed6bbf26ddd4a8de652",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "英文基础例rain alone易理解仅雨无风，改为regardless of wind；0.35交集不得超过0.2，排他读书题比较不同事件不犯子集错误。",
+    "逐篇读完双语基础和扩展正文、练习、公式，执行固定Humanizer编辑后单独核对条件、量词、概率事件和结论强度；引用依据已查阅范围。",
+    "数值重新计算并结合既有枚举测试；显示采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "98a10cf331ec59df322b8b3c4a9f040c6fb61a2605e5aed6bbf26ddd4a8de652",
+  "zhHash": "392a5ea607e969758cba001bc214772fc84d0c1b5747d030b1b338c3765c9598",
+  "enHash": "96cdccaf86ad754c7f781d1fb4c5acb29375883bb73540397e88941cf2c9ab4b",
+  "translationBasisHash": "392a5ea607e969758cba001bc214772fc84d0c1b5747d030b1b338c3765c9598",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "d18b1a345f85985b57afbd58dd29237058cee05d1595dee5040d32c6ce4b1cec",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:19:28.959Z"
+}

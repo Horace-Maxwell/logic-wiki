@@ -1,0 +1,38 @@
+{
+  "id": "burden-of-proof",
+  "candidateHash": "8ff544ca1f8e2408b4052fb6f25acc089afd8aab0337eaac4f0dddaaeb7bcad8",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "英文仓库盘点的双重否定改为无盘点就无同等缺失证据；否定主张的有界检验与暂缓判断相区分。",
+    "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+    "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+  ],
+  "contentHash": "8ff544ca1f8e2408b4052fb6f25acc089afd8aab0337eaac4f0dddaaeb7bcad8",
+  "zhHash": "cf981d17ae13e55fb26ba73d20e657b7be4f60c965c275938e38edae844cf0ae",
+  "enHash": "b08891ad8e9825b93ee4fe99ae2ce9afa7d7b5648bd8296d53275efc80dc58d9",
+  "translationBasisHash": "cf981d17ae13e55fb26ba73d20e657b7be4f60c965c275938e38edae844cf0ae",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "0a039b95f15aa00329023f304db8d750b546ec05a4fd8e12e410b91732baaa23",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:13:57.654Z"
+}

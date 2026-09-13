@@ -1,0 +1,163 @@
+[
+  {
+    "id": "base-rate-neglect",
+    "candidateHash": "957f9d0c06a636f86f65615bbdcf64e5757691fd4b5f807c8163c8d955f521e4",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "90/(90+990)=8.33%，扫描40/(40+95)=29.63%重算；未知先验给多假设范围不判为零。",
+      "逐篇读完双语基础和扩展正文、练习、公式，执行固定Humanizer编辑后单独核对条件、量词、概率事件和结论强度；引用依据已查阅范围。",
+      "数值重新计算并结合既有枚举测试；显示采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "inverse-probability",
+    "candidateHash": "32e89cb5c3789ce89c7d94fd1263dee999e41c0dc9cee6785f4e03f6bfd8f13c",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "导师20/200=10%，相等边际30与交集12给双向40%；贝叶斯分母正条件保留。",
+      "逐篇读完双语基础和扩展正文、练习、公式，执行固定Humanizer编辑后单独核对条件、量词、概率事件和结论强度；引用依据已查阅范围。",
+      "数值重新计算并结合既有枚举测试；显示采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "gamblers-fallacy",
+    "candidateHash": "2f4f1d1b4aca9086ea58f37d24f6910674638be53e54b6edb77843c0758801d7",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "基础例补明独立输出，避免只公平不足；抽袋练习补明剩余物品等概率，3红2蓝去一红后2/4；不放回非补偿。",
+      "逐篇读完双语基础和扩展正文、练习、公式，执行固定Humanizer编辑后单独核对条件、量词、概率事件和结论强度；引用依据已查阅范围。",
+      "数值重新计算并结合既有枚举测试；显示采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "conjunction-fallacy",
+    "candidateHash": "98a10cf331ec59df322b8b3c4a9f040c6fb61a2605e5aed6bbf26ddd4a8de652",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "英文基础例rain alone易理解仅雨无风，改为regardless of wind；0.35交集不得超过0.2，排他读书题比较不同事件不犯子集错误。",
+      "逐篇读完双语基础和扩展正文、练习、公式，执行固定Humanizer编辑后单独核对条件、量词、概率事件和结论强度；引用依据已查阅范围。",
+      "数值重新计算并结合既有枚举测试；显示采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "disjunction-fallacy",
+    "candidateHash": "72dbb12c3260a685f534575f1696ea539235c8fb4b4db06cd146c976add59a68",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "45+35−20=60，排他40；边际.4/.3并集[.4,.7]及.4/.4范围[.4,.8]成立，不要求独立。",
+      "逐篇读完双语基础和扩展正文、练习、公式，执行固定Humanizer编辑后单独核对条件、量词、概率事件和结论强度；引用依据已查阅范围。",
+      "数值重新计算并结合既有枚举测试；显示采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "unjustified-independence",
+    "candidateHash": "682134c0c3c216d817a845035374307cd1b766430f64b64d331251e8a86beae3",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "双服务中文原只有是必要条件，改当且仅当与英文相符；共同事件交集.02，三事件两两独立而联合1/4≠1/8枚举核验，条件乘法.4×.75=.3。",
+      "逐篇读完双语基础和扩展正文、练习、公式，执行固定Humanizer编辑后单独核对条件、量词、概率事件和结论强度；引用依据已查阅范围。",
+      "数值重新计算并结合既有枚举测试；显示采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "appeal-to-probability",
+    "candidateHash": "c1fb73edee76bc1f5b355f6ac78b7c9aedb53f8e8bb4bf1b83df54d7fc9b58d4",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "四独立p=.25至少一次.68359375，全失败31.640625%；10次p=.1全失败34.87%；概率1与逻辑必然在连续模型下区分。",
+      "逐篇读完双语基础和扩展正文、练习、公式，执行固定Humanizer编辑后单独核对条件、量词、概率事件和结论强度；引用依据已查阅范围。",
+      "数值重新计算并结合既有枚举测试；显示采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+    ]
+  }
+]

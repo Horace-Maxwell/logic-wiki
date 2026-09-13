@@ -1,0 +1,38 @@
+{
+  "id": "weak-analogy",
+  "candidateHash": "7cb78b07e03bfdc424c249f0896e340774fc95375d383a2361a71b9305b6bc3c",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "相似数量不代目标相关机制；封面/页数不保证难度，排队规则结构的有限假说保留容量差异待测。",
+    "完整双语单元审读后按固定Humanizer编辑，并另核语义与练习支持范围；来源依实际查阅的已登记章节。",
+    "分母与界限逐项复算，呈现采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审查。"
+  ],
+  "contentHash": "7cb78b07e03bfdc424c249f0896e340774fc95375d383a2361a71b9305b6bc3c",
+  "zhHash": "4ae128b125ee1c1fd9cad78ea9cfd5e6589a57a44c93904c872c510aed81bdb6",
+  "enHash": "2ec3df438bb5a2918eb2c7c0be209751d3744ffb5449ba080f03ede6bf183ec0",
+  "translationBasisHash": "4ae128b125ee1c1fd9cad78ea9cfd5e6589a57a44c93904c872c510aed81bdb6",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "4d62756a89649f411f579850dbc85187f1f23468aa82005311136fd507badcf1",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:18:33.421Z"
+}

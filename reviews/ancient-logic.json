@@ -1,0 +1,38 @@
+{
+  "id": "ancient-logic",
+  "candidateHash": "3c53e28c4271c4ace74200435d868fb0ec2aeb112b81732f41e56f020846cb8e",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "古代文本主张与现代原创例题明确分开；斯多亚排他析取与现代相容析取不同，白纸重量例未冒充引文。",
+    "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+    "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+  ],
+  "contentHash": "3c53e28c4271c4ace74200435d868fb0ec2aeb112b81732f41e56f020846cb8e",
+  "zhHash": "0e9f4b7baf82b492c85ef048a710c0041c262c5befac3751b985efbf3aea3461",
+  "enHash": "e1a745418c900f5609739f4a29b1d4eec7761ce7797ee94ca720d8b9274bfbd8",
+  "translationBasisHash": "0e9f4b7baf82b492c85ef048a710c0041c262c5befac3751b985efbf3aea3461",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "85eb4bac4090b4e3071331274d05481c5710103f5a53724ac56c75b308ccb9d5",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:13:57.656Z"
+}

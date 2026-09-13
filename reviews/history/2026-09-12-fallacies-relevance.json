@@ -1,0 +1,232 @@
+[
+  {
+    "id": "tu-quoque",
+    "candidateHash": "7b3853fdd72b193043565d5a645fa38429ad942eb3a38a8f18d6d9a5044fab51",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "言行不一致与建议证据分开；第二题原先重复正文迟到对照，已改为手套按钮操作的原创可行性反例，两版复核且不推出人人可行。",
+      "完整原有及扩展双语内容已读，执行固定Humanizer语言编辑后独立比较主张范围、可能性、否定和答案；来源沿用本轮真实查阅范围。",
+      "共用组件与全站静态验证用于呈现核查，未声称逐页视觉或独立专家审查。"
+    ]
+  },
+  {
+    "id": "genetic-fallacy",
+    "candidateHash": "e3d293d62ec761f5cf6743231b05ac27cd52f8f23cff93f101dc191c25f27e23",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "来源对测量可靠度与独立性可以相关，梦中灵感不决定证明；三份抄录题只排除独立测量，不判全部数字假。",
+      "完整原有及扩展双语内容已读，执行固定Humanizer语言编辑后独立比较主张范围、可能性、否定和答案；来源沿用本轮真实查阅范围。",
+      "共用组件与全站静态验证用于呈现核查，未声称逐页视觉或独立专家审查。"
+    ]
+  },
+  {
+    "id": "guilt-by-association",
+    "candidateHash": "6dd8c59f4d0bfd5ca0350432ce98e64f57017f59cff074e783f4c6a5d8cb0a2c",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "偶然同框与已确认签署声明分开；参与、责任和其他主张未无条件转移。",
+      "完整原有及扩展双语内容已读，执行固定Humanizer语言编辑后独立比较主张范围、可能性、否定和答案；来源沿用本轮真实查阅范围。",
+      "共用组件与全站静态验证用于呈现核查，未声称逐页视觉或独立专家审查。"
+    ]
+  },
+  {
+    "id": "poisoning-the-well",
+    "candidateHash": "df490391c1dc099508f2977fbaf6bc57ef644afc4066afe443bb86f7e7419c9f",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "已撤回图表的具体提醒是可回答核验，中文原“不只是投毒”易误为仍是投毒，改为不构成本条预先抹黑；全部未来证据排除题为错误。",
+      "完整原有及扩展双语内容已读，执行固定Humanizer语言编辑后独立比较主张范围、可能性、否定和答案；来源沿用本轮真实查阅范围。",
+      "共用组件与全站静态验证用于呈现核查，未声称逐页视觉或独立专家审查。"
+    ]
+  },
+  {
+    "id": "red-herring",
+    "candidateHash": "4cddef9c31cba035041b192f3965704868f11cab770a03fd346a814c6ec4dadb",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "必要的计时单位澄清与服务奖项代替票据核验分开，不擅自推断故意欺骗；显式议程转换不误判。",
+      "完整原有及扩展双语内容已读，执行固定Humanizer语言编辑后独立比较主张范围、可能性、否定和答案；来源沿用本轮真实查阅范围。",
+      "共用组件与全站静态验证用于呈现核查，未声称逐页视觉或独立专家审查。"
+    ]
+  },
+  {
+    "id": "irrelevant-conclusion",
+    "candidateHash": "2d7539b535d0b3160021b38433605dfc1625d826496dd5accd8179fba4cb8075",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "成本、准确、符合要求与行动是不同待证对象；报价表限定用途对照未替代性能证据。",
+      "完整原有及扩展双语内容已读，执行固定Humanizer语言编辑后独立比较主张范围、可能性、否定和答案；来源沿用本轮真实查阅范围。",
+      "共用组件与全站静态验证用于呈现核查，未声称逐页视觉或独立专家审查。"
+    ]
+  },
+  {
+    "id": "appeal-to-ridicule",
+    "candidateHash": "73be7f96c4aae39e634351516fa4e479cd857ce2f425149b87de4e5e240e8537",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "9与11的反例计算正确，笑话删除后证据仍在；归谬是推出矛盾而非令人尴尬，分类未假装学界一致。",
+      "完整原有及扩展双语内容已读，执行固定Humanizer语言编辑后独立比较主张范围、可能性、否定和答案；来源沿用本轮真实查阅范围。",
+      "共用组件与全站静态验证用于呈现核查，未声称逐页视觉或独立专家审查。"
+    ]
+  },
+  {
+    "id": "appeal-to-the-stone",
+    "candidateHash": "21b2a5a48c6d01933f40927c95abc86d02e0d2e6beab58c6c40d10bf7cddce30",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "态度替代反驳与暂不接受分开；一般举证来源未冒充专门权威条目；无限供能练习只评价所提供材料而非提供物理结论。",
+      "完整原有及扩展双语内容已读，执行固定Humanizer语言编辑后独立比较主张范围、可能性、否定和答案；来源沿用本轮真实查阅范围。",
+      "共用组件与全站静态验证用于呈现核查，未声称逐页视觉或独立专家审查。"
+    ]
+  },
+  {
+    "id": "circumstantial-ad-hominem",
+    "candidateHash": "0ded8cfbed4747097930828d8a190c37470cf33d5a097d3524c590f18015d5ef",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "激励存在、可能影响、实际删除分开；英文第三方测试原写独立，已改third-party避免未经证明的独立性。",
+      "完整原有及扩展双语内容已读，执行固定Humanizer语言编辑后独立比较主张范围、可能性、否定和答案；来源沿用本轮真实查阅范围。",
+      "共用组件与全站静态验证用于呈现核查，未声称逐页视觉或独立专家审查。"
+    ]
+  },
+  {
+    "id": "whataboutism",
+    "candidateHash": "7d8ea0809063cb5b5ed3871a0d01aea429eae785c48d6cbdde9891fc82b45d3c",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "Lieblich来源用于相关性和一致性不作法律适用；迟到免责与目的不明比较分别错误和信息不足。",
+      "完整原有及扩展双语内容已读，执行固定Humanizer语言编辑后独立比较主张范围、可能性、否定和答案；来源沿用本轮真实查阅范围。",
+      "共用组件与全站静态验证用于呈现核查，未声称逐页视觉或独立专家审查。"
+    ]
+  }
+]

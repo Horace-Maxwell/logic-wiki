@@ -1,0 +1,38 @@
+{
+  "id": "appeal-to-ignorance",
+  "candidateHash": "88ecc872ce84151666444e08b3371b538c231b90643f83fb10cd9ff58dd8382a",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "无证明与否定证明区分；封闭抽屉检查提供检测能力，漏洞无测试不能保证不存在；行动与信念分开。",
+    "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+    "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+  ],
+  "contentHash": "88ecc872ce84151666444e08b3371b538c231b90643f83fb10cd9ff58dd8382a",
+  "zhHash": "35d7f9e8489ed2c3a004ee1cbabd9a5745257b93747f4239bf93273edd2ed805",
+  "enHash": "8e30ff6238d9011336695f7deb205cfaa9ededccebe8088b0d847d6d5995899c",
+  "translationBasisHash": "35d7f9e8489ed2c3a004ee1cbabd9a5745257b93747f4239bf93273edd2ed805",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:14:36.129Z"
+}

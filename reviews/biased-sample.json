@@ -1,0 +1,38 @@
+{
+  "id": "biased-sample",
+  "candidateHash": "78aa2c68da42cebb46beeb574fe497afdbe307f625f92420b01ad44b115c9529",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "白班框内随机不补夜班覆盖，中文补随机与英文对齐；600数目不单独确证偏差，允许信息不足。",
+    "完整双语单元审读后按固定Humanizer编辑，并另核语义与练习支持范围；来源依实际查阅的已登记章节。",
+    "分母与界限逐项复算，呈现采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审查。"
+  ],
+  "contentHash": "78aa2c68da42cebb46beeb574fe497afdbe307f625f92420b01ad44b115c9529",
+  "zhHash": "67a994106fd96adfc0c06c66004ce38713ea9ddbd1845325ff356f695a1e5bf2",
+  "enHash": "a01261e3e7f93acd0c2794c7fccb24183fac5869d9d21d9949d37c14718c1af3",
+  "translationBasisHash": "67a994106fd96adfc0c06c66004ce38713ea9ddbd1845325ff356f695a1e5bf2",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "797bb276e0959b058d3804aec193d85d24d892011fe4843883912da11ac8725d",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:18:33.418Z"
+}

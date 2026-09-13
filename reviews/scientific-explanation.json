@@ -1,0 +1,38 @@
+{
+  "id": "scientific-explanation",
+  "candidateHash": "9cf844fb66dca1f414a094506c3407d64d1b6ab996e0100276b8fd500c12b006",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "被解释项、机制与预测区分；灯泡测试保留辅助条件，程序题英文补回中文“总能”的范围；支持乙不宣称排除其他解释。",
+    "已逐篇对照原有导读、新增正文、公式、表格和两道独立题；执行中英文编辑后再核对量词、条件、范围、数值和答案。来源沿用本轮已核验的实际章节。",
+    "计算结合人工重算与现有测试，页面结合全站静态检查及已执行的贝叶斯表格、公式和练习浏览器验证；不声称逐页视觉或独立专家审稿。"
+  ],
+  "contentHash": "9cf844fb66dca1f414a094506c3407d64d1b6ab996e0100276b8fd500c12b006",
+  "zhHash": "a09e41b3fbf23ef1a324bcd34b0ea2bbcc78ae4ff6dd8e0ea2088fa55ea3672b",
+  "enHash": "ec3759f9d6a4ded6dd3b8ca2a0dd80683aca5bc7c9684e31cd41bbcaf61019e3",
+  "translationBasisHash": "a09e41b3fbf23ef1a324bcd34b0ea2bbcc78ae4ff6dd8e0ea2088fa55ea3672b",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "b027f52183c369fc7513845ea88f219296ce57322154530580f1e953fbfada45",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:11:17.947Z"
+}

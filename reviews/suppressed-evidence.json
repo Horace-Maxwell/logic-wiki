@@ -1,0 +1,38 @@
+{
+  "id": "suppressed-evidence",
+  "candidateHash": "0b4fc0134073fabf59f53044a8aa76152045fe809b3990e0cfc318d3a29997a9",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "100次60成功40失败复算；预定剔除规则仍须检查相关性和外推，不把任何删数据都定性为压制。",
+    "全单元中英基础与扩展正文、例证、独立题已读；固定Humanizer编辑后分别检查语义范围、否定与结论强度。来源依据此前实际查阅和公开范围。",
+    "算数及逻辑对照逐项核对；呈现结合共享组件浏览器与全站静态检查，未声称逐页视觉或专家评审。"
+  ],
+  "contentHash": "0b4fc0134073fabf59f53044a8aa76152045fe809b3990e0cfc318d3a29997a9",
+  "zhHash": "d74544adbf8d59dd278cfab1d0a3022d64c1534535f9d0d89e48de7a386f2525",
+  "enHash": "d805cdda89f467e0ff8dd6f5a53efa9b3dd968411d2bde27c66bd1cc782b40cd",
+  "translationBasisHash": "d74544adbf8d59dd278cfab1d0a3022d64c1534535f9d0d89e48de7a386f2525",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:17:28.863Z"
+}

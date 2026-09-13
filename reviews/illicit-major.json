@@ -1,0 +1,38 @@
+{
+  "id": "illicit-major",
+  "candidateHash": "6588a7ec472745450195950f17577fed016e675e4ec7aed57379f5ebb0e6beef",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "M={a},P={a,b},S={b}反模型逐项成立且非空；获批/访客对照排除子类，未错误扩大。",
+    "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+    "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+  ],
+  "contentHash": "6588a7ec472745450195950f17577fed016e675e4ec7aed57379f5ebb0e6beef",
+  "zhHash": "0af04003db306fabf4660ba738c47eaf88500de32784a68c221e09f9d861559c",
+  "enHash": "f41b4a6fb7dff11db09c0984b5ada924878ede37cfe566e9b97b4c3c7b2cf0a2",
+  "translationBasisHash": "0af04003db306fabf4660ba738c47eaf88500de32784a68c221e09f9d861559c",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "f3a6c880ac108019f5e36d1c014435dab1769a02120be33b9ccb2a5e2ccf2a00",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:14:36.130Z"
+}

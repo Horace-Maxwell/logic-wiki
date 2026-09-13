@@ -1,0 +1,38 @@
+{
+  "id": "four-terms",
+  "candidateHash": "e7ecec7bae6e82cee784db2676bcdede8d6477dda0825adfa593d30924ed629a",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "同形异义分项与四个概念的有效多步链区分；双语bank和安全两义按意义对应，不强造中文双关。",
+    "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+    "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+  ],
+  "contentHash": "e7ecec7bae6e82cee784db2676bcdede8d6477dda0825adfa593d30924ed629a",
+  "zhHash": "bbc85c4d464c1e9ad34b80236b39a5db69b5b134eaa1abd4773ee085009f83f9",
+  "enHash": "d4ab0e232004f656a68867b8191b288b6b3be6db0edfdd069aee8ba2b25a8420",
+  "translationBasisHash": "bbc85c4d464c1e9ad34b80236b39a5db69b5b134eaa1abd4773ee085009f83f9",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "e05541b0852307e00fb2a1e4113907e3cddd5d4d0dab4137d30312838f4bea2b",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:14:36.131Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "modal-scope",
+  "candidateHash": "3943315abdc47ccdf339db2afc3527174c6c2b4faa8d35f28a9f9e86b27d8dc9",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "补明由必然条件及实际P保证实际Q需要自反可达性；双世界反模型满足S5，英文练习把A可用改为每配置都选A，避免可能性冒充事实。",
+    "已逐篇阅读双语全部原有内容与扩展章节、练习，按固定Humanizer编辑并独立核对语义；引用遵循此前查阅范围。",
+    "手工检验集合、量词、模态反模型及对照；显示依据共享组件预览与全站静态检查，非逐页视觉或专家审核。",
+    "本单元正文未变；复核forallx文献定位仅补记已查阅的8、37章与新读48章，仍为指定段落而非全书，重新绑定元数据。沿用上述真实语言审校，并非重新阅读所有引用文献。"
+  ],
+  "contentHash": "3943315abdc47ccdf339db2afc3527174c6c2b4faa8d35f28a9f9e86b27d8dc9",
+  "zhHash": "c3f525c45282463f83dea316deb9f72af8e3e843da2ac39fc0b22433e41f4227",
+  "enHash": "bad3af86a2f35c065e08c21d732357efaa0cf8a2743c5b8ac0f6a1f862fcb1e0",
+  "translationBasisHash": "c3f525c45282463f83dea316deb9f72af8e3e843da2ac39fc0b22433e41f4227",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "4cc149055cb6eabd2cf0a16b5bf1aaabf4d6622b1738184ff413e8ecd3bb8160",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:21:30.495Z",
+  "previousReceiptHash": "7a6f3ffa9c4634322ab4033001e6f2efdfe58046d0c2f5802c262e8c8a3f5a71"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "appeal-to-pity",
+  "candidateHash": "df7eb804093205547967943734ad772f9edb62f8917ce542a4ee58bb59f4a7fa",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "中文题目原未通过可能包括测过失败，改为尚未接受测试匹配英文；帮助/延期与事实通过记录分开。",
+    "完整双语单元含基础案例、扩展、练习均已审读，按固定Humanizer完成语言编辑并另作语义对照，来源依此前已查阅范围。",
+    "习题逐项核对适用条件、结论强度和正反边界；呈现依共享组件实际预览与全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "df7eb804093205547967943734ad772f9edb62f8917ce542a4ee58bb59f4a7fa",
+  "zhHash": "fee23d5d1f575636a0ed37399059c9017efbddfd6de4cfd2856d15aa56c1db88",
+  "enHash": "81e9234c4c4dd3cc4668652d70dea9fdbe9c36b5604b7cc87d549ff92c29daf8",
+  "translationBasisHash": "fee23d5d1f575636a0ed37399059c9017efbddfd6de4cfd2856d15aa56c1db88",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:16:31.298Z"
+}

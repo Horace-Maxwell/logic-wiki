@@ -1,0 +1,5 @@
+---
+import {allUnits} from '../data/catalog.mjs';
+const {id,lang}=Astro.props;const linked=allUnits.filter(e=>e.id!==id&&'related' in e&&e.related?.some((relatedId:string)=>relatedId===id));
+---
+{linked.length>0&&<section id="backlinks"><h2>{lang==='zh'?'哪些页面引用了这里':'Pages that link here'}</h2><div class="related-links">{linked.map(e=><a href={`/${lang}/wiki/${e.id}/`}>{e.title[lang as 'zh'|'en']}</a>)}</div></section>}

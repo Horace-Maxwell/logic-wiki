@@ -1,0 +1,38 @@
+{
+  "id": "tu-quoque",
+  "candidateHash": "7b3853fdd72b193043565d5a645fa38429ad942eb3a38a8f18d6d9a5044fab51",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "言行不一致与建议证据分开；第二题原先重复正文迟到对照，已改为手套按钮操作的原创可行性反例，两版复核且不推出人人可行。",
+    "完整原有及扩展双语内容已读，执行固定Humanizer语言编辑后独立比较主张范围、可能性、否定和答案；来源沿用本轮真实查阅范围。",
+    "共用组件与全站静态验证用于呈现核查，未声称逐页视觉或独立专家审查。"
+  ],
+  "contentHash": "7b3853fdd72b193043565d5a645fa38429ad942eb3a38a8f18d6d9a5044fab51",
+  "zhHash": "586f977ff2371181be06d72411af9319450e02dee6906e51ca14ad9d5f133fd8",
+  "enHash": "fe6f97d2218c57ca396e0fa57fe3c7e5e476439bc99cefc58e485ffdfda28a6f",
+  "translationBasisHash": "586f977ff2371181be06d72411af9319450e02dee6906e51ca14ad9d5f133fd8",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:15:45.169Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "case-ligo",
+  "candidateHash": "28d2c5c418066134acff787a84c1d39ca80101bfb1723ec37b45f7b0aaee8a30",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "核查测量与时间错位背景说明；修复英文缺少目标结论的句子，两语明确 E 不演绎推出 H。误报率不称后验概率或保证等待时间。",
+    "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+    "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+  ],
+  "contentHash": "28d2c5c418066134acff787a84c1d39ca80101bfb1723ec37b45f7b0aaee8a30",
+  "zhHash": "4b96cbbc1532f23c6df18c61f0a4163c5ba5449403c39df2d626a854fa5260ed",
+  "enHash": "52ebe64cb6e1295597ea77694e3ddbf00370edb251d26c1ec36baca05830343c",
+  "translationBasisHash": "4b96cbbc1532f23c6df18c61f0a4163c5ba5449403c39df2d626a854fa5260ed",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "8bb7089f5909b740124510a50c9059675539023c58a1dcf64bd24976fdbcfd0f",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:08:05.121Z"
+}

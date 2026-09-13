@@ -1,0 +1,347 @@
+[
+  {
+    "id": "case-berkeley",
+    "candidateHash": "96de8bad7ebacc4a9761f930a142a8fb773e403fff5b261f4026f5d42f206e33",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "核对总表 12,763 与六系子集 4,526、申请资格假设、院系比较与教育路径问题；两语未把分层等同于不存在所有歧视。",
+      "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+      "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+    ]
+  },
+  {
+    "id": "case-lumosity",
+    "candidateHash": "a00c1eace76453972c0bec7b45a2cf304e202a10fda91d823b3c3919e808f4af",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "引文归于 Brill 协同声明，未冒充广告原话或实验数据；两语区分练习、近迁移与广泛迁移。",
+      "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+      "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+    ]
+  },
+  {
+    "id": "case-reebok",
+    "candidateHash": "ff41e508448228f1f52bb73cc2c773452712db2309395f62e3b17782a6cd2b7e",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "保留效果主张与现有实验已经证明效果的二阶主张；英文修正为有理由拒绝证据状态主张，与中文强度一致。",
+      "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+      "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+    ]
+  },
+  {
+    "id": "case-skechers",
+    "candidateHash": "3f6af35045df7530adaf5183b2cdd5e9d54ee2e7df225c805548673b353e14b1",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "缺对照、资料问题与商业关系分开；两语均不以资助直接推出造假，独立研究题保留后续核查条件。",
+      "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+      "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+    ]
+  },
+  {
+    "id": "case-dannon",
+    "candidateHash": "1386003c35136ad4f4292f93c662c56862aee719d8dbb78a3c0ffd31c29dd5a5",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "原引明确处于拟议和解条件，保留少于三份时研究支持的例外；教学例不从受控湿度推广到任意湿度。",
+      "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+      "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+    ]
+  },
+  {
+    "id": "case-kellogg",
+    "candidateHash": "622bd56c935d3daffc3ea0193b7167045b7f4f570ac1127cb7a87bb7fd879939",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "逐项区分任何改善、达到 20% 和与不吃早餐相比的均值；原创等权均值复算为 10%，不混同最大值。",
+      "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+      "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+    ]
+  },
+  {
+    "id": "case-vw",
+    "candidateHash": "435e298943e2b129767623135288b494ad8a6fea0e4bd8843ee0b57d7182c820",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "起诉公告不称终局裁判；形式有效性与代表性前提区分，原创程序例检测测试后换运行路径。",
+      "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+      "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+    ]
+  },
+  {
+    "id": "case-uber",
+    "candidateHash": "4cc01c532bb19c422ec7282af24b268d2e08deb2ac92265b1d68bc012eec685f",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "不到 10% 限于波士顿和费城的小时收入宣传，未混为纽约旧金山年中位数；原创均值 28、中位数 20。",
+      "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+      "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+    ]
+  },
+  {
+    "id": "case-loreal",
+    "candidateHash": "a06fbd958300a391520adb2dc27eb9e3aeaae62013ab8b982cc68318f3513e35",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "实际研究对象与产品干预分开；重写中文含混的反向提问，并同步英文问题，答案仍要求目标结果证据。",
+      "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+      "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+    ]
+  },
+  {
+    "id": "case-rite-aid",
+    "candidateHash": "3195f3254e9cfc7edd91d66806fdda8aacc360b739694a1a6218d67535a512a3",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "区分 2009 年指控与 2010 年退款，双语保留证据不足、未检出与排除特定大小效应的层次。",
+      "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+      "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+    ]
+  },
+  {
+    "id": "case-mars",
+    "candidateHash": "64574d820c0bd3a3c2e17d064b060709b0d388b08e2f3f51560048bf254e7e99",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "报告日期与网页更新日期分别登记；4.45 倍来自报告，2 秒与 2 毫秒的 1000 倍为独立教学数据；不归责个人。",
+      "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+      "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+    ]
+  },
+  {
+    "id": "case-challenger",
+    "candidateHash": "a0089c5f8f3a70b07a4f7e5124d8795328111d6ea4aeb4bcc1ab707053f2e1bc",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "保留历史数据的证据价值及异常机制、温度等条件，不把幸存推断混为随机补偿；两语十次测试题对齐。",
+      "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+      "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+    ]
+  },
+  {
+    "id": "case-columbia",
+    "candidateHash": "5e4bf7b1d6df7629f5c86e03087ec8744cdb0d567f56d2b2b05d7e8edfb217d6",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "技术与组织层次可以并存；委员会“同样大”判断不转换成测量的 50/50 贡献，也不等分责任。",
+      "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+      "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+    ]
+  },
+  {
+    "id": "case-opera",
+    "candidateHash": "69a693f5b3711a0fe707040e2909e28c9b4a6f702c98b7e690008cfeadbb39f1",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "保留 v2、0.6 ns 与 0.4/3.0 两类误差；中文简化“光速假设计时”，与英文光速计算的基准一致。区间相容不称无限精确相等。",
+      "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+      "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+    ]
+  },
+  {
+    "id": "case-ligo",
+    "candidateHash": "28d2c5c418066134acff787a84c1d39ca80101bfb1723ec37b45f7b0aaee8a30",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "核查测量与时间错位背景说明；修复英文缺少目标结论的句子，两语明确 E 不演绎推出 H。误报率不称后验概率或保证等待时间。",
+      "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+      "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+    ]
+  }
+]

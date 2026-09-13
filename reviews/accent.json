@@ -1,0 +1,38 @@
+{
+  "id": "accent",
+  "candidateHash": "85133fce7aee3b4179c19f56f78cb0ac65b780e00130e2e35b758bfdd25c2c22",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "离线条件删去不支持在线提速，简短保留条件并非错误；重音今天不证明其他日子迟到，强调形式本身不判错。",
+    "逐篇完整双语基础及扩展、例题均已读；按固定Humanizer语言编辑后独立对齐词义、范围、条件和推理强度，引用按此前实际查阅范围。",
+    "算数与非谬误对照已核，呈现用共享组件真实预览及全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "85133fce7aee3b4179c19f56f78cb0ac65b780e00130e2e35b758bfdd25c2c22",
+  "zhHash": "29540afcf745e2e906a73616170f04e4395572fd926b0492255189853b62ea23",
+  "enHash": "f611e193a8ad8be7e96e36c76376c6d7b9548b075e576879d62631349638a657",
+  "translationBasisHash": "29540afcf745e2e906a73616170f04e4395572fd926b0492255189853b62ea23",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:18:02.168Z"
+}

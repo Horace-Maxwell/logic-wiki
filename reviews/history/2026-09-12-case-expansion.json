@@ -1,0 +1,362 @@
+[
+  {
+    "id": "case-osc",
+    "candidateHash": "3c7feed75f212524c59ae2da072ca5d75cb4cc354b212a61ea73e7870bfccc5e",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "notes": [
+      "核对摘要中 36%、47%、39% 对应不同且可重叠的标准；保留三期刊样本范围，未把未显著或 64% 写成造假率。",
+      "中英文均将显著性差异与效应差异分开；重叠集合题按 8+10−6 复算。",
+      "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+      "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "case-chocolate",
+    "candidateHash": "cdd6e590dad6b2e5ca5ba1d8e98c6e9b75db693e4282e0f4274d1de1d2a4d906",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "notes": [
+      "查阅原论文结果、讨论和局限，保留作者的假说生成限定及个人摄入未知，未把其写成无条件因果断言。没有采用方法 22 国与结果 23 国的不一致数字。",
+      "中文删除“两座桥”的抽象修辞，明确两类推断依据；英文保留 group-to-individual 与 association-to-intervention 两个独立缺口。",
+      "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+      "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "case-power-pose",
+    "candidateHash": "090b48e025a7a225470fb3feac6a051902032373a442719944bd20971f312797",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "notes": [
+      "对照原文方法与结果表：200 人为概念重复，主观权力感与激素、行为结果分开；保留设计差异。",
+      "双语均使用未显著而非精确零效应；原创练习不把自评准备程度偷换成准确率。",
+      "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+      "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "case-judges",
+    "candidateHash": "4a49d2a5f2c5c2f70abc0bb52fc19f8d1aca1ca4335214d8adda93149114ecb2",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "notes": [
+      "对照批评信与作者回复，具体登记代理变量、延期决定与五天监狱来源资料；未把批评或回复当成争议终结。",
+      "核对两种语言把饥饿推理标为本站重构；茶与休息题要求分开条件，不把候选混杂称为已证实原因。",
+      "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+      "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "case-google-flu",
+    "candidateHash": "f3a13dfb7501ad48d2cbe52bb5831cc1e587e0778ff99ae329338af01569ec6c",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "notes": [
+      "正文核查目标为类流感就诊比例，保留算法变化的可能性与融合数据改善的论点；未声称运行补充分析。",
+      "双语均区分数据数量、测量目标、预测关系与事后信息；界面按钮题不预先断定增长全部来自界面。",
+      "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+      "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "case-asa",
+    "candidateHash": "41e50bc68e715207252f2fd7f97531b237e25160ecfaa0f62e7342eb79ec86a2",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "notes": [
+      "查阅期刊版本 pp. 131–132 的定义及原则，区别于另列的协会发布稿；保留模型前提与完整报告要求。",
+      "复核五次全正面的单侧尾部 1/32，双方文字均明确它不是公平假说的后验概率；双侧方向另需约定。",
+      "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+      "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "case-flexibility",
+    "candidateHash": "34130091616a982a7e87e02a5a9be73da18e8c29a05d001902fa5f630d0ef629",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "notes": [
+      "摘要层面查阅范围没有升级为全文或原始数据复算；解释明确区分探索与未披露的筛选。",
+      "中英保留独立性条件；四次检验的 18.55% 按联合寻找规则复算，未套用到任意相关分析。",
+      "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+      "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "case-ioannidis",
+    "candidateHash": "985d42cbbbae1c62f9049563e857987d164a663d4dec229df89898d004f1269a",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "notes": [
+      "核对基础模型 R、检验力、第一类错误率，阅读 Goodman–Greenland 评论与 2022 括号勘误；计算明确使用无偏差 Table 1。",
+      "双语保留模型参数与实测领域的区别；期望真阳性和假阳性重算为 64% 与 13.91%，未称实现数量必定如此。",
+      "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+      "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "case-power",
+    "candidateHash": "55a2ac12becf7aa35cf25e4478cec8fdaf7ed5cc70098cce1c12e97609b719a9",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "notes": [
+      "引用限于作者机构摘要；低检验力、筛选与夸大之间的条件关系保留，不称每个小样本估计必定偏大。",
+      "两种语言保留无偏生成与有偏展示的区别；有限估计模型均值 2、筛选后 5，明确不是显著性检验。",
+      "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+      "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "case-hot-hand",
+    "candidateHash": "11cfcc3df600de478be7d97bfb42ee7ffdc8b7f5bc26f3864c6bb4ff3b75fbf6",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "notes": [
+      "核对期刊摘要及 2018/2019 日期区别，未把偏差校正扩大为任何运动员下一球预测。",
+      "中文和英文均拆开连续分号句；枚举六个合格序列核验 5/12 与合并 4/8，排除的 TTH、TTT 定义相同。",
+      "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+      "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "case-linda",
+    "candidateHash": "da1ed7fa6dc515efaf71434ca884d4f602ba1bc48e0b6ea7883b1e8ede66d258",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "notes": [
+      "实际查看 UC Davis 保存的原始扫描页 293、296–297；短引改用原选项，未搬用完整人物简介。",
+      "双语均要求相同背景 I，且区分柜员与柜员但不参与活动；原创人数题 8/100 与 20/100 不混淆分母。",
+      "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+      "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "case-framing",
+    "candidateHash": "4b1a49566c9b51c25106a4bca769a7e682b0cf5b43af8a73ea4206ec1f05437a",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "notes": [
+      "查阅公开索引中的原文 p. 453 开篇与等值说明；未将节选登记为通读全文或复现原数据。",
+      "双语区分相同期望与相同结果分布；原创设备题保留穷尽、互斥条件，A 与 B 期望均为 2 但分布不同。",
+      "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+      "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "case-intuition",
+    "candidateHash": "6351977e64d64c7bf186a9b51e4ee405116073d7c738790c7e5816c39a3167bd",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "notes": [
+      "核对摘要对可预测环境、学习机会和主观体验的限定；没有将年资转成准确率。",
+      "复核技师例子：良好记录便于评价，不等于实际表现一定更好。中英相同的不可直接断定结论保留。",
+      "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+      "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "case-bem",
+    "candidateHash": "6b0f85bf56990e9cc4084fb40e9ec48e3e604054215f5627cbcd36ce6469183c",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "notes": [
+      "核对三次重复合并 n=150、单侧 p=.83，限定为特定回忆效应；没有声称所有超感知在逻辑上不可能。",
+      "双语明确预注册不自动保证设计质量；安静室条件需要事先定义并接受后续反证。",
+      "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+      "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "case-many-labs",
+    "candidateHash": "88191a4db949f314d33431c8bc8c608ba6f173cd2dec28d6779ba6bb21f1e017",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "notes": [
+      "核对作者机构摘要的 28 项、125 样本、15,305 人及每方案约半数样本；不是每位被试完成所有任务。",
+      "双语保留总体零与条件异质性的区别；+4 与 −4 为已知的原创数值，实际研究还需估计不确定性。",
+      "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+      "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+    ],
+    "exceptions": []
+  }
+]

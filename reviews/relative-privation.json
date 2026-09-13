@@ -1,0 +1,38 @@
+{
+  "id": "relative-privation",
+  "candidateHash": "d654ad24d1f6fcb320f47c1b9c2b94772bb3e65f50fcb3374f9e9542a85318b5",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "更大问题不否认搜索故障；一维修队有限资源合理排序，两项问题均承认。",
+    "完整双语基础、扩展、习题及额外多解反馈均已读，执行固定Humanizer编辑后再比较语义、主体、时间和推理对象；引用依据此前实际查阅，Shackel后续说明与简化教学应用区分。",
+    "实际计算及反例逻辑核验；呈现采用共享组件浏览器和全站静态检查，不声称逐页视觉或专家审稿。"
+  ],
+  "contentHash": "d654ad24d1f6fcb320f47c1b9c2b94772bb3e65f50fcb3374f9e9542a85318b5",
+  "zhHash": "870f4293f727e0fceedef724f844689ae5bb8166b110eef3170d8a5da7e4f38c",
+  "enHash": "c16518a5103f6b77a9fa26367d4f4d7a7fdbc9b268dc9c659ae1aac0116720be",
+  "translationBasisHash": "870f4293f727e0fceedef724f844689ae5bb8166b110eef3170d8a5da7e4f38c",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "ae5c7826fdfd2d1a908c8dd4ddc40470af7f3420d94a6ff7ab16862a45f2ff0c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:20:28.998Z"
+}

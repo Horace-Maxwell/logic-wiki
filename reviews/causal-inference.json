@@ -1,0 +1,38 @@
+{
+  "id": "causal-inference",
+  "candidateHash": "6f4e5d9da22ce7a1f886de9a614fb4fe60223e3895745a8a017729a0139cf7c8",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "三个因果局部结构与总体路径条件保留；中文碰撞点标题从“反转”改为从独立产生关联，公式去除未翻译的versus；故障枚举与缺失完成者题正确。",
+    "已逐篇对照原有导读、新增正文、公式、表格和两道独立题；执行中英文编辑后再核对量词、条件、范围、数值和答案。来源沿用本轮已核验的实际章节。",
+    "计算结合人工重算与现有测试，页面结合全站静态检查及已执行的贝叶斯表格、公式和练习浏览器验证；不声称逐页视觉或独立专家审稿。"
+  ],
+  "contentHash": "6f4e5d9da22ce7a1f886de9a614fb4fe60223e3895745a8a017729a0139cf7c8",
+  "zhHash": "02d252580c40239234baa61defb5b181f921e85c902a9d2f8b9073c4182c26af",
+  "enHash": "bb06f7de1edb9b28da513ca81f6a0bf9b5b84abf4e762c0c02b38fad617c44fd",
+  "translationBasisHash": "02d252580c40239234baa61defb5b181f921e85c902a9d2f8b9073c4182c26af",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "8c48f2a91ff4af0afba31ea574b4c1027450f093c2f75d1e0a3fe086184b31f1",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:11:17.946Z"
+}

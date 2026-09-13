@@ -1,0 +1,38 @@
+{
+  "id": "induction",
+  "candidateHash": "de22a327ac46f991abd04c22a14f8829da021bdc4ec5eff4338528800e025c43",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "全称与比例反证区别、休谟的非循环证成挑战保留；英文配送预测补回中文“通常”，不把条件预测加强成每次保证。",
+    "已逐篇对照原有导读、新增正文、公式、表格和两道独立题；执行中英文编辑后再核对量词、条件、范围、数值和答案。来源沿用本轮已核验的实际章节。",
+    "计算结合人工重算与现有测试，页面结合全站静态检查及已执行的贝叶斯表格、公式和练习浏览器验证；不声称逐页视觉或独立专家审稿。"
+  ],
+  "contentHash": "de22a327ac46f991abd04c22a14f8829da021bdc4ec5eff4338528800e025c43",
+  "zhHash": "6e6f16be7158083c80f35dc1fa26c1e527d5c58415a5a28ec917b23ac60c0f6e",
+  "enHash": "22a9923d75f46ab286a35da2756a3be6a2fb3ff55b5a8382135076e7aa65d5cc",
+  "translationBasisHash": "6e6f16be7158083c80f35dc1fa26c1e527d5c58415a5a28ec917b23ac60c0f6e",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "c7e4eca00598c6210ad6b93cb274923b084e8147439caea9f57477be6dc3d2e9",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:11:17.946Z"
+}

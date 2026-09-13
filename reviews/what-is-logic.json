@@ -1,0 +1,40 @@
+{
+  "id": "what-is-logic",
+  "candidateHash": "7a733327a1b2a7b8cd7b1039ee6bab96f172af47eb42187af870b33d26e31240",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "符号化不删通常、条件或时间；真结论不反证原推理充分。冰路例区分条件句成立与前件成立。",
+    "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+    "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。",
+    "本单元正文未变；复核forallx文献定位仅补记已查阅的8、37章与新读48章，仍为指定段落而非全书，重新绑定元数据。沿用上述真实语言审校，并非重新阅读所有引用文献。"
+  ],
+  "contentHash": "7a733327a1b2a7b8cd7b1039ee6bab96f172af47eb42187af870b33d26e31240",
+  "zhHash": "3b35421d10d0e92d3a8a47d76f00d50f21fdbb607d73fc7af85a172499c94370",
+  "enHash": "eec3557a43d7f1f9108f66bcb9c765cbae91c15a7f7a361fd86d272707351e7e",
+  "translationBasisHash": "3b35421d10d0e92d3a8a47d76f00d50f21fdbb607d73fc7af85a172499c94370",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "a96c05b0c1040d3a0b2d13e4e6eabc45252c78f7ada93bc45d017f1f1243b7b2",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:21:30.497Z",
+  "previousReceiptHash": "6ac1b5e1aab0e2cb5cc058580f693f482ff8aa55a2f2b89052101e2283b324b9"
+}

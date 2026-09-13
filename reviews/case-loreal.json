@@ -1,0 +1,38 @@
+{
+  "id": "case-loreal",
+  "candidateHash": "a06fbd958300a391520adb2dc27eb9e3aeaae62013ab8b982cc68318f3513e35",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "实际研究对象与产品干预分开；重写中文含混的反向提问，并同步英文问题，答案仍要求目标结果证据。",
+    "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+    "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+  ],
+  "contentHash": "a06fbd958300a391520adb2dc27eb9e3aeaae62013ab8b982cc68318f3513e35",
+  "zhHash": "572c46a21d20daaeb03a5947cc657470afded5337e2545f68e286de8c717475d",
+  "enHash": "24adf4aa1ac3df7f4e5f7c74df4d6999dd6a47287ac4311e8ef8330166c49e4d",
+  "translationBasisHash": "572c46a21d20daaeb03a5947cc657470afded5337e2545f68e286de8c717475d",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "b2def261e51a50c7f3297bc1258843808542f6b9d680a1d3d6ca2e20c11a7979",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:08:05.120Z"
+}

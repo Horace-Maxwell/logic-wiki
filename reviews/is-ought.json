@@ -1,0 +1,38 @@
+{
+  "id": "is-ought",
+  "candidateHash": "63394c55ce529d84130a48f7d4ba1b8c3ffdbcfd7e79d43a07cf3dadac795d82",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "价值桥梁可能隐含，先忠实重构；地板风险未强化为消灭全部风险；文件复制频率不独立规范化，明确原则条件题有效。",
+    "全单元中英基础与扩展正文、例证、独立题已读；固定Humanizer编辑后分别检查语义范围、否定与结论强度。来源依据此前实际查阅和公开范围。",
+    "算数及逻辑对照逐项核对；呈现结合共享组件浏览器与全站静态检查，未声称逐页视觉或专家评审。"
+  ],
+  "contentHash": "63394c55ce529d84130a48f7d4ba1b8c3ffdbcfd7e79d43a07cf3dadac795d82",
+  "zhHash": "223f8224f448ebd78ce1b1eaf8469dcd8d586ca6702bca1609e2af2436a523a5",
+  "enHash": "f96d18be9f53b0bae27ed90df37a6786e94dd554bcc0450ac43dd16f6f8a6e84",
+  "translationBasisHash": "223f8224f448ebd78ce1b1eaf8469dcd8d586ca6702bca1609e2af2436a523a5",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "8315ccdf785e266ce146220473db6127f80fd7d48cb2525940fb0229ffcec047",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:17:28.865Z"
+}

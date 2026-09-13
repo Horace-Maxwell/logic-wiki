@@ -1,0 +1,40 @@
+{
+  "id": "proof-strategies",
+  "candidateHash": "63179ef2d5badd037ea2d4eb44c170eb3fa868497ffa4477f93ab8daceb33f2c",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "分情况两分支分别闭合到 C；反证区分直觉主义可得 ¬¬A 与经典可得 A；缺失 B→C 的反模型 A 假 B 真 C 假有效。",
+    "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+    "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。",
+    "本单元正文未变；复核forallx文献定位仅补记已查阅的8、37章与新读48章，仍为指定段落而非全书，重新绑定元数据。沿用上述真实语言审校，并非重新阅读所有引用文献。"
+  ],
+  "contentHash": "63179ef2d5badd037ea2d4eb44c170eb3fa868497ffa4477f93ab8daceb33f2c",
+  "zhHash": "0f0653888b4f0e8b562b836161f3a6f4788158feb4e04ba8fefcb0fd09c0e08a",
+  "enHash": "7dfb1715722107d15690bc4a8bf3d39a1b70f205878c8b13b8bc1bdbc378dd3f",
+  "translationBasisHash": "0f0653888b4f0e8b562b836161f3a6f4788158feb4e04ba8fefcb0fd09c0e08a",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "85af6fe2aa2131ef9b066890f57f03ddedf9c7bc0c9bd47137133f41342be246",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:21:30.500Z",
+  "previousReceiptHash": "26928024ecfb41948d3bc1050abc3898947d9e373e90b33711a1c709ec32ca48"
+}

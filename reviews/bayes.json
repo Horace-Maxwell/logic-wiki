@@ -1,0 +1,38 @@
+{
+  "id": "bayes",
+  "candidateHash": "c3a2f5a85bc5890810b958913bf7bd40d612eff91da45d3a00881bbdfd84b1c0",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "千件模型19/117=16.24%、先验20%时70.37%、独立练习45.71%和中性信号4%复算；更新公式不擅自提供行动阈值或条件独立性。",
+    "已逐篇对照原有导读、新增正文、公式、表格和两道独立题；执行中英文编辑后再核对量词、条件、范围、数值和答案。来源沿用本轮已核验的实际章节。",
+    "计算结合人工重算与现有测试，页面结合全站静态检查及已执行的贝叶斯表格、公式和练习浏览器验证；不声称逐页视觉或独立专家审稿。"
+  ],
+  "contentHash": "c3a2f5a85bc5890810b958913bf7bd40d612eff91da45d3a00881bbdfd84b1c0",
+  "zhHash": "3a72c83f679394d2fba0f2ac3dc97a318b5dc37e7cf33196a3eff255d94d1bb9",
+  "enHash": "730c588a333cdeebb64b2b35b11d66dbc7bd09e0c26ee9af5ef4db85e152d5d6",
+  "translationBasisHash": "3a72c83f679394d2fba0f2ac3dc97a318b5dc37e7cf33196a3eff255d94d1bb9",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "9983d813c5fc3cdf8a96d36741d83ac5312a407f0fb18a3e982c7cf9449f3963",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:11:17.945Z"
+}

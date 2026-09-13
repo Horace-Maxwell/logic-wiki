@@ -1,0 +1,38 @@
+{
+  "id": "relative-risk",
+  "candidateHash": "b1076f8e5e3f66e6074b027eddfc1bf78c4b5f5c0ac82911c6a7b753e6ca9e0c",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "4%至3%为1百分点/25%/比.75；10至15及返回分母不同；0.8至0.4为.4百分点，3至6为3百分点，零分母未定义。",
+    "逐篇完整中英内容、表格、练习均已审读；按固定Humanizer编辑后另核语义等值，来源依实际查阅范围，FDR原论文只引用已读摘要。",
+    "所有出现的数值例重算，结合现有表格与概率回归测试；呈现依据共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "b1076f8e5e3f66e6074b027eddfc1bf78c4b5f5c0ac82911c6a7b753e6ca9e0c",
+  "zhHash": "c89dfd298d28832ff958aa28702b7d5f408c03ec6cb034ff31bb9fd1abb16049",
+  "enHash": "1b84c7f1a1869d03f58aa1fee0787b4084a797f47b1a5c00459954f5a3206cfe",
+  "translationBasisHash": "c89dfd298d28832ff958aa28702b7d5f408c03ec6cb034ff31bb9fd1abb16049",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "9983d813c5fc3cdf8a96d36741d83ac5312a407f0fb18a3e982c7cf9449f3963",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:19:56.685Z"
+}

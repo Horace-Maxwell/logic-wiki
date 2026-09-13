@@ -1,0 +1,38 @@
+{
+  "id": "irrelevant-conclusion",
+  "candidateHash": "2d7539b535d0b3160021b38433605dfc1625d826496dd5accd8179fba4cb8075",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "成本、准确、符合要求与行动是不同待证对象；报价表限定用途对照未替代性能证据。",
+    "完整原有及扩展双语内容已读，执行固定Humanizer语言编辑后独立比较主张范围、可能性、否定和答案；来源沿用本轮真实查阅范围。",
+    "共用组件与全站静态验证用于呈现核查，未声称逐页视觉或独立专家审查。"
+  ],
+  "contentHash": "2d7539b535d0b3160021b38433605dfc1625d826496dd5accd8179fba4cb8075",
+  "zhHash": "4de74641d743839decb3b19269ba73eceb3afc6e358afd22818173d68bb46dbb",
+  "enHash": "05b406744ed9adae91c446be54b75d43f6c71dc922f55723b113862d6c8cd685",
+  "translationBasisHash": "4de74641d743839decb3b19269ba73eceb3afc6e358afd22818173d68bb46dbb",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:15:45.172Z"
+}

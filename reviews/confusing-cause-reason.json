@@ -1,0 +1,38 @@
+{
+  "id": "confusing-cause-reason",
+  "candidateHash": "5748fa48a0bce2cf97a051cda02595745b5ecdbf4c37ed861795d2e6424bbbb6",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "信念成因、支持理由、行为正当性三问题分开；演练记忆影响目击权重不证明事件没发生。",
+    "已逐篇阅读所有中英基础、扩展和练习，固定Humanizer语言编辑后另核语义、因果方向和证据强度。引用依本轮已实际查阅范围；BMJ受限访问仍明确为索引节选。",
+    "计算结合手算和已有枚举测试，呈现结合共用组件预览与全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "5748fa48a0bce2cf97a051cda02595745b5ecdbf4c37ed861795d2e6424bbbb6",
+  "zhHash": "958fafe9d134b9a5780b975635670a902f055ae67230a924ac9e96184f1c09e8",
+  "enHash": "1ad978402c3d5211f2474ad31249d82937fb40fdc9a8d2fb7aa629a4e042fa01",
+  "translationBasisHash": "958fafe9d134b9a5780b975635670a902f055ae67230a924ac9e96184f1c09e8",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "0a039b95f15aa00329023f304db8d750b546ec05a4fd8e12e410b91732baaa23",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:18:58.954Z"
+}

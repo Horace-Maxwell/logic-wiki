@@ -1,0 +1,38 @@
+{
+  "id": "composition",
+  "candidateHash": "61aed672fd09ea5cc0fc97390d4be28ee49fce767f97310aee1cbac1d20fc300",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "电池10×100=1000克另有包装，四收费合计14英文补元单位；集体与逐人可行性区别及相加条件保留。",
+    "逐篇完整双语基础及扩展、例题均已读；按固定Humanizer语言编辑后独立对齐词义、范围、条件和推理强度，引用按此前实际查阅范围。",
+    "算数与非谬误对照已核，呈现用共享组件真实预览及全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "61aed672fd09ea5cc0fc97390d4be28ee49fce767f97310aee1cbac1d20fc300",
+  "zhHash": "a6b664b52a71b2fbddfcffed36cac84bdefc898b2137757e861f481816b8be73",
+  "enHash": "96368bc6a99a0d376c512f81638df8bf9bbef6406bedab66ab1f993b69541775",
+  "translationBasisHash": "a6b664b52a71b2fbddfcffed36cac84bdefc898b2137757e861f481816b8be73",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:18:02.168Z"
+}

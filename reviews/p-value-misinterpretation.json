@@ -1,0 +1,38 @@
+{
+  "id": "p-value-misinterpretation",
+  "candidateHash": "12393186717842ecaef4130ada2243075e4c16b4b0012251136250618ec9d31d",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "p=.08不为后验，尾部统计量非精确数据概率；宽区间未显著不等效，独立等效目标须预设界值。",
+    "逐篇完整中英内容、表格、练习均已审读；按固定Humanizer编辑后另核语义等值，来源依实际查阅范围，FDR原论文只引用已读摘要。",
+    "所有出现的数值例重算，结合现有表格与概率回归测试；呈现依据共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "12393186717842ecaef4130ada2243075e4c16b4b0012251136250618ec9d31d",
+  "zhHash": "73a886a39c8d4c8ad557ba21e4e127ff36d64e5615cb66f16f514b991fc28a6a",
+  "enHash": "01b277bb3a573469944799f7644b815d82eaa3dbb88d7bee3eb279a5d10b4db9",
+  "translationBasisHash": "73a886a39c8d4c8ad557ba21e4e127ff36d64e5615cb66f16f514b991fc28a6a",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "f3a06b1e97663afb3bf0366b0c38d853c76dfd64c96baf523a07e04b15dc41dc",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:19:56.688Z"
+}

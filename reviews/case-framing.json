@@ -1,0 +1,39 @@
+{
+  "id": "case-framing",
+  "candidateHash": "4b1a49566c9b51c25106a4bca769a7e682b0cf5b43af8a73ea4206ec1f05437a",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "notes": [
+    "查阅公开索引中的原文 p. 453 开篇与等值说明；未将节选登记为通读全文或复现原数据。",
+    "双语区分相同期望与相同结果分布；原创设备题保留穷尽、互斥条件，A 与 B 期望均为 2 但分布不同。",
+    "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+    "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+  ],
+  "exceptions": [],
+  "contentHash": "4b1a49566c9b51c25106a4bca769a7e682b0cf5b43af8a73ea4206ec1f05437a",
+  "zhHash": "7783caf273fc134b2eaa0dbcb1b1aba492aad62a0b2818a87d2fd023b8c493fb",
+  "enHash": "13727e10508b3169e048b5104ea2f1b6214755f440309bd3b2919948c810d1bd",
+  "translationBasisHash": "7783caf273fc134b2eaa0dbcb1b1aba492aad62a0b2818a87d2fd023b8c493fb",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "154f933454b6285cbda7986d9fa6e4075b307be2fa5eb2923658dcaf6b926d59",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:06:07.970Z"
+}

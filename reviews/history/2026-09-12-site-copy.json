@@ -1,0 +1,34 @@
+[
+  {
+    "id": "site-copy",
+    "candidateHash": "7ad7b54ce3938438c4a643e6fe11b9a22ec5560cf3cd37ab9198edc2cf81906e",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [
+      {
+        "rule": "placeholder",
+        "path": "files.17.1",
+        "type": "quoted-or-discussed",
+        "reason": "中文编辑制度在说明自动扫描阻止“占位文字”的规则，文本完整；该词是讨论对象，不是待完成正文。"
+      }
+    ],
+    "previousReceiptHash": "dbe5db4e363eb6e62f4696cbb11c5ed110b9a1e46d5855a4baba483bb26b83c2",
+    "notes": [
+      "沿用此前已完成且未改动的导航、搜索、反馈与阅读路径审校；本次逐项比较已暂存基线与现稿差异，完整阅读新增SectionBody、双语MDX、比较数据、术语化界面标签、Shell及维护说明。不是声称重新逐页阅读719页。",
+      "新增表格、证明、分步题与来源定位标签完成中英Humanizer及语义核查；README更新99来源/202选择题/110分步题，编辑维护说明去掉旧复用题的现行表述；Shell去掉无范围的complete修饰。",
+      "所有170单元已逐篇完成本轮编辑与语义复核，章节标题继承各自单元；API新增分步题与章节索引无独立读者文案。已验证的共用表格、双语案例、练习浏览器流程及静态检查作为呈现依据，最终生产回归单独记入QA。",
+      "明确保留规则讨论中的占位文字扫描例外，绑定当前文件与哈希，不放宽扫描规则。来源补记与已核验范围一致，原专家审稿否认保留。"
+    ]
+  }
+]

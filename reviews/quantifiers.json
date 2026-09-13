@@ -1,0 +1,40 @@
+{
+  "id": "quantifiers",
+  "candidateHash": "6e52bd420d128cd34c73e1ba109171cf0a59431cae0b7655b4ac065e9a82093e",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "论域和限制条件统一；学生表四种句型存在预设正确，林陈吴见证与反例一致；任意对象和新见证限制均保留。",
+    "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+    "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。",
+    "本单元正文未变；复核forallx文献定位仅补记已查阅的8、37章与新读48章，仍为指定段落而非全书，重新绑定元数据。沿用上述真实语言审校，并非重新阅读所有引用文献。"
+  ],
+  "contentHash": "6e52bd420d128cd34c73e1ba109171cf0a59431cae0b7655b4ac065e9a82093e",
+  "zhHash": "d585e591dba2f7415de4fa2940f3a4b38c91e91b59b5c92396333e0619d0d08e",
+  "enHash": "eed5970d82f0c0ca886052034d10e857dee356c75214559e2ad6504a374002a3",
+  "translationBasisHash": "d585e591dba2f7415de4fa2940f3a4b38c91e91b59b5c92396333e0619d0d08e",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "85af6fe2aa2131ef9b066890f57f03ddedf9c7bc0c9bd47137133f41342be246",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:21:30.500Z",
+  "previousReceiptHash": "cfccddb3bd809fe3f91635cefc5e25f61a56d1c23e26151dd1a2c160e10e3b39"
+}

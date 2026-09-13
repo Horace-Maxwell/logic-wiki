@@ -1,0 +1,38 @@
+{
+  "id": "slippery-slope",
+  "candidateHash": "d9c304637659640fc13cc0ccba8891f33cbb300d96f77f5782ea59da58600117",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "三步条件概率乘法0.512复算，不要求无条件独立，也未当成终点总概率；先例与堆垛不同于因果链。",
+    "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+    "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+  ],
+  "contentHash": "d9c304637659640fc13cc0ccba8891f33cbb300d96f77f5782ea59da58600117",
+  "zhHash": "78ea6cbfd39f7369333e35501b090fcbfeb546d027b7c98e9086c24fe9dfd242",
+  "enHash": "75b29feaa0911f27d9a7c977aae6543480f33eefebf57064998c89b61e50eda3",
+  "translationBasisHash": "78ea6cbfd39f7369333e35501b090fcbfeb546d027b7c98e9086c24fe9dfd242",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "6d770d86b5d06be6d5705c38b3c2374543253fdd942c78fad015a4a8766d696c",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:14:36.127Z"
+}

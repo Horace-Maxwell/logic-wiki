@@ -1,0 +1,39 @@
+{
+  "id": "case-many-labs",
+  "candidateHash": "88191a4db949f314d33431c8bc8c608ba6f173cd2dec28d6779ba6bb21f1e017",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "notes": [
+    "核对作者机构摘要的 28 项、125 样本、15,305 人及每方案约半数样本；不是每位被试完成所有任务。",
+    "双语保留总体零与条件异质性的区别；+4 与 −4 为已知的原创数值，实际研究还需估计不确定性。",
+    "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+    "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+  ],
+  "exceptions": [],
+  "contentHash": "88191a4db949f314d33431c8bc8c608ba6f173cd2dec28d6779ba6bb21f1e017",
+  "zhHash": "b6695e3db83a7de406a9b685e1fec906da871501b4bc85c310811e54cb86476c",
+  "enHash": "535711d05f6d0a7e929af41308028cc65c3c0e1c24e45ee7dd847ec008681fa7",
+  "translationBasisHash": "b6695e3db83a7de406a9b685e1fec906da871501b4bc85c310811e54cb86476c",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "55472e2ca5660ce87e1080c60dbf2acba8548b78f0d856be3bc2982bb00867fc",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:06:07.971Z"
+}

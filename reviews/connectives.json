@@ -1,0 +1,40 @@
+{
+  "id": "connectives",
+  "candidateHash": "b54329b94b0743ed595922ab755ab4446ee2263e6f0c9de7c8b010f385e73b54",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "检查括号反例 P 真 Q 假 R 真与排他析取，否定合取不改成分别否定；英文 called 明确为 called the police，与中文报警相同。",
+    "逐篇阅读基础及新增的中文、英文、公式、表格和练习，完成语言编辑后核对量词、否定、关系方向和推理强度；保留术语与实质对照。",
+    "来源按既有实际教材/百科查阅范围定位；反模型逐对象检查，并结合全站公式渲染、内部链接和共享组件预览，未声明逐页视觉或专家审核。",
+    "本单元正文未变；复核forallx文献定位仅补记已查阅的8、37章与新读48章，仍为指定段落而非全书，重新绑定元数据。沿用上述真实语言审校，并非重新阅读所有引用文献。"
+  ],
+  "contentHash": "b54329b94b0743ed595922ab755ab4446ee2263e6f0c9de7c8b010f385e73b54",
+  "zhHash": "20e9d103a4aeefacdcd794db10de9d5b5a96504be5fa12a9947f22800d7d6333",
+  "enHash": "89758b5634c1d316acb9ece8cb64625ac5f979d1e7b99dd382452959b974516b",
+  "translationBasisHash": "20e9d103a4aeefacdcd794db10de9d5b5a96504be5fa12a9947f22800d7d6333",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "85af6fe2aa2131ef9b066890f57f03ddedf9c7bc0c9bd47137133f41342be246",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:21:30.499Z",
+  "previousReceiptHash": "81a8097b387d44030e14186cac0f9887fd97a66c9fb2f92b81fdcefafd4b9d9a"
+}

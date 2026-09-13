@@ -1,0 +1,18 @@
+---
+import Backlinks from './Backlinks.astro';
+import {labels} from '../data/i18n.mjs';
+import Citations from './Citations.astro';
+import {fallacies,allUnits} from '../data/catalog.mjs';
+import {comparisons} from '../data/comparisons.mjs';
+import Comparisons from './Comparisons.astro';
+import {kindLabels} from '../data/i18n.mjs';
+import EntrySections from './EntrySections.astro';
+const {entry:e,lang,bilingual=false}=Astro.props;const l=labels[lang as 'zh'|'en'];
+const keys=['definition','pattern','examples','counter','repair',...(e.sections||[]).map((s:any)=>s.id),'practice'];
+const related=e.related?.length?allUnits.filter(x=>e.related.includes(x.id)):fallacies.filter(x=>x.category===e.category&&x.id!==e.id).slice(0,4);
+---
+<div class="article-grid"><article class="article" data-pagefind-body data-pagefind-filter={`type:${lang==='zh'?'逻辑谬误':'Fallacies'}`}><header class="article-header"><div class="breadcrumb"><a href={`/${lang}/fallacies/`}>{l.fallacies}</a> / {kindLabels[e.kind as keyof typeof kindLabels]?.[lang as 'zh'|'en']||kindLabels.informal[lang as 'zh'|'en']}</div><h1 data-pagefind-meta="title">{e.title[lang]}</h1><p class="english-title" lang={lang==='zh'?'en':'zh-CN'}>{e.title[lang==='zh'?'en':'zh']}</p><div class="toolbar" data-pagefind-ignore><a data-preserve-position href={`/${lang}/${bilingual?'wiki':'bilingual'}/${e.id}/`}>{bilingual?l.single:l.compare}</a><a href="#practice">{l.practice}</a><button data-print>{l.print}</button></div></header>
+{keys.map(key=><section id={key} class:list={{'bilingual-section':bilingual}}>{bilingual?<div class="bilingual-grid"><div lang="zh-CN"><EntrySections entry={e} lang="zh" section={key}/></div><div lang="en"><EntrySections entry={e} lang="en" section={key}/></div></div>:<EntrySections entry={e} lang={lang} section={key}/>}</section>)}
+<Comparisons lang={lang} entryId={e.id} bilingual={bilingual}/>{related.length>0&&<section id="related"><h2>{l.related}</h2><div class="related-links">{related.map(x=><a href={`/${lang}/wiki/${x.id}/`}>{x.title[lang as 'zh'|'en']}</a>)}</div></section>}
+<Backlinks id={e.id} lang={lang}/><section id="refs"><h2>{l.refs}</h2><Citations entry={e} lang={lang}/></section><div class="editorial-note" data-pagefind-ignore><a href={`/${lang}/editorial/`}>{lang==='zh'?'原创教学说明 · 双语代理编辑 · 审校范围与方法':'Original educational explanations · Bilingual agent editing · Review scope and methods'}</a></div>
+</article><aside class="toc" data-pagefind-ignore><h2>{l.contents}</h2>{keys.map(key=><a href={`#${key}`}>{l[key as keyof typeof l]||e.sections?.find((s:any)=>s.id===key)?.title[lang]}</a>)}{comparisons.some(c=>c.ids.includes(e.id))&&<a href="#distinguish">{lang==='zh'?'重点对照':'Key distinctions'}</a>}<a href="#related">{l.related}</a><a href="#refs">{l.refs}</a><div class="note">{lang==='zh'?'指出错误需要说明理由。相似的表达在不同语境中可能承担不同作用。':'A diagnosis needs reasons. Similar expressions can play different roles in different contexts.'}</div></aside></div>

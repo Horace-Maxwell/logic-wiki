@@ -1,0 +1,278 @@
+[
+  {
+    "id": "natural-deduction",
+    "candidateHash": "8cbd65d95156a8bbe0130efb6b4ede8fb8486144a5d4994bb0f66d6d1b041db2",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "逐行核对许可例证明及两道构造题，关闭子证明后不直接引用内部行；规则表将“P 或 Q”改清楚为任取一个合取支项，避免误读析取。",
+      "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+      "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。"
+    ]
+  },
+  {
+    "id": "proof-strategies",
+    "candidateHash": "63179ef2d5badd037ea2d4eb44c170eb3fa868497ffa4477f93ab8daceb33f2c",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "分情况两分支分别闭合到 C；反证区分直觉主义可得 ¬¬A 与经典可得 A；缺失 B→C 的反模型 A 假 B 真 C 假有效。",
+      "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+      "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。"
+    ]
+  },
+  {
+    "id": "truth-tables",
+    "candidateHash": "fba4aa2570ad3234860ae2cbc05cc4930bff269cfcb93112f7d2ce89d904f64b",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "五联结词四行逐项核对，析取三段论仅第三行前提全真；“独立字母”改为“不同字母”，避免统计独立性混淆。矛盾前提有效但不健全。",
+      "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+      "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。"
+    ]
+  },
+  {
+    "id": "quantifiers",
+    "candidateHash": "6e52bd420d128cd34c73e1ba109171cf0a59431cae0b7655b4ac065e9a82093e",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "论域和限制条件统一；学生表四种句型存在预设正确，林陈吴见证与反例一致；任意对象和新见证限制均保留。",
+      "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+      "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。"
+    ]
+  },
+  {
+    "id": "what-is-logic",
+    "candidateHash": "7a733327a1b2a7b8cd7b1039ee6bab96f172af47eb42187af870b33d26e31240",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "符号化不删通常、条件或时间；真结论不反证原推理充分。冰路例区分条件句成立与前件成立。",
+      "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+      "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。"
+    ]
+  },
+  {
+    "id": "arguments",
+    "candidateHash": "6fad9b93951c88add4c3c05f34dfbaffe25fbc296cbd045821190c892482a7cc",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "门锁题保留原结论“门没开”，明确由现有前提只得到较弱结论，补充前提不冒充原话；论证与解释按语境而非因为一词区分。",
+      "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+      "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。"
+    ]
+  },
+  {
+    "id": "validity",
+    "candidateHash": "6e6433a1369df2235e571abbc589befdb3a3254171551ea2b2bff7d1f67e816b",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "结构、事实与任意解释区分；平方例和喜欢三角形反例条件正确，单调性不保证增加前提后的举证合理性。",
+      "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+      "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。"
+    ]
+  },
+  {
+    "id": "soundness",
+    "candidateHash": "a90fc3160194868e1e959b792a384a65c80b11451436dbada35d1aa1a744898f",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "未知前提不称假前提，未知不作第三真值；论证健全性与系统可靠性术语固定，0 的整数反例不否定真结论 2>0。",
+      "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+      "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。"
+    ]
+  },
+  {
+    "id": "inference-types",
+    "candidateHash": "74d7c3e1709da7324f7d79546378d24f9c6ac5a0855ff57e914a836410cbf873",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "演绎单调与可撤销经验判断分别表述；传感器与服务器例的解释支持均保留不确定性，80 件样本不确定每件状态。",
+      "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+      "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。"
+    ]
+  },
+  {
+    "id": "counterexamples",
+    "candidateHash": "566d58100a9de9cccfa075d6f41a01b0b9fa7a6c87ec1dec2160aee51e3b09e2",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "中文“每人”改为“每位学生”，与英语及两学生两导师模型统一；虚构反模型与特定学校事实调查分开。",
+      "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+      "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。"
+    ]
+  },
+  {
+    "id": "consistency",
+    "candidateHash": "ca06d937aaa19bf71e804b797234dae5399b1d2140abff9292c86767902213b3",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "逐对满足的 P、Q、¬(P∧Q) 不能整体满足；移除条件句/P/¬Q 各有合法赋值，时间不同不构成矛盾。",
+      "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+      "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。"
+    ]
+  },
+  {
+    "id": "conditionals",
+    "candidateHash": "f2cbe7c0a0348a06395ab7acdccece1fe17c1b6c399eeb119f66f2c995a9caea",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "逐项核对 only if、只有、逆否方向；双条件要求两方向，实质条件句不单独断言因果。通行证题不把必要条件当充分。",
+      "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+      "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。"
+    ]
+  }
+]

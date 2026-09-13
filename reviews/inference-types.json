@@ -1,0 +1,40 @@
+{
+  "id": "inference-types",
+  "candidateHash": "74d7c3e1709da7324f7d79546378d24f9c6ac5a0855ff57e914a836410cbf873",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "演绎单调与可撤销经验判断分别表述；传感器与服务器例的解释支持均保留不确定性，80 件样本不确定每件状态。",
+    "已阅读基础正文、新增章节、双语表格和独立练习；执行两种语言的文风编辑，再单独核对否定、量词、条件和结论强度。来源使用已查阅教材的节级定位。",
+    "完整证明由规则逐行复核，显示的结论与反例结合已有自动检查；页面通过共享组件预览及全站静态链接核查，未声称逐页视觉检查或专家审稿。",
+    "本单元正文未变；复核forallx文献定位仅补记已查阅的8、37章与新读48章，仍为指定段落而非全书，重新绑定元数据。沿用上述真实语言审校，并非重新阅读所有引用文献。"
+  ],
+  "contentHash": "74d7c3e1709da7324f7d79546378d24f9c6ac5a0855ff57e914a836410cbf873",
+  "zhHash": "9793a9508ad55eadf6d99886e967eabfabba696ac326897b925741028e0ef9b9",
+  "enHash": "5bd96df6a9106425bdac81259e1afd9681dad80057411c4040dd038f73f2252b",
+  "translationBasisHash": "9793a9508ad55eadf6d99886e967eabfabba696ac326897b925741028e0ef9b9",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "82eb04108d4fa2bea956c79774c7ddb46b4355cd281325b666cbccb4ee92106a",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:21:30.498Z",
+  "previousReceiptHash": "b774e131fc284ba9bf550ec8cd0e44e038187982cb446f0e24c585eba1296878"
+}

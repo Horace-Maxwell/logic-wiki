@@ -1,0 +1,40 @@
+{
+  "id": "fallacy-fallacy",
+  "candidateHash": "8810a4b779d23fc72c46b52b745bb1f7eb254f25a26d53b9d17e687a47326ee0",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "反模型否定有效性元主张不否定所有实际结论；多解释“不接受”附加题的clear/context反馈成立；forallx链接改第2章，与已核验章节对应。",
+    "完整双语基础、扩展、习题及额外多解反馈均已读，执行固定Humanizer编辑后再比较语义、主体、时间和推理对象；引用依据此前实际查阅，Shackel后续说明与简化教学应用区分。",
+    "实际计算及反例逻辑核验；呈现采用共享组件浏览器和全站静态检查，不声称逐页视觉或专家审稿。",
+    "本单元正文未变；复核forallx文献定位仅补记已查阅的8、37章与新读48章，仍为指定段落而非全书，重新绑定元数据。沿用上述真实语言审校，并非重新阅读所有引用文献。"
+  ],
+  "contentHash": "8810a4b779d23fc72c46b52b745bb1f7eb254f25a26d53b9d17e687a47326ee0",
+  "zhHash": "af6d13f7ff30a44517f514512fd3f63054f284f9a0e6b5cdd6d4c3525823f237",
+  "enHash": "7fa42687f6766d67d974e7a21749d7812236169168f67482cc5afa00efd8d8d9",
+  "translationBasisHash": "af6d13f7ff30a44517f514512fd3f63054f284f9a0e6b5cdd6d4c3525823f237",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "9adaceb05ef70ef5617f0b75a1e9bd616f25650bab54c309625fd6e55fcc6f07",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:21:30.496Z",
+  "previousReceiptHash": "b35c848f6589d0633519fb7489147539f289e1e0e0dcc9224a28a55ec1365c93"
+}

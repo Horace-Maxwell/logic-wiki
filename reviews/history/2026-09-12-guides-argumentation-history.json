@@ -1,0 +1,324 @@
+[
+  {
+    "id": "argument-mapping",
+    "candidateHash": "7d9ff1ce932c2c098457e8bd53c8716c16e6477bea759bdd43a629a8d607694a",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "图表原先把当前格式加强为必要格式，已统一为当前格式；标题去掉四节点计数，明确联合、独立支持与分析者补充前提。",
+      "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+      "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+    ]
+  },
+  {
+    "id": "charity",
+    "candidateHash": "b2e681ec6bde3a2fa1780fbebf72dda6065bee9d2137aa9504c6466ce1965858",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "逐句保留有时、可能、部分等范围；重构与改良建议分开，远程会议练习的三项范围变化与回答对应。",
+      "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+      "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+    ]
+  },
+  {
+    "id": "expert-testimony",
+    "candidateHash": "42e43ba1b87c858064c3e0b1bce3411cf00e47dfea4706d3aea32087c588630b",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "相关专长、证据独立性、利益冲突与结论真值分开；电工与诗作、桥梁条件、密码学与资助题的边界保留。",
+      "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+      "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+    ]
+  },
+  {
+    "id": "burden-of-proof",
+    "candidateHash": "8ff544ca1f8e2408b4052fb6f25acc089afd8aab0337eaac4f0dddaaeb7bcad8",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "英文仓库盘点的双重否定改为无盘点就无同等缺失证据；否定主张的有界检验与暂缓判断相区分。",
+      "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+      "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+    ]
+  },
+  {
+    "id": "argument-schemes",
+    "candidateHash": "82bab14d43529733644f5622589298360700c6e881b0effe283ff7d02e64471c",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "模式及关键追问不当作自动判错；类比机制、日志变化与行动选择题均保留额外前提和结论强度。",
+      "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+      "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+    ]
+  },
+  {
+    "id": "metalogic",
+    "candidateHash": "a5d6a94449aaa32d0eab0590b42c1fa51898f82fd5703abcbc2f5e6c149626a3",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "两个后承箭头方向复核；反模型P假Q真与仅重述前提的可靠不完备系统正确。公式去掉仅英文标签，正文提供双语解释。",
+      "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+      "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+    ]
+  },
+  {
+    "id": "incompleteness",
+    "candidateHash": "ac502ef4ea6ba2ffc8d1bc5fd1946fcdc25336ff3b973dcdba223fadd06bdcf4",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "保留Rosser版本的一致性、有效公理化和扩展Q条件；英文改为既不能证明也不能反驳，避免把句子真值和系统可证明性混淆。",
+      "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+      "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+    ]
+  },
+  {
+    "id": "computability",
+    "candidateHash": "1b92146089e8fd9b6f7a6d1d41bba3c0855fe484faf56fe08f0787e8987a5411",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "H和D自应用两分支检查，无限等待不是非停机证明；一千步有界问题和重置计数器练习不误推一般可判定性。",
+      "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+      "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+    ]
+  },
+  {
+    "id": "modal-logic",
+    "candidateHash": "a3e7b764511c7299e7ba92662c913f8555557a608882842a6f64ef6a6bb74ddf",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "两世界边和赋值手算，K反模型、自反T、S4与S5条件及空真全部成立；实际真不加强为必然真。",
+      "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+      "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+    ]
+  },
+  {
+    "id": "nonclassical",
+    "candidateHash": "412283b3aa748af6e9481c9485edf6d57d19da2dbca930ca389a2e79b0a77af6",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "直觉主义仍允许爆炸、特定可判定排中实例可证；相容矛盾性与真矛盾论分开，数据库事实不由查询规则证明。",
+      "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+      "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+    ]
+  },
+  {
+    "id": "ancient-logic",
+    "candidateHash": "3c53e28c4271c4ace74200435d868fb0ec2aeb112b81732f41e56f020846cb8e",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "古代文本主张与现代原创例题明确分开；斯多亚排他析取与现代相容析取不同，白纸重量例未冒充引文。",
+      "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+      "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+    ]
+  },
+  {
+    "id": "modern-logic",
+    "candidateHash": "5d90494ee4fbfdf0e1c8c71afb90f8107cb913b4323efa85139ceb84dc2f31a6",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "项目与评审量词现明确各自取值范围，避免无类型公式覆盖所有对象；现代记号非原著记号，基本规律V的问题未推广到全部量词逻辑。",
+      "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+      "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+    ]
+  },
+  {
+    "id": "chinese-logic",
+    "candidateHash": "1823ba7172e6282505acb8eaf43cb9eaba92cbff717a745a5ac1f07668a110e7",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "名、同、法的语境与解释争议保留；白马表达式差异、外延差异、子类包含三层分开，钥匙与教师练习是原创重构。",
+      "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+      "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+    ]
+  },
+  {
+    "id": "indian-logic",
+    "candidateHash": "bde428793d64a64f40db5af69d80ee700a521c1f9cf8a8080ed041555050574b",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "五环节几何例为现代原创且一般联系由定义提供；因三相仅作带解释争议的导读，反复陈述结论不自动构成循环。",
+      "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+      "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+    ]
+  }
+]

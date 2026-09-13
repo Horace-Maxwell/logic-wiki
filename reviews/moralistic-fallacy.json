@@ -1,0 +1,38 @@
+{
+  "id": "moralistic-fallacy",
+  "candidateHash": "87c412a5870625b363d91abd2a26b8d3918beff3778219dc3d73a6eb5219e1ac",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "公平理想不保证实施，承认偏差不等于赞成；投诉仍需验证，既未按章程否定也未按投诉预断。",
+    "全单元中英基础与扩展正文、例证、独立题已读；固定Humanizer编辑后分别检查语义范围、否定与结论强度。来源依据此前实际查阅和公开范围。",
+    "算数及逻辑对照逐项核对；呈现结合共享组件浏览器与全站静态检查，未声称逐页视觉或专家评审。"
+  ],
+  "contentHash": "87c412a5870625b363d91abd2a26b8d3918beff3778219dc3d73a6eb5219e1ac",
+  "zhHash": "119e957ee23521818da32f7e08b51f8d154f0a273164169e4265425f68c0f28f",
+  "enHash": "c459efce43b115c7b74c037ddfe1e94283dcb02ceab3b883a0078919aa9e6103",
+  "translationBasisHash": "119e957ee23521818da32f7e08b51f8d154f0a273164169e4265425f68c0f28f",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "c8be4c27eb29443fcd676f690f824391a38d6dc42e7f40ca4fd3b83e67f53ca1",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:17:28.866Z"
+}

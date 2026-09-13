@@ -1,0 +1,209 @@
+[
+  {
+    "id": "moving-goalposts",
+    "candidateHash": "89ada988cfa264f2277c990af89e0e532f5f637e38d826b664645247486d2ab9",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "写作奖不影响复算计数；新增时钟校准要求有新的相关缺陷，不因标准变就判错；有限主张不要求无限保证。",
+      "完整双语基础、扩展、习题及额外多解反馈均已读，执行固定Humanizer编辑后再比较语义、主体、时间和推理对象；引用依据此前实际查阅，Shackel后续说明与简化教学应用区分。",
+      "实际计算及反例逻辑核验；呈现采用共享组件浏览器和全站静态检查，不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "middle-ground",
+    "candidateHash": "87f8fc4700dfe1082584d620251fdc7d0422c86aea4b3d31d453e3c1bf2b128c",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "(18+100)/2=59不等于经核验18，证据非等权；三点五点选可行四点为协调不是真值平均。",
+      "完整双语基础、扩展、习题及额外多解反馈均已读，执行固定Humanizer编辑后再比较语义、主体、时间和推理对象；引用依据此前实际查阅，Shackel后续说明与简化教学应用区分。",
+      "实际计算及反例逻辑核验；呈现采用共享组件浏览器和全站静态检查，不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "nirvana-fallacy",
+    "candidateHash": "29051045755d531b7a1284664188e097e2e16654360a93d3be38d5dacbbcdce2",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "工具剩余错字不抹去题设有益变化与可承受成本；核心格式不可读足以拒绝该任务，不否定所有价值。",
+      "完整双语基础、扩展、习题及额外多解反馈均已读，执行固定Humanizer编辑后再比较语义、主体、时间和推理对象；引用依据此前实际查阅，Shackel后续说明与简化教学应用区分。",
+      "实际计算及反例逻辑核验；呈现采用共享组件浏览器和全站静态检查，不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "relative-privation",
+    "candidateHash": "d654ad24d1f6fcb320f47c1b9c2b94772bb3e65f50fcb3374f9e9542a85318b5",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "更大问题不否认搜索故障；一维修队有限资源合理排序，两项问题均承认。",
+      "完整双语基础、扩展、习题及额外多解反馈均已读，执行固定Humanizer编辑后再比较语义、主体、时间和推理对象；引用依据此前实际查阅，Shackel后续说明与简化教学应用区分。",
+      "实际计算及反例逻辑核验；呈现采用共享组件浏览器和全站静态检查，不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "fallacy-fallacy",
+    "candidateHash": "8810a4b779d23fc72c46b52b745bb1f7eb254f25a26d53b9d17e687a47326ee0",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "反模型否定有效性元主张不否定所有实际结论；多解释“不接受”附加题的clear/context反馈成立；forallx链接改第2章，与已核验章节对应。",
+      "完整双语基础、扩展、习题及额外多解反馈均已读，执行固定Humanizer编辑后再比较语义、主体、时间和推理对象；引用依据此前实际查阅，Shackel后续说明与简化教学应用区分。",
+      "实际计算及反例逻辑核验；呈现采用共享组件浏览器和全站静态检查，不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "double-standard",
+    "candidateHash": "44592e78e26f1c12f1ba776eaa91037bfdfa108f5694e5d143714948d63484e8",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "可比较条件按目标相关性判断，不需全方面相同；恢复一致性可收紧宽松或放宽过严，课程任务差异有依据。",
+      "完整双语基础、扩展、习题及额外多解反馈均已读，执行固定Humanizer编辑后再比较语义、主体、时间和推理对象；引用依据此前实际查阅，Shackel后续说明与简化教学应用区分。",
+      "实际计算及反例逻辑核验；呈现采用共享组件浏览器和全站静态检查，不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "gish-gallop",
+    "candidateHash": "17d750e111d1eeed390110c9b5a57ae3c8108f1343641d98a4414d2cdc34ff10",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "30断言两已核不默认余28真；有方法来源长综述非洪流，弱证据可合理累积但需独立与合并依据。",
+      "完整双语基础、扩展、习题及额外多解反馈均已读，执行固定Humanizer编辑后再比较语义、主体、时间和推理对象；引用依据此前实际查阅，Shackel后续说明与简化教学应用区分。",
+      "实际计算及反例逻辑核验；呈现采用共享组件浏览器和全站静态检查，不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "motte-and-bailey",
+    "candidateHash": "66677796dc494cec5251822bdc6b1c24b76ce0f777fea9468f4463190b1079af",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "准确与有用不仅量词强弱还换性质，简定义及结构改为较易防守替代主张；分析改替代版本以免虚称逻辑蕴涵，撤回且不往返可合理。",
+      "完整双语基础、扩展、习题及额外多解反馈均已读，执行固定Humanizer编辑后再比较语义、主体、时间和推理对象；引用依据此前实际查阅，Shackel后续说明与简化教学应用区分。",
+      "实际计算及反例逻辑核验；呈现采用共享组件浏览器和全站静态检查，不声称逐页视觉或专家审稿。"
+    ]
+  },
+  {
+    "id": "appeal-to-repetition",
+    "candidateHash": "54ac38b7cc61904654f080388904fde3e01d5289c1318c543b0301d472f9f6c0",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "12转贴仅同一依据，重复教学口诀是记忆用途；复现按新观测及依赖结构评估，不把任何共同背景都压成零证据。",
+      "完整双语基础、扩展、习题及额外多解反馈均已读，执行固定Humanizer编辑后再比较语义、主体、时间和推理对象；引用依据此前实际查阅，Shackel后续说明与简化教学应用区分。",
+      "实际计算及反例逻辑核验；呈现采用共享组件浏览器和全站静态检查，不声称逐页视觉或专家审稿。"
+    ]
+  }
+]

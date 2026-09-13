@@ -1,0 +1,38 @@
+{
+  "id": "charity",
+  "candidateHash": "b2e681ec6bde3a2fa1780fbebf72dda6065bee9d2137aa9504c6466ce1965858",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "逐句保留有时、可能、部分等范围；重构与改良建议分开，远程会议练习的三项范围变化与回答对应。",
+    "已阅读完整双语单元（原有导读及扩展正文、表格、公式、习题），分别作语言编辑和语义对照；资料依据本轮已查阅的登记章节，书目和节选不冒充全文。",
+    "形式例经手工反模型或规则检查；呈现依据现有共用组件浏览器验证与全站静态检查，不声称逐页视觉或专家审校。"
+  ],
+  "contentHash": "b2e681ec6bde3a2fa1780fbebf72dda6065bee9d2137aa9504c6466ce1965858",
+  "zhHash": "78cf26dfa0175ceb5d44553c3295cd55af35c95e9636623ad72dd908fbacece4",
+  "enHash": "85a5d04c6b235660f4f3eed5937257a47f20fd95266eb6b7e32eab36a1b14f35",
+  "translationBasisHash": "78cf26dfa0175ceb5d44553c3295cd55af35c95e9636623ad72dd908fbacece4",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "bc29b996650c3ae8e6ee22fe29926f5b2781f0a20574d96deeb2f40a1d4f66ad",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:13:57.653Z"
+}

@@ -1,0 +1,163 @@
+[
+  {
+    "id": "probability",
+    "candidateHash": "bd887430337ec74413a33f0f86a441057ce62f13aba162dce86df7d0eaa37410",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "表格100订单守恒，12/40与12/20分母不同；并集0.48、1至12模型的2/3与独立性、两球不放回3/10逐项复算。正概率条件与互斥/独立区分保留。",
+      "已逐篇对照原有导读、新增正文、公式、表格和两道独立题；执行中英文编辑后再核对量词、条件、范围、数值和答案。来源沿用本轮已核验的实际章节。",
+      "计算结合人工重算与现有测试，页面结合全站静态检查及已执行的贝叶斯表格、公式和练习浏览器验证；不声称逐页视觉或独立专家审稿。"
+    ]
+  },
+  {
+    "id": "bayes",
+    "candidateHash": "c3a2f5a85bc5890810b958913bf7bd40d612eff91da45d3a00881bbdfd84b1c0",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "千件模型19/117=16.24%、先验20%时70.37%、独立练习45.71%和中性信号4%复算；更新公式不擅自提供行动阈值或条件独立性。",
+      "已逐篇对照原有导读、新增正文、公式、表格和两道独立题；执行中英文编辑后再核对量词、条件、范围、数值和答案。来源沿用本轮已核验的实际章节。",
+      "计算结合人工重算与现有测试，页面结合全站静态检查及已执行的贝叶斯表格、公式和练习浏览器验证；不声称逐页视觉或独立专家审稿。"
+    ]
+  },
+  {
+    "id": "sampling",
+    "candidateHash": "4c9828470a4f289064526b860294c2af0b55972844fe9935b1199995e2eeb750",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "总体/框/抽中者/应答者分开；随机分配不能自动外推，全国程序员题保留内部比较价值；500次测量不写成500台机器。",
+      "已逐篇对照原有导读、新增正文、公式、表格和两道独立题；执行中英文编辑后再核对量词、条件、范围、数值和答案。来源沿用本轮已核验的实际章节。",
+      "计算结合人工重算与现有测试，页面结合全站静态检查及已执行的贝叶斯表格、公式和练习浏览器验证；不声称逐页视觉或独立专家审稿。"
+    ]
+  },
+  {
+    "id": "causal-inference",
+    "candidateHash": "6f4e5d9da22ce7a1f886de9a614fb4fe60223e3895745a8a017729a0139cf7c8",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "三个因果局部结构与总体路径条件保留；中文碰撞点标题从“反转”改为从独立产生关联，公式去除未翻译的versus；故障枚举与缺失完成者题正确。",
+      "已逐篇对照原有导读、新增正文、公式、表格和两道独立题；执行中英文编辑后再核对量词、条件、范围、数值和答案。来源沿用本轮已核验的实际章节。",
+      "计算结合人工重算与现有测试，页面结合全站静态检查及已执行的贝叶斯表格、公式和练习浏览器验证；不声称逐页视觉或独立专家审稿。"
+    ]
+  },
+  {
+    "id": "induction",
+    "candidateHash": "de22a327ac46f991abd04c22a14f8829da021bdc4ec5eff4338528800e025c43",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "全称与比例反证区别、休谟的非循环证成挑战保留；英文配送预测补回中文“通常”，不把条件预测加强成每次保证。",
+      "已逐篇对照原有导读、新增正文、公式、表格和两道独立题；执行中英文编辑后再核对量词、条件、范围、数值和答案。来源沿用本轮已核验的实际章节。",
+      "计算结合人工重算与现有测试，页面结合全站静态检查及已执行的贝叶斯表格、公式和练习浏览器验证；不声称逐页视觉或独立专家审稿。"
+    ]
+  },
+  {
+    "id": "scientific-explanation",
+    "candidateHash": "9cf844fb66dca1f414a094506c3407d64d1b6ab996e0100276b8fd500c12b006",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "被解释项、机制与预测区分；灯泡测试保留辅助条件，程序题英文补回中文“总能”的范围；支持乙不宣称排除其他解释。",
+      "已逐篇对照原有导读、新增正文、公式、表格和两道独立题；执行中英文编辑后再核对量词、条件、范围、数值和答案。来源沿用本轮已核验的实际章节。",
+      "计算结合人工重算与现有测试，页面结合全站静态检查及已执行的贝叶斯表格、公式和练习浏览器验证；不声称逐页视觉或独立专家审稿。"
+    ]
+  },
+  {
+    "id": "statistical-inference",
+    "candidateHash": "8bc46d22025073805fbeebe6e4aa04799baac5ee98ae00263fc2a08b05767a82",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "二项双侧22/1024与单侧11/1024、400件Wald区间[.552,.648]、20检验64.15%复算；明确独立同分布，区间不含自动的选择偏差，IMS链接定位收窄到实际第16章。",
+      "已逐篇对照原有导读、新增正文、公式、表格和两道独立题；执行中英文编辑后再核对量词、条件、范围、数值和答案。来源沿用本轮已核验的实际章节。",
+      "计算结合人工重算与现有测试，页面结合全站静态检查及已执行的贝叶斯表格、公式和练习浏览器验证；不声称逐页视觉或独立专家审稿。"
+    ]
+  }
+]

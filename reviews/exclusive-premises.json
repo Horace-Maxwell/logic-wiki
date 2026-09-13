@@ -1,0 +1,38 @@
+{
+  "id": "exclusive-premises",
+  "candidateHash": "d2c0c90165ea8a6bbf437d18681948c6bb769597be00146d07749d577dec950d",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "两个非空类模型分别重合与分离，证明两种关系都未决定；规则限定标准直言三段论，不误伤否定配肯定。",
+    "已逐篇阅读双语全部原有内容与扩展章节、练习，按固定Humanizer编辑并独立核对语义；引用遵循此前查阅范围。",
+    "手工检验集合、量词、模态反模型及对照；显示依据共享组件预览与全站静态检查，非逐页视觉或专家审核。"
+  ],
+  "contentHash": "d2c0c90165ea8a6bbf437d18681948c6bb769597be00146d07749d577dec950d",
+  "zhHash": "2cf0b1981529a51bcb8f364e20b67833aa40a89a62e61a29e1eb19631cf92d1d",
+  "enHash": "884e72bb03301825fc27511c20503d1692d810a097efa78b118ac21ad2add55e",
+  "translationBasisHash": "2cf0b1981529a51bcb8f364e20b67833aa40a89a62e61a29e1eb19631cf92d1d",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "1c61d397151f7a71bcfcb17011d2f8d1d0bbb923d27c78f1f756d2c18f43c269",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:15:05.556Z"
+}

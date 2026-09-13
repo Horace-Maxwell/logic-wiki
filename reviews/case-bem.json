@@ -1,0 +1,39 @@
+{
+  "id": "case-bem",
+  "candidateHash": "6b0f85bf56990e9cc4084fb40e9ec48e3e604054215f5627cbcd36ce6469183c",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "notes": [
+    "核对三次重复合并 n=150、单侧 p=.83，限定为特定回忆效应；没有声称所有超感知在逻辑上不可能。",
+    "双语明确预注册不自动保证设计质量；安静室条件需要事先定义并接受后续反证。",
+    "执行中文和英文文风编辑后，分别核对否定、条件、数量、证据强度与原创练习答案。保留有教学作用的对照句。",
+    "页面范围：共享案例渲染组件通过静态全站链接与锚点检查；实际 Preview 检查热手案例的章节展开、英文解答、语言切换、手机逐节对照及中英全文搜索。未宣称逐页视觉检查或独立专家审稿。"
+  ],
+  "exceptions": [],
+  "contentHash": "6b0f85bf56990e9cc4084fb40e9ec48e3e604054215f5627cbcd36ce6469183c",
+  "zhHash": "34db85ff83041a4b9188b3fe977f21fdc930104eb18c05179a8eb227a3d2350e",
+  "enHash": "7367a5af3f7a40bd2d9373b590ea1a47bd1542ed4699e1020dd310ed0fd94d5b",
+  "translationBasisHash": "34db85ff83041a4b9188b3fe977f21fdc930104eb18c05179a8eb227a3d2350e",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "f3c1e93f37adc4c95c93f658bf8cd8e61043bda09e4bcb1bfc173b09a73ae2ce",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:06:07.970Z"
+}

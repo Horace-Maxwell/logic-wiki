@@ -1,0 +1,38 @@
+{
+  "id": "case-columbia",
+  "candidateHash": "5e4bf7b1d6df7629f5c86e03087ec8744cdb0d567f56d2b2b05d7e8edfb217d6",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "技术与组织层次可以并存；委员会“同样大”判断不转换成测量的 50/50 贡献，也不等分责任。",
+    "阅读基础正文与新增章节，按固定 Humanizer 规则完成中英文编辑，再核对量词、否定、条件、事实归属、数值与练习结论；保留有教学意义的对照。",
+    "来源沿用本轮实际查阅的段落及范围，未重申为通读受限全文。算例及表格检查、共享组件的浏览器验证与全站静态链接检查分别作为验证依据，不声称每页单独视觉检查或人工专家审核。"
+  ],
+  "contentHash": "5e4bf7b1d6df7629f5c86e03087ec8744cdb0d567f56d2b2b05d7e8edfb217d6",
+  "zhHash": "198b8837a87a3f7a1ee68030a9f1a60e7143397f9408061ee7e1c06e1297ec0f",
+  "enHash": "9257eec3a4e70061c6f65485f047d7ead0b8f413eb5d0d24eee05971add68b04",
+  "translationBasisHash": "198b8837a87a3f7a1ee68030a9f1a60e7143397f9408061ee7e1c06e1297ec0f",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "4e2b8d770d7aced18d1a772b4379d52a49faef28d29e7d07b58fd4969aa42192",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:08:05.121Z"
+}

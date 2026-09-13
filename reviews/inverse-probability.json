@@ -1,0 +1,38 @@
+{
+  "id": "inverse-probability",
+  "candidateHash": "32e89cb5c3789ce89c7d94fd1263dee999e41c0dc9cee6785f4e03f6bfd8f13c",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "导师20/200=10%，相等边际30与交集12给双向40%；贝叶斯分母正条件保留。",
+    "逐篇读完双语基础和扩展正文、练习、公式，执行固定Humanizer编辑后单独核对条件、量词、概率事件和结论强度；引用依据已查阅范围。",
+    "数值重新计算并结合既有枚举测试；显示采用共享组件浏览器及全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "32e89cb5c3789ce89c7d94fd1263dee999e41c0dc9cee6785f4e03f6bfd8f13c",
+  "zhHash": "1c1443d5c72e412ae53dfa685e0369cbe9480afd8f12365e4539f241bb8ff63d",
+  "enHash": "35b770f1c9b470a31f60e6180803a4178a1139668b7d18e1952d9597a07f83e1",
+  "translationBasisHash": "1c1443d5c72e412ae53dfa685e0369cbe9480afd8f12365e4539f241bb8ff63d",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "a23f7cc903cb71e2ec9d025e466e9fd45b474d89d05090a092e241ecbfcf3776",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:19:28.958Z"
+}

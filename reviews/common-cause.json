@@ -1,0 +1,38 @@
+{
+  "id": "common-cause",
+  "candidateHash": "40955212393dc70a58c70d2c846bcce2b12999aa3810be9c8cdc0cb3d302d20b",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "活动人数同时影响总量，不能再跳每人行为；控制C题因果位置未知保留信息不足，不把控制越多当越好。",
+    "已逐篇阅读所有中英基础、扩展和练习，固定Humanizer语言编辑后另核语义、因果方向和证据强度。引用依本轮已实际查阅范围；BMJ受限访问仍明确为索引节选。",
+    "计算结合手算和已有枚举测试，呈现结合共用组件预览与全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "40955212393dc70a58c70d2c846bcce2b12999aa3810be9c8cdc0cb3d302d20b",
+  "zhHash": "cf1c71255662ce9d1783bfb3b94ff8360c5d80954196063e734fb3c78f478db8",
+  "enHash": "9ae88b954ddfd84d4e1edb3c64133cda0451e4273be6d53ffd5e15bad7537009",
+  "translationBasisHash": "cf1c71255662ce9d1783bfb3b94ff8360c5d80954196063e734fb3c78f478db8",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "d2fa95c0a1af4dde5994fa89059695762d11743251e80b7551dd9fea81285c03",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:18:58.953Z"
+}

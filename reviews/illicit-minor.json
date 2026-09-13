@@ -1,0 +1,38 @@
+{
+  "id": "illicit-minor",
+  "candidateHash": "19efdde0ded5bb2389586fc65ad78141965730a39e13e6cfd42c83380cdb9279",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "中文定义补明小项周延的形式条件；M=P={a},S={a,b}反模型和M非空时可得特称的限制保留。",
+    "完整阅读双语定义、结构、两原创例、非谬误对照、扩展三节及独立题；完成语言编辑后另核否定、量词、证据强度及答案。依据已查阅并登记的来源范围，未把索引节选标作全文。",
+    "呈现检查采用已验证的共享词条/练习组件与全站静态检查；不声称逐页视觉或专家审稿。"
+  ],
+  "contentHash": "19efdde0ded5bb2389586fc65ad78141965730a39e13e6cfd42c83380cdb9279",
+  "zhHash": "bc579320be0c85c7f0910c0605dec406804496d071d9b1fb11d339ad1d4cc766",
+  "enHash": "0c0cc024b4a28b608b33c54bf507a5ea5585b02e126ea86b4d8ea49d89782812",
+  "translationBasisHash": "bc579320be0c85c7f0910c0605dec406804496d071d9b1fb11d339ad1d4cc766",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "f3a6c880ac108019f5e36d1c014435dab1769a02120be33b9ccb2a5e2ccf2a00",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:14:36.130Z"
+}

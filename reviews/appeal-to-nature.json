@@ -1,0 +1,38 @@
+{
+  "id": "appeal-to-nature",
+  "candidateHash": "be4fb92b66cb162411ea646652ee55e8831d054b260826948e92fa48ad7ce218",
+  "executor": {
+    "type": "agent",
+    "name": "Codex"
+  },
+  "completed": [
+    "source-check",
+    "zh-edit",
+    "zh-semantic-check",
+    "en-edit",
+    "bilingual-check",
+    "exercise-and-render-check"
+  ],
+  "unresolved": [],
+  "exceptions": [],
+  "notes": [
+    "自然来源不保证全部环境指标与全部人工替代品优劣；审美纹理偏好范围明确，Moore专门问题分开。",
+    "完整双语单元含基础案例、扩展、练习均已审读，按固定Humanizer完成语言编辑并另作语义对照，来源依此前已查阅范围。",
+    "习题逐项核对适用条件、结论强度和正反边界；呈现依共享组件实际预览与全站静态检查，不声称逐页视觉或专家审核。"
+  ],
+  "contentHash": "be4fb92b66cb162411ea646652ee55e8831d054b260826948e92fa48ad7ce218",
+  "zhHash": "053d4254fd527339dfe7f0795b84a3ba11cf5338d1f799e5fe29d85e42659a15",
+  "enHash": "ead904e3dd481452ab5f6c96e81e788d8a6d26858009b4cb5fdea8dc4f108692",
+  "translationBasisHash": "053d4254fd527339dfe7f0795b84a3ba11cf5338d1f799e5fe29d85e42659a15",
+  "environment": {
+    "rules": "4008acad38d8f392d37ebd8f8e27e77c203d9534369be68fc99ff124ac877145",
+    "glossary": "7c85e6d1afa018f155ec6046d5cc480db6be7ede567a0efb348a9a892c55d5e2",
+    "glossaryVersion": "1.0.0",
+    "sources": "89bea2bd50d954c7c52ba843db154e67d9cd9e331e1e18e251060791751e0af2",
+    "versions": {
+      "en": "3.0.0",
+      "zh": "2.9.1-zh.2"
+    }
+  },
+  "recordedAt": "2026-09-13T00:16:31.299Z"
+}

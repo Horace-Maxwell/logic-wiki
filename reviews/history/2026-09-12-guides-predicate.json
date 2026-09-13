@@ -1,0 +1,163 @@
+[
+  {
+    "id": "connectives",
+    "candidateHash": "b54329b94b0743ed595922ab755ab4446ee2263e6f0c9de7c8b010f385e73b54",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "检查括号反例 P 真 Q 假 R 真与排他析取，否定合取不改成分别否定；英文 called 明确为 called the police，与中文报警相同。",
+      "逐篇阅读基础及新增的中文、英文、公式、表格和练习，完成语言编辑后核对量词、否定、关系方向和推理强度；保留术语与实质对照。",
+      "来源按既有实际教材/百科查阅范围定位；反模型逐对象检查，并结合全站公式渲染、内部链接和共享组件预览，未声明逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "logical-equivalence",
+    "candidateHash": "ec95a30a93dd891b6d64a00e9b332bb22baf2e35371124ce2d25b12bf3451d53",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "逐步核对否定条件句德摩根变换及反例；单向蕴涵不当作等值；双重否定消去限定经典系统。",
+      "逐篇阅读基础及新增的中文、英文、公式、表格和练习，完成语言编辑后核对量词、否定、关系方向和推理强度；保留术语与实质对照。",
+      "来源按既有实际教材/百科查阅范围定位；反模型逐对象检查，并结合全站公式渲染、内部链接和共享组件预览，未声明逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "quantifier-scope",
+    "candidateHash": "4a61c1b49aa6e60e770bb47798e2f9a61c5d0824fe9a945f208a5460360c8255",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "共用与依赖见证方向、否定跨量词、Person/Document 限制一致；修正展示公式的量词后排版逗号为数学间距。",
+      "逐篇阅读基础及新增的中文、英文、公式、表格和练习，完成语言编辑后核对量词、否定、关系方向和推理强度；保留术语与实质对照。",
+      "来源按既有实际教材/百科查阅范围定位；反模型逐对象检查，并结合全站公式渲染、内部链接和共享组件预览，未声明逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "identity",
+    "candidateHash": "dfb6967bdbc3ef62ac28ca60ffdc645bd4514adbab55a5fd109bae78bbfdab96",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "存在且唯一与至多一个的公式分别核对；名字不默认异指；英文练习补上中文已有的 Lin/Chen 名字。引语与信念语境不机械替换。",
+      "逐篇阅读基础及新增的中文、英文、公式、表格和练习，完成语言编辑后核对量词、否定、关系方向和推理强度；保留术语与实质对照。",
+      "来源按既有实际教材/百科查阅范围定位；反模型逐对象检查，并结合全站公式渲染、内部链接和共享组件预览，未声明逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "models",
+    "candidateHash": "c6fe735cfab13fd882abbfa3038fd14201d4e01fc60b97eee6640aeb205c2c84",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "非空论域与空谓词分开，所有给出的有限模型逐对象验算；(0,1) 关系没有全称目标见证，未找到小模型不称证明有效。",
+      "逐篇阅读基础及新增的中文、英文、公式、表格和练习，完成语言编辑后核对量词、否定、关系方向和推理强度；保留术语与实质对照。",
+      "来源按既有实际教材/百科查阅范围定位；反模型逐对象检查，并结合全站公式渲染、内部链接和共享组件预览，未声明逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "syllogisms",
+    "candidateHash": "39540f02c990d981d9d2df657ebf8639af1c336e6fa8394b4efe3a126086a569",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "核对四类命题周延表、主小项谓大项与中项，空类反例仅用于明确的现代语义；共同上位类不蕴涵两子类包含。",
+      "逐篇阅读基础及新增的中文、英文、公式、表格和练习，完成语言编辑后核对量词、否定、关系方向和推理强度；保留术语与实质对照。",
+      "来源按既有实际教材/百科查阅范围定位；反模型逐对象检查，并结合全站公式渲染、内部链接和共享组件预览，未声明逐页视觉或专家审核。"
+    ]
+  },
+  {
+    "id": "relations",
+    "candidateHash": "60a46a9ee5f21c10a059e242f4d166eba880c13b14e503fcbab09c76bfbacefc",
+    "executor": {
+      "type": "agent",
+      "name": "Codex"
+    },
+    "completed": [
+      "source-check",
+      "zh-edit",
+      "zh-semantic-check",
+      "en-edit",
+      "bilingual-check",
+      "exercise-and-render-check"
+    ],
+    "unresolved": [],
+    "exceptions": [],
+    "notes": [
+      "反对称与非对称定义不混淆；有序对图添加(a,c)修复传递，不修复自反或对称；0.8+0.8 距离例只说明可达1.6。",
+      "逐篇阅读基础及新增的中文、英文、公式、表格和练习，完成语言编辑后核对量词、否定、关系方向和推理强度；保留术语与实质对照。",
+      "来源按既有实际教材/百科查阅范围定位；反模型逐对象检查，并结合全站公式渲染、内部链接和共享组件预览，未声明逐页视觉或专家审核。"
+    ]
+  }
+]
